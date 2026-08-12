@@ -1,0 +1,703 @@
+[
+  {
+    "org_name": "Tides Center",
+    "website": "https://www.tides.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Tides Center supports social change leaders, connects diverse people and organizations, and powers solutions that come directly from communities historically denied power, including women, economically disadvantaged communities, and communities of color. Offers comprehensive fiscal sponsorship \u2014 financial, compliance, insurance, governance, and human resources support.",
+    "project_types_sponsored": [
+      "social justice",
+      "environmental",
+      "civil rights",
+      "advocacy",
+      "movement building"
+    ],
+    "fees": "Historically ~8% administrative fee on project income (Model A comprehensive); confirm current schedule directly.",
+    "application_process": "Inquiry via tides.org; comprehensive (Model A) fiscal sponsorship intake and review process.",
+    "eligibility_requirements": [
+      "Project must operate within 501(c)(3) permissible activity",
+      "Lobbying activity tracked and capped under 501(c)(3) rules"
+    ],
+    "political_activity_restrictions": "As a 501(c)(3), Tides Center permits non-partisan research and get-out-the-vote work and lobbying within IRS 501(h)-type caps, but explicitly prohibits direct or implied support/opposition of any candidate or party.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://www.tides.org/what-we-do/fiscal-sponsorship/",
+        "https://www.tides.org/faqs/",
+        "https://www.influencewatch.org/non-profit/tides-center/"
+      ],
+      "current_assessment": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring around it, and pursuing a straightforward c3 relationship for its generic, publicly-available open-source software work \u2014 no branding/messaging changes needed. Real open item: Tides Center sponsors under Model A (comprehensive), meaning the sponsor legally absorbs all of the project's activity. Given Doikayt estimates a real (~20%) organic chance of landing an opportunistic campaign engagement, this needs a direct answer before signing: can such an engagement be declined/referred/handled outside the relationship, or would it need to run through Tides Center's own compliance review as their activity? Otherwise still a strong lead for the open-source/software program itself.",
+      "next_action": "Contact Tides Center; lead with the Model A opportunistic-campaign-work question before investing further in this lead.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      }
+    ],
+    "tier": "Tier 1",
+    "structural_fit_score": "Strong",
+    "mission_fit_score": "Unclear",
+    "outreach": {
+      "contact_person": "Unclear \u2014 use general tides.org fiscal sponsorship inquiry channel",
+      "recommended_approach": "Direct inquiry, lead with the split-structure question (c3 for software/grants, c4 for selective campaign services) rather than a generic 'are you a fit' pitch \u2014 this is a less common request and worth naming explicitly.",
+      "questions_to_ask": [
+        "What is the minimum scale/stage of project you'll take on for Model A comprehensive sponsorship?",
+        "Is a referral/pairing process available with Beyond Impact for projects wanting both c3 and c4 tracks?",
+        "Can a sponsored project charge subscription/license fees for software as earned revenue?",
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Board or leadership bios (even if informal, pre-incorporation)",
+        "Rough budget/revenue projection",
+        "Description of software products and campaign-services line of business"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether an unincorporated, single-founder entity meets their practical (not just legal) intake bar \u2014 requires counsel/direct confirmation, not resolvable from public materials"
+      ]
+    }
+  },
+  {
+    "org_name": "Beyond Impact (formerly Tides Advocacy)",
+    "website": "https://beyondimpact.org",
+    "legal_tax_structure": "501(c)(4)",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "A 501(c)(4) partner for people fighting for social justice, helping them mobilize communities, build political power, and change policy \u2014 through both grantmaking and fiscal sponsorship. Legally separate 'sister' organization to the Tides Center/Tides Foundation network.",
+    "project_types_sponsored": [
+      "social justice advocacy",
+      "electoral/political power-building",
+      "racial justice",
+      "immigrant rights"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Unclear/Requires confirmation \u2014 inquiry likely via beyondimpact.org contact channel.",
+    "eligibility_requirements": [
+      "As a 501(c)(4), can house partisan electoral activity subject to applicable IRS restrictions, unlike its c3 siblings",
+      "Runs an active general-intake c4 sponsorship program (reports sponsoring 'a network of over 90 fiscally sponsored 501(c)(4) projects and funds'), which is a positive scale-fit signal versus the Arabella-family funds below \u2014 worth a direct inquiry rather than assuming inaccessibility"
+    ],
+    "political_activity_restrictions": "As a 501(c)(4), can be openly political, including partisan electoral activity, within IRS limits on 501(c)(4)s (e.g., political activity must not become the organization's primary purpose).",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://capitalresearch.org/article/tides-advocacy-reports-big-bumps-in-revenue-and-grants-paid/",
+        "https://www.influencewatch.org/non-profit/advocacy-fund/",
+        "https://capitalresearch.org/article/thinking-about-fiscal-sponsorship-part-1/"
+      ],
+      "current_assessment": "Deprioritized, not excluded: with political-campaign work now deferred rather than an active near-term line of business, there's no urgency to pursue a c4 relationship yet. Revisit if/when campaign engagements actually materialize and a dedicated c4 becomes worth the added complexity of a second sponsor relationship.",
+      "next_action": "Revisit later, once campaign-services work is an active (not deferred) part of the pipeline.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-11",
+        "change": "Added scale-fit note: this is the most promising of the c4 candidates for a project at Doikayt's current stage, given its general-intake sponsorship model (~90 sponsored c4 projects) versus the Arabella-family funds' pattern of sponsoring a smaller number of large, established projects."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      }
+    ],
+    "tier": "Tier 3",
+    "structural_fit_score": "Strong",
+    "mission_fit_score": "Unclear",
+    "outreach": {
+      "contact_person": "Unclear \u2014 use general beyondimpact.org contact channel",
+      "recommended_approach": "Direct inquiry; ask about minimum scale/stage before investing in a full application \u2014 avoid assuming accessibility from the '90 sponsored projects' figure alone.",
+      "questions_to_ask": [
+        "What is the minimum scale/stage of project you'll take on?",
+        "Do you coordinate with Tides Center for projects that want a paired c3/c4 structure?",
+        "Can a sponsored c4 project be selective about which candidates/campaigns it works with (vs. fully neutral availability)?",
+        "What is your current fee schedule for Model A comprehensive sponsorship?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of campaign-services line of business and pricing model"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether Doikayt's stated selectivity about which campaigns it serves (per its internal profile) is compatible with Beyond Impact's own c4 activity rules \u2014 requires direct confirmation, not resolvable from public materials"
+      ]
+    }
+  },
+  {
+    "org_name": "Sixteen Thirty Fund",
+    "website": "https://www.sixteenthirtyfund.org",
+    "legal_tax_structure": "501(c)(4)",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "An independent 501(c)(4) that uses fiscal sponsorship to help nonprofits, advocates, institutions, and progressive causes quickly launch and operate new public-interest projects, fighting for economic equity, health care, climate solutions, racial justice, and voter access.",
+    "project_types_sponsored": [
+      "progressive advocacy",
+      "electoral/voter access",
+      "economic equity",
+      "climate",
+      "racial justice"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation. Large-scale operation ($280M+ annual revenue in FY2024), administered by Arabella Advisors.",
+    "application_process": "Prospective projects approach Sixteen Thirty Fund directly; org determines fit jointly with applicant.",
+    "eligibility_requirements": [
+      "Historically sponsors larger, well-resourced, or politically connected projects/campaigns rather than very early-stage/small shops \u2014 requires confirmation for a project at Doikayt's current scale",
+      "Also sponsors satellite c4 projects such as Groundwork Action and the Hub Project \u2014 confirms a hub-and-spoke model (one sponsor entity, many downstream projects) rather than a field of many independent c4 sponsors; a targeted search for additional independent regional/smaller c4 sponsors found none of comparable substance \u2014 nearly everything findable in this space traces back to this fund or the Tides/Beyond Impact family"
+    ],
+    "political_activity_restrictions": "As a 501(c)(4), provides projects flexibility to advocate and engage in political/electoral activity within IRS limits for 501(c)(4)s; can spend up to 49% of budget on political activities including transfers to super PACs; donations not tax-deductible.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://www.sixteenthirtyfund.org/our-approach/",
+        "https://www.sixteenthirtyfund.org/about-us/",
+        "https://en.wikipedia.org/wiki/Sixteen_Thirty_Fund",
+        "https://www.influencewatch.org/non-profit/groundwork-action/",
+        "https://www.influencewatch.org/non-profit/the-hub-project/"
+      ],
+      "current_assessment": "Deprioritized versus Beyond Impact: public pattern (Groundwork Action, Hub Project) suggests intake skews toward large, institutionally-funded initiatives rather than early-stage single-founder projects. Not excluded outright \u2014 scale mismatch is inferred from examples, not a confirmed policy \u2014 but lower priority for outreach.",
+      "next_action": "Park for now; revisit only if Beyond Impact doesn't pan out or if Doikayt's scale grows substantially.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-11",
+        "change": "Added scale-fit note after broader search for smaller/regional c4 fiscal sponsors turned up no independent alternatives of comparable substance \u2014 field is genuinely small."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      }
+    ],
+    "tier": "Tier 3",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Unclear"
+  },
+  {
+    "org_name": "New Venture Fund",
+    "website": "https://newventurefund.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "A 501(c)(3) fiscal sponsor for left-leaning philanthropic and public-interest projects; 'sister' organization to Sixteen Thirty Fund within the Arabella Advisors-administered network. Nearly $1B in annual revenue across dozens of sponsored projects.",
+    "project_types_sponsored": [
+      "policy research",
+      "public education",
+      "advocacy (non-partisan)",
+      "social change incubation"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Unclear/Requires confirmation.",
+    "eligibility_requirements": [
+      "501(c)(3) restrictions apply: no candidate/party support or opposition"
+    ],
+    "political_activity_restrictions": "As a 501(c)(3), prohibited from candidate/campaign intervention; permitted non-partisan research, education, and limited lobbying under 501(h)-type rules.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/New_Venture_Fund"
+      ],
+      "current_assessment": "c3 sibling of Sixteen Thirty Fund/North Fund within the Arabella family; same likely scale mismatch. Not needed anyway under the split-sponsor structure, since any accessible c3 can serve the non-political track.",
+      "next_action": "None \u2014 deprioritized in favor of smaller, more accessible c3 candidates (Tides Center, Movement Strategy Center, etc.) for the non-political track.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      }
+    ],
+    "tier": "Tier 3",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Unclear"
+  },
+  {
+    "org_name": "North Fund",
+    "website": "https://www.northfund.org",
+    "legal_tax_structure": "501(c)(4)",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "A 501(c)(4) fiscal sponsor for left-leaning political projects, part of the Arabella Advisors-administered network alongside Sixteen Thirty Fund, New Venture Fund, Hopewell Fund, and Windward Fund. Smaller than Sixteen Thirty Fund (~$60M revenue in 2023).",
+    "project_types_sponsored": [
+      "progressive political advocacy",
+      "issue campaigns"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Unclear/Requires confirmation.",
+    "eligibility_requirements": [
+      "Requires confirmation \u2014 likely similar scale/connections expectations to Sixteen Thirty Fund, since it's administered by the same Arabella Advisors team and structured as a sister fund rather than an independent organization with its own intake process"
+    ],
+    "political_activity_restrictions": "As a 501(c)(4), permits political/electoral activity within IRS limits for 501(c)(4)s.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/North_Fund"
+      ],
+      "current_assessment": "Same Arabella Advisors administration/team as Sixteen Thirty Fund; no evidence of a distinct, more accessible intake process. Treat as functionally the same option, not a separate opportunity.",
+      "next_action": "Park for now \u2014 see Sixteen Thirty Fund.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-11",
+        "change": "Noted this is administratively identical in practice to Sixteen Thirty Fund (same Arabella Advisors team) rather than a distinct alternative \u2014 lower research priority than Beyond Impact."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      }
+    ],
+    "tier": "Tier 3",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Unclear"
+  },
+  {
+    "org_name": "Movement Strategy Center",
+    "website": "https://movementstrategy.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Founded to incubate and accelerate movement leaders generating groundbreaking strategies for transformative movement building; offers Model A comprehensive fiscal sponsorship plus a Model C program for more established entities, and a CDC incubator for community/economic development projects.",
+    "project_types_sponsored": [
+      "transformative movement building",
+      "grassroots leadership development",
+      "community/economic development",
+      "Native/tribal organizing"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Unclear/Requires confirmation \u2014 likely inquiry via movementstrategy.org.",
+    "eligibility_requirements": [
+      "501(c)(3) restrictions apply to Model A/C programs"
+    ],
+    "political_activity_restrictions": "As a 501(c)(3) sponsor, subject to standard c3 lobbying caps and prohibition on candidate/campaign intervention; requires confirmation on exact policy.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://movementstrategy.org/fiscal-sponsorship/"
+      ],
+      "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy: no structural tension remains for a c3 relationship focused purely on Doikayt's generic open-source software work. Notably offers BOTH Model A (comprehensive) and Model C (pre-approved grant, project retains separate legal existence) \u2014 worth asking directly whether Model C is available, since it would give more room to handle a rare opportunistic campaign engagement outside the sponsored relationship without needing to decline it outright.",
+      "next_action": "Direct inquiry \u2014 ask about Model A vs. Model C availability and fees, plus the opportunistic-campaign-work question.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      }
+    ],
+    "tier": "Tier 1",
+    "structural_fit_score": "Strong",
+    "mission_fit_score": "Unclear",
+    "outreach": {
+      "contact_person": "Unclear \u2014 use general sponsor inquiry channel",
+      "recommended_approach": "Direct inquiry focused on Doikayt's open-source software program; mention campaign-services history as past portfolio work, not a current pipeline item.",
+      "questions_to_ask": [
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether Model A vs. Model C changes how a future, non-deferred campaign engagement would need to be handled"
+      ]
+    }
+  },
+  {
+    "org_name": "Alliance for Global Justice",
+    "website": "https://afgj.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "International",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Offers fiscal sponsorship to grassroots nonprofits that agree with AFGJ's vision and mission but lack their own 501(c)(3) status, enabling tax-deductible donations; historically active in human rights, workers' rights, racial/environmental justice, indigenous rights, and international solidarity work.",
+    "project_types_sponsored": [
+      "human rights",
+      "workers' rights",
+      "racial justice",
+      "environmental justice",
+      "indigenous rights",
+      "international solidarity"
+    ],
+    "fees": "7%-8% administrative fee on check/online donations respectively.",
+    "application_process": "Unclear/Requires confirmation \u2014 likely direct inquiry via afgj.org.",
+    "eligibility_requirements": [
+      "Project must agree with AFGJ's Vision and Mission Statements",
+      "501(c)(3) restrictions apply"
+    ],
+    "political_activity_restrictions": "As a 501(c)(3), subject to standard prohibition on candidate/campaign intervention; AFGJ does offer political-advocacy support within c3-permissible bounds.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://northstarfund.org/wp-content/uploads/2022/02/Fiscal-Sponsors-updated-February-2022.pdf",
+        "https://joinit.com/blog/fiscal-sponsorship-organizations"
+      ],
+      "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy. Sponsors under Model C (project retains its own separate legal existence, sponsor approves grant purposes) \u2014 this model is inherently friendlier to Doikayt's plan of mostly-grant-funded software work with an occasional out-of-scope opportunistic engagement, though sponsor sign-off is still required, not assumed. Lower fee (7-8%) than Tides Center.",
+      "next_action": "Direct inquiry \u2014 confirm Model C mechanics and the opportunistic-campaign-work question.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      }
+    ],
+    "tier": "Tier 1",
+    "structural_fit_score": "Strong",
+    "mission_fit_score": "Unclear",
+    "outreach": {
+      "contact_person": "Unclear \u2014 use general sponsor inquiry channel",
+      "recommended_approach": "Direct inquiry focused on Doikayt's open-source software program; mention campaign-services history as past portfolio work, not a current pipeline item.",
+      "questions_to_ask": [
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether Model A vs. Model C changes how a future, non-deferred campaign engagement would need to be handled"
+      ]
+    }
+  },
+  {
+    "org_name": "A.J. Muste Memorial Institute",
+    "website": "https://ajmuste.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "International",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Founded 1974 by pacifists to provide practical support to the peace and justice movement; provides grants, fiscal sponsorship, and subsidized office space (the 'Peace Pentagon' building in Manhattan) to grassroots organizing, nonviolence education, and social-change groups, with historical ties to the labor movement.",
+    "project_types_sponsored": [
+      "peace/nonviolence organizing",
+      "labor",
+      "racial and sexual equality",
+      "grassroots activism",
+      "anti-militarism"
+    ],
+    "fees": "7% administrative fee on net donations after processing fees.",
+    "application_process": "Project must demonstrate alignment with mission/theory of change, effectiveness or a credible plan, and representative leadership; must hold a bank account in the group's own name; apply via ajmuste.org.",
+    "eligibility_requirements": [
+      "Must be 'engaged in activities which are legal and do not violate IRS rules for 501(c)(3) organizations'",
+      "Programs must focus on systemic social change, not individual services"
+    ],
+    "political_activity_restrictions": "Explicitly requires compliance with 501(c)(3) rules; general nonviolent/advocacy organizing is welcomed, but direct candidate/campaign work would fall outside permitted activity.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://ajmuste.org/fiscal-sponsorship/",
+        "https://fiscalsponsordirectory.org/aj-muste-memorial-institute/",
+        "https://www.influencewatch.org/non-profit/a-j-muste-memorial-institute/"
+      ],
+      "current_assessment": "Remains Tier 2 under the deferred-campaign-work strategy \u2014 sponsors under Model C (same structural friendliness as AFGJ above), but their explicit emphasis on systemic-change programs over individual services still needs checking against a software/tooling org's actual day-to-day work.",
+      "next_action": "Direct inquiry once Tier 1 candidates are underway.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      }
+    ],
+    "tier": "Tier 2",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Unclear",
+    "outreach": {
+      "contact_person": "Unclear \u2014 use general sponsor inquiry channel",
+      "recommended_approach": "Direct inquiry focused on Doikayt's open-source software program; mention campaign-services history as past portfolio work, not a current pipeline item.",
+      "questions_to_ask": [
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether Model A vs. Model C changes how a future, non-deferred campaign engagement would need to be handled"
+      ]
+    }
+  },
+  {
+    "org_name": "Open Collective Foundation",
+    "website": "https://opencollective.foundation",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C",
+      "Other"
+    ],
+    "fiscal_sponsorship_models_other_description": "Uses the Open Collective transparent, tech-forward platform (public real-time budget/expense ledger) rather than traditional back-office administration alone.",
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "A 501(c)(3) serving as fiscal sponsor to hundreds of initiatives, powered by the Open Collective open-source tech platform enabling budget transparency, expense management, crowdfunding, and community engagement.",
+    "project_types_sponsored": [
+      "mutual aid",
+      "open-source software/tech initiatives",
+      "community-driven projects",
+      "civic engagement"
+    ],
+    "fees": "~5% of funds raised.",
+    "application_process": "Apply via Open Collective platform; sponsorship is tightly coupled to using the OC transparent-ledger tooling.",
+    "eligibility_requirements": [
+      "Requires operating transparently on the Open Collective platform, which publicly discloses all transaction-level financials \u2014 a real consideration for a project with paying political-campaign clients"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation \u2014 general 501(c)(3) candidate/campaign-intervention prohibition presumably applies; public transaction transparency itself could be a practical concern independent of legal eligibility.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://joinit.com/blog/fiscal-sponsorship-organizations",
+        "https://www.idealist.org/pt/ong/d6dae8c1c36b4267a78fe955cc86a7df-open-collective-foundation-covina"
+      ],
+      "current_assessment": "Open-source/tech mission fit is strong, but the platform's public, transaction-level financial transparency is a real practical concern for an org with paying political-campaign clients, independent of legal eligibility. Worth a direct question rather than assuming disqualifying.",
+      "next_action": "Lower priority than Tier 2 candidates; revisit if Tier 1/2 outreach stalls.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      }
+    ],
+    "tier": "Tier 3",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Unclear"
+  },
+  {
+    "org_name": "Software Freedom Conservancy",
+    "website": "https://sfconservancy.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model F"
+    ],
+    "geographic_scope": "International",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "A nonprofit fiscal sponsor and services organization for free and open source software (FOSS) projects, providing a legal home, fiscal sponsorship, legal support (including GPL enforcement), bookkeeping, and fundraising infrastructure so projects don't need to form their own entity.",
+    "project_types_sponsored": [
+      "free and open source software projects (e.g., Git, BusyBox, Wine, Selenium)"
+    ],
+    "fees": "Reported ~10% of most member-project revenue/donations for general operations; higher for some event-focused projects.",
+    "application_process": "Apply via sfconservancy.org; Conservancy and project jointly negotiate a Fiscal Sponsorship Agreement (FSA) after a membership offer.",
+    "eligibility_requirements": [
+      "Project must dedicate itself to advancement of software freedom and user rights to copy/share/modify/improve software \u2014 a narrower mission fit than Doikayt's broader grassroots-organizing scope, even though Doikayt does maintain FOSS tooling"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation \u2014 Conservancy's core focus is software freedom, not political/campaign work; campaign-services revenue is likely outside its mission scope even if not explicitly prohibited by its c3 status.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://sfconservancy.org/projects/services/",
+        "https://sfconservancy.org/projects/apply/",
+        "https://www.oss.fund/software-freedom-conservancy/"
+      ],
+      "current_assessment": "Narrower FOSS-only mission scope than Doikayt's broader grassroots-organizing mandate; likely a mission-fit mismatch even though Doikayt does maintain open-source tooling. Political/campaign-services revenue is likely outside their mission scope regardless of legal eligibility.",
+      "next_action": "Lower priority; revisit only if Doikayt narrows toward being primarily a FOSS maintainer.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      }
+    ],
+    "tier": "Tier 3",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Unclear"
+  },
+  {
+    "org_name": "Fractured Atlas",
+    "website": "https://www.fracturedatlas.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "One of the largest arts-sector fiscal sponsors in the US, offering an online self-service fiscal sponsorship platform primarily for individual artists and arts organizations.",
+    "project_types_sponsored": [
+      "arts and culture"
+    ],
+    "fees": "Unclear from public sources at time of this entry; historically percentage-of-revenue based.",
+    "application_process": "Online self-service application via fracturedatlas.org.",
+    "eligibility_requirements": [
+      "Project type must be arts/culture-focused per stated scope \u2014 a software/movement-tech organization like Doikayt is a poor fit on project type alone, independent of the political-activity question"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation \u2014 standard 501(c)(3) rules presumably apply, but likely moot given the arts-only project-type restriction.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://grokipedia.com/page/Fiscal_sponsorship",
+        "https://fiscalsponsordirectory.org/all-fiscal-sponsors-alpha-ordered/"
+      ],
+      "current_assessment": "Excluded on project-type grounds, not political-activity grounds. Retained in the database for landscape completeness per research discipline.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      }
+    ],
+    "tier": "Excluded",
+    "exclusion_reason": "Technology/project type outside scope \u2014 arts-and-culture-only fiscal sponsor, independent of any campaign-activity question.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak"
+  },
+  {
+    "org_name": "TSNE (Third Sector New England)",
+    "website": "https://www.tsne.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "One of the oldest fiscal sponsors in the country, managing a large portfolio of projects nationally (over 50 projects across 26 states as of published figures); explicitly researches and publishes on equity-centered fiscal sponsorship for BIPOC-led grassroots groups.",
+    "project_types_sponsored": [
+      "arts and culture",
+      "children/youth/families",
+      "economic development",
+      "environment",
+      "political advocacy/social justice",
+      "community/social services",
+      "and more per published category list"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Apply via tsne.org; consult published FAQ ('Is my organization a fit for fiscal sponsorship?').",
+    "eligibility_requirements": [
+      "501(c)(3) restrictions apply",
+      "'Political advocacy/social justice' is an explicitly listed sponsorable project type, which is a positive signal worth follow-up"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation \u2014 standard c3 candidate/campaign-intervention prohibition presumably applies despite the 'political advocacy' project-type listing; needs direct clarification given Doikayt's campaign-technical-services activity.",
+    "status": {
+      "date_last_verified": "2026-08-11",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=734",
+        "https://tsne.org/publication/report/reimagining-fiscal-sponsorship-report/"
+      ],
+      "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy. Offers both Model A and Model C. Explicitly lists 'political advocacy/social justice' as a sponsorable project type \u2014 worth direct follow-up on whether that extends to housing occasional campaign-services revenue, or is strictly non-partisan advocacy/lobbying.",
+      "next_action": "Direct inquiry \u2014 ask about Model A vs. Model C, plus the opportunistic-campaign-work question.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-11",
+        "change": "Initial entry created (Subgoal 2 discovery)"
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      },
+      {
+        "date": "2026-08-12",
+        "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      }
+    ],
+    "tier": "Tier 1",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Unclear",
+    "outreach": {
+      "contact_person": "Unclear \u2014 use general sponsor inquiry channel",
+      "recommended_approach": "Direct inquiry focused on Doikayt's open-source software program; mention campaign-services history as past portfolio work, not a current pipeline item.",
+      "questions_to_ask": [
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether Model A vs. Model C changes how a future, non-deferred campaign engagement would need to be handled"
+      ]
+    }
+  }
+]

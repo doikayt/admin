@@ -1,0 +1,276 @@
+Doikayt — Internal Organizational Profile: For Fiscal Sponsorship & Funding Research
+
+This document describes Doikayt's internal conception of its mission and organizational
+orientation and should not necessarily be treated as a complete statement of its public-facing mission.
+
+Status: Early-stage, currently unincorporated
+Purpose of this document: Internal working profile for evaluating fiscal sponsors and, subsequently, other funding sources. This is not necessarily public-facing language.
+
+1. Organizational Overview
+
+Doikayt is an early-stage nonprofit software collective dedicated to providing
+digital products and technical services to organizations and political
+campaigns aligned with its mission and values.
+
+The organization is intended to operate as a mission-driven technology
+organization rather than a conventional commercial software company. Its
+purpose is to use software and technical expertise to strengthen organizations
+that may otherwise lack access to sophisticated technology and engineering
+resources.
+
+Doikayt intends to fund its development through grants, donations, and eventually
+commerical subscriptions and licenses to the software it produces -- 
+rather than through conventional venture-capital financing.
+
+The organization is currently unincorporated. It does not want to rush into
+incorporation because its optimal permanent legal structure has not yet been
+determined.
+
+2. Mission & Organizational Orientation
+
+Doikayt's broader objective is to use digital technologies to strengthen 
+the capacity, autonomy, and effectiveness of grassroots and other 
+organizations working toward social and political change.
+
+Our values:
+    anti-imperialism
+    pro-human rights
+    pro-tolerance
+    pro-free speech
+    pro-working-class
+
+3. Activities & Services
+
+Doikayt's principal activity is software development, consulting and systems integration.
+
+Current open source projects we have underway include:
+
+    * Doikayt Wiki — a collaborative, structured knowledge base for curating open source / low cost / ethically produced digital tools useful to mission-aligned organizations.
+    * qwiki — a CLI framework for deploying MediaWiki content maintained as local Markdown.
+    * gas-demodulify-plugin — tooling for building complex Google Apps Script applications with modern TypeScript/Webpack workflows.
+    * build-tools — automated documentation-generation and verification tooling designed to detect documentation drift during builds.
+    * typescript-build-config — shared TypeScript development, testing, formatting, and release infrastructure.
+
+Note that the latter three projects form the basis of a software stack for development of 
+Google Application Script (GAS)-based apps such as the targeting tool we built for the Butch Ware
+Campaign. The goal of that project was to filter volunteer database entries by geographical proximity to a 
+particular event, and we provided this functionality via a GAS extension hook to Google spread sheets. 
+
+We develop our software via an AI-native, spec-to-code pipeline.
+
+4. Intended Beneficiaries / Users
+
+Doikayt intends to support organizations and campaigns aligned with its mission.
+
+Potential users/partners include:
+
+grassroots community organizations;
+nonprofits;
+member-led, direct-action-oriented unions;
+candidates and political campaigns committed to working-class interests;
+other organizations engaged in grassroots or movement-oriented activity.
+
+Political campaigns are potential customers/partners, but political campaigning is not Doikayt's core raison d'être.
+
+The broader purpose is to provide technical capacity to organizations that Doikayt believes are advancing compatible social, political, or community objectives.
+
+We align with organizations defined by or built around:
+    grassroots organizing;
+    bottom-up organizational structures;
+    member-led organizations;
+    collective action;
+    direct action;
+    labor organizing;
+    moving away from big tech and its propensity for surveillance and deplatforming;
+    environmental justice (linking concern for a healthy planet w/ living conditions of marginalized groups);
+    candidates for public office who are committed to free speech, de-militarization and working-class interests
+    community organizing;
+    independence from Big Tech;
+    transparent and accountable organizational practices.
+
+Our operational goals are directly informed by the latter two.
+
+Doikayt is particularly interested in working with organizations that build
+power from the bottom up rather than relying primarily on established
+institutional power.
+
+    Examples:  Uhurhu Movement, Workers Strike Back (Kshama Sawant's org)
+    Counter-Examples:  Democratic Party (unequal power dynamics built into things like super delegates)
+
+5. Political & Campaign Activity
+
+This is a material internal consideration for fiscal-sponsor selection.
+
+Doikayt intends to be able to provide legitimate technical services to political candidates and campaigns, including activities such as:
+
+technology selection and evaluation;
+software configuration;
+customization;
+implementation;
+technical infrastructure;
+software development;
+related technical assistance.
+
+The ability to perform such work is considered an important organizational requirement.
+
+Doikayt should therefore not be placed into a structure whose legal or operational restrictions would prevent it from carrying out its intended campaign-related activities.
+
+A sponsor's mission alignment is insufficient if its legal structure or sponsorship requirements make these activities impossible.
+
+STRATEGY UPDATE (2026-08-12): Doikayt is deferring campaign-services work rather than
+restructuring the organization around it. Estimated organic likelihood of landing an
+opportunistic campaign engagement in the near term: ~20%. Near-term fiscal-sponsor
+search is now focused on housing Doikayt's generic, publicly-available open-source
+software work under a straightforward c3 relationship, without changes to public
+branding/messaging. A c4 relationship (for campaign-services work) is parked, to be
+revisited once campaign engagements actually materialize in the pipeline. See
+sponsors.json change_log entries dated 2026-08-12 for the re-screening this triggered.
+
+6. Funding & Revenue Model
+
+Doikayt is pursuing a bootstrap-first strategy rather than conventional venture-capital financing.
+
+Potential funding sources include:
+
+grants;
+philanthropic support;
+contributions;
+earned revenue;
+fees for software and technical services;
+potentially other mission-compatible revenue sources.
+
+Doikayt is not primarily motivated by providing donors with charitable tax deductions.
+
+The organization is interested in determining a sustainable model combining mission-oriented funding with, where appropriate, earned revenue.
+
+The eventual balance between grants, contributions, and earned revenue remains undetermined.
+
+7. Current Legal / Structural Position
+
+Doikayt is currently unincorporated.
+
+It has not yet determined the optimal permanent legal structure.
+
+A 501(c)(4) structure was previously under serious consideration because Doikayt intends
+to retain the ability to work with political campaigns. Per the strategy update in Section 5,
+this is now a longer-term consideration rather than a near-term structural requirement.
+
+Other structural possibilities—including relationships between nonprofit and for-profit entities—may ultimately warrant consideration.
+
+Doikayt deliberately does not want to incorporate prematurely simply to establish a formal nonprofit entity.
+
+The organization wants to use its early operating and funding experience to inform the eventual legal structure.
+
+Current strategic hypothesis
+
+Fiscal sponsorship may provide an appropriate intermediate organizational structure while Doikayt determines its permanent structure.
+
+This is a hypothesis to be tested, not an established conclusion.
+
+8. Fiscal Sponsorship Requirements
+
+For the initial research phase, fiscal sponsorship is the preferred path to investigate before incorporation.
+
+A potentially suitable sponsor should ideally allow Doikayt to:
+
+remain initially unincorporated;
+operate under the Doikayt identity;
+receive grants and other permissible funding;
+conduct its intended software activities;
+receive and manage earned revenue where permissible;
+hire employees or contractors if necessary;
+develop and own/control its intellectual property to the extent legally possible;
+provide legitimate technical services to political campaigns (deferred near-term per Section 5);
+retain substantial operational autonomy;
+eventually separate from the sponsor and establish an independent entity.
+
+Hard constraint (near-term, revised)
+A sponsor should be considered structurally incompatible if its sponsorship arrangement would
+prevent Doikayt from conducting its generic, publicly-available open-source software work,
+receiving grants for that work, or maintaining reasonable operational autonomy. Since campaign-
+related technical activity is now deferred rather than an active line of business, a sponsor's
+inability to host that specific activity is no longer, by itself, disqualifying — see
+sponsors.json for the live screening logic. However, an important open question for any
+Model A (comprehensive) sponsor is what happens if an opportunistic campaign-services
+engagement arises while sponsored (see standard outreach question in sponsors.json).
+
+9. Long-Term Organizational Design
+
+Doikayt is interested in experimenting with DAO / digitally autonomous organization principles as a potential long-term organizational model.
+
+This is an organizational-design objective, not a current fiscal-sponsorship requirement.
+
+The underlying objectives include exploring whether technology can support:
+
+transparent operational rules;
+transparent and auditable financial activity;
+clearly defined governance procedures;
+distributed organizational decision-making;
+reduced dependence on opaque discretionary authority;
+automated or programmatically enforced organizational processes where appropriate.
+
+Blockchain, smart contracts, and DAO mechanisms are potential tools for investigating these objectives, rather than ends in themselves.
+
+Doikayt intends to determine empirically whether such mechanisms actually advance its organizational objectives before adopting them.
+
+A fiscal sponsor does not need to support DAO governance or blockchain-based financial control for Doikayt to be considered a viable sponsored project.
+
+This characteristic may nevertheless be relevant when assessing mission affinity with prospective sponsors, particularly organizations concerned with digital rights, technological self-determination, open technology, transparency, or decentralized governance.
+
+10. Organizational Philosophy
+
+Doikayt's organizational philosophy is oriented toward:
+
+bottom-up rather than top-down organization;
+transparency rather than opacity;
+organizational autonomy;
+technological independence;
+member/participant agency;
+explicit understandable, and collaboratively developed rules;
+practical use of technology to distribute organizational capacity.
+
+These principles are aspirational and evolutionary rather than a fixed governance constitution.
+
+11. Important Distinctions
+
+The following distinctions should be preserved throughout the fiscal-sponsorship research:
+
+Mission ≠ political campaign
+
+Doikayt may serve political campaigns without being fundamentally a political campaign organization.
+
+Software company ≠ conventional commercial software company
+
+Software development is the mechanism through which Doikayt advances its broader mission.
+
+Nonprofit ≠ necessarily 501(c)(3)
+
+Doikayt is currently considering a 501(c)(4) structure and does not assume that 501(c)(3) is appropriate. (See Section 5/7 strategy update: c4 is now a longer-term consideration.)
+
+Fiscal sponsorship ≠ permanent legal structure
+
+Fiscal sponsorship is currently being investigated as an intermediate structure while the optimal permanent structure remains undetermined.
+
+DAO interest ≠ current DAO requirement
+
+DAO principles are a long-term organizational-design experiment, not a prerequisite for operating now.
+
+12. Open Questions
+
+The following remain deliberately unresolved:
+
+Is fiscal sponsorship the optimal initial structure?
+What type of fiscal sponsor is best suited to Doikayt?
+Is a 501(c)(4) ultimately the optimal independent structure?
+How should earned revenue be structured within the eventual organization?
+Would a nonprofit/for-profit subsidiary structure eventually make sense?
+What activities can appropriately be conducted through a fiscal sponsor?
+How should intellectual property be owned and licensed?
+How much operational autonomy can be retained under fiscal sponsorship?
+What governance model should Doikayt ultimately adopt?
+Which DAO/decentralization mechanisms actually provide meaningful organizational benefits?
+[Added 2026-08-12] For a Model A (comprehensive) sponsor, what happens if an opportunistic
+campaign-services engagement arises while sponsored — is it declinable, referable, or does
+it necessarily become the sponsor's own compliance concern?
+
+These questions should be treated as research questions rather than assumptions.
