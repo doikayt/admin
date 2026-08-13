@@ -5,22 +5,29 @@ Mobilization Labs. See `doikayt.profile.txt` for the org profile that drives
 screening, and `sponsors.json` for the candidate database (schema described
 in the original planning doc, not included here — see chat history if needed).
 
-## Subgoal status (as of 2026-08-12)
+## Subgoal status (as of 2026-08-13)
 
 - **Subgoal 2 (candidate discovery):** Done. 12 candidates in `sponsors.json`.
 - **Subgoal 3 (structural screening):** Done for all 12. Re-screened twice as
   strategy evolved (c4-first -> split c3/c4 -> deferred-campaign-work, see
   Section 5 of the profile and each record's `change_log`).
-- **Subgoal 4 (mission alignment):** NOT done. `mission_fit_score` is
-  `"Unclear"` on every record; `mission_alignment.*` is empty everywhere.
+- **Subgoal 4 (mission alignment):** Started. `mission_alignment` (shared
+  values + an outreach snippet) is now populated for all 4 Tier 1 candidates.
+  `mission_fit_score` still `"Unclear"` everywhere — the formal two-score
+  process from Subgoal 6 hasn't run.
 - **Subgoal 5 (recurring narratives):** Not started (depends on Subgoal 4).
 - **Subgoal 6 (prioritization):** Informally done via `tier`, not through the
   formal two-score process (mission_fit_score isn't populated yet).
-- **Subgoal 7 (outreach):** Done for the 4 Tier 1 candidates (Tides Center,
-  Movement Strategy Center, Alliance for Global Justice, TSNE) — each has a
-  populated `outreach` object with contact questions ready to use.
-- **Subgoal 8 (living record):** Structurally in place. Not yet "living" in
-  the sense of reflecting real contact results — that's the next phase.
+- **Subgoal 7 (outreach):** Done for all 4 Tier 1 candidates — inquiries sent
+  2026-08-13 to Alliance for Global Justice (`fiscalsponsorship@afgj.org`),
+  Tides Center (Model C, via "Partner With Us" form — flagged that Model C
+  requires $50k-$100k committed funding, which Doikayt doesn't currently
+  have; asked whether founder self-funding counts), TSNE (via their inquiry
+  form), and Movement Strategy Center (via Contact Us form, attn Daniel
+  Parada, Director of Fiscal Sponsorship). All awaiting reply.
+- **Subgoal 8 (living record):** Structurally in place and current — all 4
+  Tier 1 candidates' `change_log` entries reflect real contact results as of
+  2026-08-13.
 
 ## Current strategy (see profile Section 5 for full detail)
 
@@ -46,19 +53,8 @@ regenerate this list from source. As of this snapshot:
 
 ## Querying sponsors.json
 
-```bash
-# Tier 1 candidates with their next action
-jq -r '.[] | select(.tier == "Tier 1") | "\(.org_name)\n  \(.status.next_action)\n"' sponsors.json
-
-# Same, parameterized by tier
-jq -r --arg t "Tier 2" '.[] | select(.tier == $t) | "\(.org_name)\n  \(.status.next_action)\n"' sponsors.json
-
-# Outreach questions for a specific org
-jq '.[] | select(.org_name == "Tides Center") | .outreach.questions_to_ask' sponsors.json
-
-# Everything, tier + application status, one line per org
-jq -r '.[] | "\(.tier)\t\(.org_name)\t\(.status.application_status)"' sponsors.json | sort
-```
+See [`docs/querying-sponsors.md`](docs/querying-sponsors.md) for `jq` query
+examples and shell aliases.
 
 ## Resuming this research in a new session
 

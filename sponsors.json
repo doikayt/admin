@@ -4,8 +4,10 @@
     "website": "https://www.tides.org",
     "legal_tax_structure": "501(c)(3) public charity",
     "fiscal_sponsorship_models": [
-      "Model A"
+      "Model A",
+      "Model C"
     ],
+    "fiscal_sponsorship_models_other_description": "Model C ('Single Entity Fund') is offered through Tides Foundation, a distinct entity from Tides Center (which offers Model A). Both share the tides.org 'Partner With Us' intake form.",
     "geographic_scope": "National (US)",
     "accepts_unincorporated_projects": true,
     "stated_mission": "Tides Center supports social change leaders, connects diverse people and organizations, and powers solutions that come directly from communities historically denied power, including women, economically disadvantaged communities, and communities of color. Offers comprehensive fiscal sponsorship \u2014 financial, compliance, insurance, governance, and human resources support.",
@@ -24,15 +26,18 @@
     ],
     "political_activity_restrictions": "As a 501(c)(3), Tides Center permits non-partisan research and get-out-the-vote work and lobbying within IRS 501(h)-type caps, but explicitly prohibits direct or implied support/opposition of any candidate or party.",
     "status": {
-      "date_last_verified": "2026-08-11",
+      "date_last_verified": "2026-08-13",
       "source_urls": [
         "https://www.tides.org/what-we-do/fiscal-sponsorship/",
         "https://www.tides.org/faqs/",
-        "https://www.influencewatch.org/non-profit/tides-center/"
+        "https://www.influencewatch.org/non-profit/tides-center/",
+        "https://www.tides.org/fiscal-sponsorship-at-tides/",
+        "https://www.tides.org/what-we-do/philanthropy/single-entity-funds/",
+        "https://www.tides.org/faq/fiscal-sponsorship-tides-cost/"
       ],
-      "current_assessment": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring around it, and pursuing a straightforward c3 relationship for its generic, publicly-available open-source software work \u2014 no branding/messaging changes needed. Real open item: Tides Center sponsors under Model A (comprehensive), meaning the sponsor legally absorbs all of the project's activity. Given Doikayt estimates a real (~20%) organic chance of landing an opportunistic campaign engagement, this needs a direct answer before signing: can such an engagement be declined/referred/handled outside the relationship, or would it need to run through Tides Center's own compliance review as their activity? Otherwise still a strong lead for the open-source/software program itself.",
-      "next_action": "Contact Tides Center; lead with the Model A opportunistic-campaign-work question before investing further in this lead.",
-      "application_status": "Not started"
+      "current_assessment": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring around it, and pursuing a straightforward c3 relationship for its generic, publicly-available open-source software work \u2014 no branding/messaging changes needed. Tides Center sponsors under Model A (comprehensive), meaning the sponsor legally absorbs all of the project's activity; Model C ('Single Entity Fund', via Tides Foundation) keeps the project as its own separate legal existence instead, which is the better structural fit for the opportunistic-campaign-work concern. However, Model C requires a minimum of $100,000 committed funding for US-based activity ($50,000 if tied to a single project); Model A separately requires confirmed funding covering 12 months of operations plus 3 months reserves. Doikayt doesn't currently have committed external funding at that level \u2014 development has been self-funded by the founder from personal retirement savings (a couple years of runway remaining). Applied for Model C anyway and asked directly whether founder self-funding counts toward the committed-funding minimum; answer pending.",
+      "next_action": "Awaiting Tides' reply to the Model C inquiry submitted 2026-08-13, specifically on whether founder self-funding satisfies the $50k/$100k committed-funding minimum.",
+      "application_status": "Inquiry sent 2026-08-13 (Model C, via Partner With Us form)"
     },
     "change_log": [
       {
@@ -46,19 +51,32 @@
       {
         "date": "2026-08-12",
         "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      },
+      {
+        "date": "2026-08-13",
+        "change": "Discovered Tides also offers Model C (via Tides Foundation, a distinct entity from Tides Center), which requires $50k-$100k committed funding \u2014 a bar Doikayt doesn't currently clear (self-funded via founder retirement savings). Submitted the tides.org 'Partner With Us' form requesting Model C, describing the project's charitable/educational purpose, and asking whether founder self-funding counts toward the committed-funding minimum. Confirmation received: 'A member of our team will be in touch with you shortly.'"
       }
     ],
     "tier": "Tier 1",
     "structural_fit_score": "Strong",
     "mission_fit_score": "Unclear",
+    "mission_alignment": {
+      "shared_values": [
+        "social justice / civil rights advocacy",
+        "movement building",
+        "support for communities historically denied power (aligns with our pro-working-class orientation)"
+      ],
+      "outreach_snippet": "Your focus on powering solutions that come directly from communities historically denied power \u2014 economically disadvantaged communities in particular \u2014 lines up closely with our own pro-working-class orientation and belief that tools should be controlled by the people who use them."
+    },
     "outreach": {
-      "contact_person": "Unclear \u2014 use general tides.org fiscal sponsorship inquiry channel",
+      "contact_person": "No named contact yet \u2014 submitted via tides.org 'Partner With Us' form 2026-08-13; auto-reply confirmed a team member will follow up.",
       "recommended_approach": "Direct inquiry, lead with the split-structure question (c3 for software/grants, c4 for selective campaign services) rather than a generic 'are you a fit' pitch \u2014 this is a less common request and worth naming explicitly.",
       "questions_to_ask": [
         "What is the minimum scale/stage of project you'll take on for Model A comprehensive sponsorship?",
         "Is a referral/pairing process available with Beyond Impact for projects wanting both c3 and c4 tracks?",
         "Can a sponsored project charge subscription/license fees for software as earned revenue?",
-        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?",
+        "Does founder self-funding (from personal retirement savings) count toward the $50k/$100k committed-funding minimum for Model C? [asked in 2026-08-13 submission, answer pending]"
       ],
       "info_sponsor_likely_requires": [
         "Org overview / mission statement",
@@ -67,7 +85,8 @@
         "Description of software products and campaign-services line of business"
       ],
       "issues_to_clarify_before_applying": [
-        "Whether an unincorporated, single-founder entity meets their practical (not just legal) intake bar \u2014 requires counsel/direct confirmation, not resolvable from public materials"
+        "Whether an unincorporated, single-founder entity meets their practical (not just legal) intake bar \u2014 requires counsel/direct confirmation, not resolvable from public materials",
+        "Whether founder self-funding counts toward Model C's $50k/$100k committed-funding minimum \u2014 asked directly in the 2026-08-13 submission, answer pending"
       ]
     }
   },
@@ -317,13 +336,15 @@
     ],
     "political_activity_restrictions": "As a 501(c)(3) sponsor, subject to standard c3 lobbying caps and prohibition on candidate/campaign intervention; requires confirmation on exact policy.",
     "status": {
-      "date_last_verified": "2026-08-11",
+      "date_last_verified": "2026-08-13",
       "source_urls": [
-        "https://movementstrategy.org/fiscal-sponsorship/"
+        "https://movementstrategy.org/fiscal-sponsorship/",
+        "https://movementstrategy.org/msc-board-and-staff/",
+        "https://movementstrategy.org/contact-us/"
       ],
       "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy: no structural tension remains for a c3 relationship focused purely on Doikayt's generic open-source software work. Notably offers BOTH Model A (comprehensive) and Model C (pre-approved grant, project retains separate legal existence) \u2014 worth asking directly whether Model C is available, since it would give more room to handle a rare opportunistic campaign engagement outside the sponsored relationship without needing to decline it outright.",
-      "next_action": "Direct inquiry \u2014 ask about Model A vs. Model C availability and fees, plus the opportunistic-campaign-work question.",
-      "application_status": "Not started"
+      "next_action": "Awaiting reply to inquiry submitted 2026-08-13 via movementstrategy.org/contact-us/, addressed to Daniel Parada (Director of Fiscal Sponsorship).",
+      "application_status": "Inquiry sent 2026-08-13 (via Contact Us form)"
     },
     "change_log": [
       {
@@ -337,13 +358,25 @@
       {
         "date": "2026-08-12",
         "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      },
+      {
+        "date": "2026-08-13",
+        "change": "Identified named contact via web research: Daniel Parada, Director of Fiscal Sponsorship (general comms@ inbox was the only address on file previously). Submitted inquiry via movementstrategy.org/contact-us/, attn Daniel Parada, covering mission-alignment note and the opportunistic-campaign-work question."
       }
     ],
     "tier": "Tier 1",
     "structural_fit_score": "Strong",
     "mission_fit_score": "Unclear",
+    "mission_alignment": {
+      "shared_values": [
+        "grassroots, bottom-up organizing",
+        "movement building / leadership development",
+        "community organizing"
+      ],
+      "outreach_snippet": "Your focus on transformative movement building and grassroots leadership development mirrors our own commitment to strengthening organizations that build power from the bottom up rather than relying on established institutional power."
+    },
     "outreach": {
-      "contact_person": "Unclear \u2014 use general sponsor inquiry channel",
+      "contact_person": "Daniel Parada, Director of Fiscal Sponsorship \u2014 reached via movementstrategy.org/contact-us/ form 2026-08-13 (no direct email confirmed)",
       "recommended_approach": "Direct inquiry focused on Doikayt's open-source software program; mention campaign-services history as past portfolio work, not a current pipeline item.",
       "questions_to_ask": [
         "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
@@ -384,14 +417,16 @@
     ],
     "political_activity_restrictions": "As a 501(c)(3), subject to standard prohibition on candidate/campaign intervention; AFGJ does offer political-advocacy support within c3-permissible bounds.",
     "status": {
-      "date_last_verified": "2026-08-11",
+      "date_last_verified": "2026-08-13",
       "source_urls": [
         "https://northstarfund.org/wp-content/uploads/2022/02/Fiscal-Sponsors-updated-February-2022.pdf",
-        "https://joinit.com/blog/fiscal-sponsorship-organizations"
+        "https://joinit.com/blog/fiscal-sponsorship-organizations",
+        "https://afgj.org/fsp",
+        "https://afgj.org/fsp/apply-for-fiscal-sponsorship"
       ],
       "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy. Sponsors under Model C (project retains its own separate legal existence, sponsor approves grant purposes) \u2014 this model is inherently friendlier to Doikayt's plan of mostly-grant-funded software work with an occasional out-of-scope opportunistic engagement, though sponsor sign-off is still required, not assumed. Lower fee (7-8%) than Tides Center.",
-      "next_action": "Direct inquiry \u2014 confirm Model C mechanics and the opportunistic-campaign-work question.",
-      "application_status": "Not started"
+      "next_action": "Awaiting reply to outreach inquiry sent 2026-08-13.",
+      "application_status": "Inquiry sent 2026-08-13"
     },
     "change_log": [
       {
@@ -405,13 +440,26 @@
       {
         "date": "2026-08-12",
         "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      },
+      {
+        "date": "2026-08-13",
+        "change": "Contact confirmed via web research: fiscalsponsorship@afgj.org (Elane Spivak Rodriguez, National Fiscal Sponsorship Coordinator). Outreach inquiry emailed same day, covering the Model C opportunistic-campaign-work question plus a mission-alignment note on the anti-militarist overlap."
       }
     ],
     "tier": "Tier 1",
     "structural_fit_score": "Strong",
     "mission_fit_score": "Unclear",
+    "mission_alignment": {
+      "shared_values": [
+        "anti-imperialism / anti-militarism",
+        "international solidarity",
+        "workers' rights",
+        "human rights"
+      ],
+      "outreach_snippet": "There is strong alignment between AFGJ's overall mission and what we are focused on \u2014 especially vis-\u00e0-vis the anti-militarist aspect."
+    },
     "outreach": {
-      "contact_person": "Unclear \u2014 use general sponsor inquiry channel",
+      "contact_person": "fiscalsponsorship@afgj.org (Elane Spivak Rodriguez, National Fiscal Sponsorship Coordinator) \u2014 confirmed 2026-08-13",
       "recommended_approach": "Direct inquiry focused on Doikayt's open-source software program; mention campaign-services history as past portfolio work, not a current pipeline item.",
       "questions_to_ask": [
         "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
@@ -658,14 +706,15 @@
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation \u2014 standard c3 candidate/campaign-intervention prohibition presumably applies despite the 'political advocacy' project-type listing; needs direct clarification given Doikayt's campaign-technical-services activity.",
     "status": {
-      "date_last_verified": "2026-08-11",
+      "date_last_verified": "2026-08-13",
       "source_urls": [
         "https://fiscalsponsordirectory.org/?page_id=734",
-        "https://tsne.org/publication/report/reimagining-fiscal-sponsorship-report/"
+        "https://tsne.org/publication/report/reimagining-fiscal-sponsorship-report/",
+        "https://tsne.org/fiscal-sponsorship/"
       ],
       "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy. Offers both Model A and Model C. Explicitly lists 'political advocacy/social justice' as a sponsorable project type \u2014 worth direct follow-up on whether that extends to housing occasional campaign-services revenue, or is strictly non-partisan advocacy/lobbying.",
-      "next_action": "Direct inquiry \u2014 ask about Model A vs. Model C, plus the opportunistic-campaign-work question.",
-      "application_status": "Not started"
+      "next_action": "Awaiting reply \u2014 TSNE's confirmation states staff will respond by email within two business days of the 2026-08-13 submission.",
+      "application_status": "Inquiry sent 2026-08-13 (via tsne.org inquiry form)"
     },
     "change_log": [
       {
@@ -679,13 +728,25 @@
       {
         "date": "2026-08-12",
         "change": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring the org around it, pursuing straightforward c3 sponsorship for its generic open-source software work first. Re-screened tiers accordingly; added Model A/C opportunistic-engagement question to outreach."
+      },
+      {
+        "date": "2026-08-13",
+        "change": "Submitted TSNE's 'Tell us about what brings you to TSNE' inquiry form: intro, mission-alignment note on equity-centered/political-advocacy overlap, and the opportunistic-campaign-work question. Confirmation received: staff will reply by email within two business days."
       }
     ],
     "tier": "Tier 1",
     "structural_fit_score": "Moderate",
     "mission_fit_score": "Unclear",
+    "mission_alignment": {
+      "shared_values": [
+        "equity-centered support for BIPOC-led grassroots groups",
+        "political advocacy / social justice",
+        "transparent, accountable organizational practices"
+      ],
+      "outreach_snippet": "Your equity-centered approach to fiscal sponsorship and explicit support for political advocacy/social justice projects lines up well with our own grassroots, working-class-oriented mission."
+    },
     "outreach": {
-      "contact_person": "Unclear \u2014 use general sponsor inquiry channel",
+      "contact_person": "No named contact yet \u2014 submitted via tsne.org fiscal sponsorship inquiry form 2026-08-13; auto-reply confirmed staff will respond by email within two business days.",
       "recommended_approach": "Direct inquiry focused on Doikayt's open-source software program; mention campaign-services history as past portfolio work, not a current pipeline item.",
       "questions_to_ask": [
         "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program (e.g. under Model C), or does Model A comprehensive sponsorship mean it must run through the sponsor's own compliance review as their activity?"
