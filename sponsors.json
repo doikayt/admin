@@ -36,8 +36,8 @@
         "https://www.tides.org/faq/fiscal-sponsorship-tides-cost/"
       ],
       "current_assessment": "Strategy update: Doikayt is deferring political-campaign work rather than restructuring around it, and pursuing a straightforward c3 relationship for its generic, publicly-available open-source software work \u2014 no branding/messaging changes needed. Tides Center sponsors under Model A (comprehensive), meaning the sponsor legally absorbs all of the project's activity; Model C ('Single Entity Fund', via Tides Foundation) keeps the project as its own separate legal existence instead, which is the better structural fit for the opportunistic-campaign-work concern. However, Model C requires a minimum of $100,000 committed funding for US-based activity ($50,000 if tied to a single project); Model A separately requires confirmed funding covering 12 months of operations plus 3 months reserves. Doikayt doesn't currently have committed external funding at that level \u2014 development has been self-funded by the founder from personal retirement savings (a couple years of runway remaining). Applied for Model C anyway and asked directly whether founder self-funding counts toward the committed-funding minimum; answer pending.",
-      "next_action": "Awaiting Tides' reply to the Model C inquiry submitted 2026-08-13, specifically on whether founder self-funding satisfies the $50k/$100k committed-funding minimum.",
-      "application_status": "Inquiry sent 2026-08-13 (Model C, via Partner With Us form)"
+      "next_action": "Meeting proposed by Alberto Galindo for Monday 2026-08-17 — confirm time and prep agenda (Model C committed-funding question, split c3/c4 structure).",
+      "application_status": "Meeting proposed 2026-08-17 (Alberto Galindo, Tides Center) — confirming details"
     },
     "change_log": [
       {
@@ -55,6 +55,10 @@
       {
         "date": "2026-08-13",
         "change": "Discovered Tides also offers Model C (via Tides Foundation, a distinct entity from Tides Center), which requires $50k-$100k committed funding \u2014 a bar Doikayt doesn't currently clear (self-funded via founder retirement savings). Submitted the tides.org 'Partner With Us' form requesting Model C, describing the project's charitable/educational purpose, and asking whether founder self-funding counts toward the committed-funding minimum. Confirmation received: 'A member of our team will be in touch with you shortly.'"
+      },
+      {
+        "date": "2026-08-14",
+        "change": "Received reply from Alberto Galindo (agalindo@tides.org), subject 'Tides Inquiry - Doikayt Mobilization Labs', proposing a meeting for Monday 2026-08-17. Meeting time/agenda details not yet in hand."
       }
     ],
     "tier": "Tier 1",
@@ -69,7 +73,7 @@
       "outreach_snippet": "Your focus on powering solutions that come directly from communities historically denied power \u2014 economically disadvantaged communities in particular \u2014 lines up closely with our own pro-working-class orientation and belief that tools should be controlled by the people who use them."
     },
     "outreach": {
-      "contact_person": "No named contact yet \u2014 submitted via tides.org 'Partner With Us' form 2026-08-13; auto-reply confirmed a team member will follow up.",
+      "contact_person": "Alberto Galindo <agalindo@tides.org> \u2014 replied 2026-08-14 to the 2026-08-13 'Partner With Us' submission, proposing a meeting for Monday 2026-08-17.",
       "recommended_approach": "Direct inquiry, lead with the split-structure question (c3 for software/grants, c4 for selective campaign services) rather than a generic 'are you a fit' pitch \u2014 this is a less common request and worth naming explicitly.",
       "questions_to_ask": [
         "What is the minimum scale/stage of project you'll take on for Model A comprehensive sponsorship?",
@@ -343,8 +347,8 @@
         "https://movementstrategy.org/contact-us/"
       ],
       "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy: no structural tension remains for a c3 relationship focused purely on Doikayt's generic open-source software work. Notably offers BOTH Model A (comprehensive) and Model C (pre-approved grant, project retains separate legal existence) \u2014 worth asking directly whether Model C is available, since it would give more room to handle a rare opportunistic campaign engagement outside the sponsored relationship without needing to decline it outright.",
-      "next_action": "Awaiting reply to inquiry submitted 2026-08-13 via movementstrategy.org/contact-us/, addressed to Daniel Parada (Director of Fiscal Sponsorship).",
-      "application_status": "Inquiry sent 2026-08-13 (via Contact Us form)"
+      "next_action": "Auto-acknowledgement only, no named-contact commitment or timeline given. Wait for team follow-up; if none arrives in a reasonable window, re-send via info@movementstrategy.org as the reply itself suggests.",
+      "application_status": "Acknowledged 2026-08-14 (generic auto-reply) — substantive response still pending"
     },
     "change_log": [
       {
@@ -362,6 +366,10 @@
       {
         "date": "2026-08-13",
         "change": "Identified named contact via web research: Daniel Parada, Director of Fiscal Sponsorship (general comms@ inbox was the only address on file previously). Submitted inquiry via movementstrategy.org/contact-us/, attn Daniel Parada, covering mission-alignment note and the opportunistic-campaign-work question."
+      },
+      {
+        "date": "2026-08-14",
+        "change": "Received generic acknowledgement reply: 'Our team will reach out to you directly - please email info@movementstrategy.org with any other questions or curiosities in the meantime.' No named contact, timeline, or substantive answer yet."
       }
     ],
     "tier": "Tier 1",
@@ -712,9 +720,9 @@
         "https://tsne.org/publication/report/reimagining-fiscal-sponsorship-report/",
         "https://tsne.org/fiscal-sponsorship/"
       ],
-      "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy. Offers both Model A and Model C. Explicitly lists 'political advocacy/social justice' as a sponsorable project type \u2014 worth direct follow-up on whether that extends to housing occasional campaign-services revenue, or is strictly non-partisan advocacy/lobbying.",
-      "next_action": "Awaiting reply \u2014 TSNE's confirmation states staff will respond by email within two business days of the 2026-08-13 submission.",
-      "application_status": "Inquiry sent 2026-08-13 (via tsne.org inquiry form)"
+      "current_assessment": "Not a fit at this time. TSNE's reply (2026-08-14, Joselyn Yrayta-Mart) classified the inquiry as 'concept phase' and redirected to the Fiscal Sponsor Directory's incubation search rather than continuing engagement.",
+      "next_action": "None with TSNE \u2014 screen the incubation-directory results for new Tier 1/2 candidates.",
+      "application_status": "Declined 2026-08-14 \u2014 routed to Fiscal Sponsor Directory incubation search, not accepted for direct sponsorship"
     },
     "change_log": [
       {
@@ -732,9 +740,14 @@
       {
         "date": "2026-08-13",
         "change": "Submitted TSNE's 'Tell us about what brings you to TSNE' inquiry form: intro, mission-alignment note on equity-centered/political-advocacy overlap, and the opportunistic-campaign-work question. Confirmation received: staff will reply by email within two business days."
+      },
+      {
+        "date": "2026-08-14",
+        "change": "Received reply from Joselyn Yrayta-Mart (TSNE): inquiry classified as 'concept phase', redirected to fiscalsponsordirectory.org incubation search. Treated as a decline; tier moved to Excluded."
       }
     ],
-    "tier": "Tier 1",
+    "tier": "Excluded",
+    "exclusion_reason": "Declined/routed elsewhere — TSNE classified Doikayt as 'concept phase' and redirected to the Fiscal Sponsor Directory's incubation-focused listings rather than proceeding with an application.",
     "structural_fit_score": "Moderate",
     "mission_fit_score": "Unclear",
     "mission_alignment": {
@@ -760,5 +773,225 @@
         "Whether Model A vs. Model C changes how a future, non-deferred campaign engagement would need to be handled"
       ]
     }
+  },
+  {
+    "org_name": "Humanitarian Social Innovations",
+    "website": "https://hsifiscalsponsor.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Other"
+    ],
+    "fiscal_sponsorship_models_other_description": "Uses a 'Certified Grantee' sponsorship model — a legal entity that is not itself a 501(c)(3) pre-certifies its mission as charitable and aligned with HSI in order to receive grants from HSI, rather than standard Model A comprehensive or Model C pre-approved-grant structures.",
+    "geographic_scope": "National and international (US-domestic plus international NGOs with a required US-based liaison)",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Inspires and connects social entrepreneurs with resources necessary to empower them; creates social impact through fiscal sponsorship, incubation, and mentorship of early-stage nonprofits and grassroots movements. Surfaced 2026-08-14 via TSNE's incubation-directory referral.",
+    "project_types_sponsored": [
+      "social entrepreneurship",
+      "early-stage nonprofits",
+      "grassroots movements",
+      "humanitarian/quality-of-life projects (broad, unrestricted by sector)"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Unclear/Requires confirmation — likely inquiry via hsifiscalsponsor.org.",
+    "eligibility_requirements": [
+      "Project mission must improve the quality of life for a sector of humanity — broad standard, not a narrow programmatic restriction",
+      "International applicants must be legally-registered NGOs in their home country with a US-based liaison individual"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation — standard c3 candidate/campaign-intervention prohibition presumably applies; not addressed in public sources found.",
+    "status": {
+      "date_last_verified": "2026-08-14",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=920",
+        "https://hsifiscalsponsor.org/fiscal-sponsorship/"
+      ],
+      "current_assessment": "New Tier 2 candidate surfaced from TSNE's incubation-directory referral. Broad, unrestricted-by-sector eligibility is a plus, but the non-standard 'Certified Grantee' model and unconfirmed fees need direct clarification before this can be screened against Model A/C peers.",
+      "next_action": "Direct inquiry once current Tier 1 outreach (Movement Strategy Center, etc.) resolves.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-14",
+        "change": "Initial entry created from TSNE incubation-directory referral (search prompted by TSNE's 2026-08-14 decline)."
+      }
+    ],
+    "tier": "Tier 2",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Unclear",
+    "outreach": {
+      "contact_person": "Unclear — use general sponsor inquiry channel at hsifiscalsponsor.org",
+      "recommended_approach": "Direct inquiry focused on Doikayt's open-source software program; mention campaign-services history as past portfolio work, not a current pipeline item.",
+      "questions_to_ask": [
+        "How does the 'Certified Grantee' model differ operationally from Model A/C in terms of compliance ownership and reporting?",
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Fee structure (not published)",
+        "Whether the Certified Grantee model requires forming/maintaining a separate legal entity, unlike Model A"
+      ]
+    }
+  },
+  {
+    "org_name": "The Foraker Group (Sultana)",
+    "website": "https://www.forakergroup.org/connect-to-services/fiscal-sponsorship/",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "Alaska only",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Sultana is Foraker's fiscal sponsorship and incubation program, supporting Alaska groups/projects in early development with shared employment, leadership development, and organizational development. Surfaced 2026-08-14 via TSNE's incubation-directory referral.",
+    "project_types_sponsored": [
+      "general nonprofit incubation (Alaska-based or Alaska-serving only)"
+    ],
+    "fees": "Administrative fee averaging 9%–15% depending on service level.",
+    "application_process": "Inquiry form, followed by full application reviewed by the three-member Sultana oversight board and Foraker's President/CEO.",
+    "eligibility_requirements": [
+      "Groups or projects must be Alaska-based or provide services in Alaska",
+      "Sponsorships and shared-employment arrangements last no longer than five years"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation — not addressed in public sources found.",
+    "status": {
+      "date_last_verified": "2026-08-14",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/the-foraker-group/",
+        "https://www.forakergroup.org/connect-to-services/fiscal-sponsorship/sultana/"
+      ],
+      "current_assessment": "Excluded on geographic grounds, not mission grounds. Retained for landscape completeness per research discipline.",
+      "next_action": "None — parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-14",
+        "change": "Initial entry created and excluded from TSNE incubation-directory referral (search prompted by TSNE's 2026-08-14 decline)."
+      }
+    ],
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to Alaska-based or Alaska-serving projects — does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak"
+  },
+  {
+    "org_name": "Charitable Ventures (Orange County)",
+    "website": "https://charitableventuresoc.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Unclear"
+    ],
+    "geographic_scope": "Southern California (Orange County) regional",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Provides fiscal sponsorship, incubation, and nonprofit consulting to support collaborative regional efforts and community projects across Southern California. Surfaced 2026-08-14 via TSNE's incubation-directory referral.",
+    "project_types_sponsored": [
+      "regional community/social-impact projects (Southern California)"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Unclear/Requires confirmation — likely inquiry via charitableventuresoc.org.",
+    "eligibility_requirements": [
+      "Regional focus on Southern California / Orange County; out-of-region exceptions not documented in public sources"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation — not addressed in public sources found.",
+    "status": {
+      "date_last_verified": "2026-08-14",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/charitable-ventures-of-orange-county/",
+        "https://charitableventuresoc.org/fiscal-sponsorship-incubation/"
+      ],
+      "current_assessment": "Excluded on geographic grounds, not mission grounds. Retained for landscape completeness per research discipline.",
+      "next_action": "None — parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-14",
+        "change": "Initial entry created and excluded from TSNE incubation-directory referral (search prompted by TSNE's 2026-08-14 decline)."
+      }
+    ],
+    "tier": "Excluded",
+    "exclusion_reason": "Regional eligibility restricted to Southern California / Orange County — does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak"
+  },
+  {
+    "org_name": "Operation Restoration",
+    "website": "https://www.operationrestoration.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Unclear"
+    ],
+    "geographic_scope": "Louisiana-based",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Founded 2016 and led by formerly incarcerated women; supports women and girls impacted by incarceration through coaching, back-office support, fiscal management, fund development, infrastructure development, and incubation. Surfaced 2026-08-14 via TSNE's incubation-directory referral.",
+    "project_types_sponsored": [
+      "programs supporting formerly incarcerated women and girls"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Unclear/Requires confirmation.",
+    "eligibility_requirements": [
+      "Project focus on women/girls impacted by incarceration"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation — not addressed in public sources found.",
+    "status": {
+      "date_last_verified": "2026-08-14",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/operation-restoration/"
+      ],
+      "current_assessment": "Excluded on project-type/mission grounds — sponsorship scope is specific to programs for formerly incarcerated women and girls, unrelated to Doikayt's open-source software work. Retained for landscape completeness per research discipline.",
+      "next_action": "None — parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-14",
+        "change": "Initial entry created and excluded from TSNE incubation-directory referral (search prompted by TSNE's 2026-08-14 decline)."
+      }
+    ],
+    "tier": "Excluded",
+    "exclusion_reason": "Mission/project-type scope specific to formerly-incarcerated-women programs — outside Doikayt's software/movement-tech scope, independent of geography.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak"
+  },
+  {
+    "org_name": "Arts Alive! Inc",
+    "website": "https://fiscalsponsordirectory.org/?page_id=4091",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Unclear"
+    ],
+    "geographic_scope": "Monadnock region, Southwest New Hampshire",
+    "accepts_unincorporated_projects": true,
+    "stated_mission": "Arts service organization advancing arts and culture in the Monadnock region of Southwest New Hampshire; supports incubation, business-building workshops, networking, advocacy, and collaborative marketing for arts projects and community groups. Surfaced 2026-08-14 via TSNE's incubation-directory referral.",
+    "project_types_sponsored": [
+      "arts and culture (regional)"
+    ],
+    "fees": "Unclear from public sources; requires direct confirmation.",
+    "application_process": "Unclear/Requires confirmation.",
+    "eligibility_requirements": [
+      "Arts/culture project type, generally within the Monadnock, NH region"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation — not addressed in public sources found.",
+    "status": {
+      "date_last_verified": "2026-08-14",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=4091"
+      ],
+      "current_assessment": "Excluded on project-type and geographic grounds, same pattern as Fractured Atlas — arts-only scope, and regionally restricted to Southwest New Hampshire besides. Retained for landscape completeness per research discipline.",
+      "next_action": "None — parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-14",
+        "change": "Initial entry created and excluded from TSNE incubation-directory referral (search prompted by TSNE's 2026-08-14 decline)."
+      }
+    ],
+    "tier": "Excluded",
+    "exclusion_reason": "Arts-and-culture-only project type, regionally restricted to Southwest New Hampshire — double mismatch on project type and geography.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak"
   }
 ]

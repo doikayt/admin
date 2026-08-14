@@ -1,0 +1,52 @@
+
+S/W Development Intern
+
+Doikayt Mobilization Labs
+    https://www.doikayt.org
+
+
+
+About 
+
+    We're an early-stage software collective dedicated to providing digital products and services in 
+    support of movement-aligned grassroots, community and pro-working class organizations.
+
+
+Ideal Profile
+
+- Proven record as an activist or volunteer for causes aligned with our mission
+- Comp Sci, EE B.S. or above, or degree in other STEM discipline and a demonstrated portfolio of equivalent experience
+- Familiarity with agentic AI coding tools (e.g., Cursor, Claude Code)
+- TypeScript / node-JS / web development experience
+- Comfortable developing on Linux (or at least able to tweak existing Linux/bash scripts to run on MacOS)
+
+
+
+Responsibilities
+
+- Handle light-to-medium difficulty enhancements to our existing platform and tools.
+- Write and publish articles explaining the novel principles behind the tech we've built so far.
+- Engage with campaigns and operations initiatives run by organizations we align with.
+    - Help them apply the tools we have developed in-house or gained expertise in.
+        - This external engagement will be critical in ensuring our product idea pipeline 
+          meets the on-the-ground needs of our user base.
+
+What's In It For Me
+
+Direct mentorship. Work shoulder-to-shoulder with the core team and collaboratively shape best practices around building out products via AI-native development pipelines.
+A voice in shaping the collective's operating procedures and open, transparent, and craftsmanship-first culture.
+Real-world impact. The tools you help create go straight to activists and mission-aligned organizations.
+For grad students/senior undergrads: a KILLER thesis project that will have real world impact.
+
+Benefits/Compensation
+Until we get funding: no money. Eventually we plan to pay salaries at the low-to-mid end of the market -- per a compensation policy
+that is transparent and formula-based. 
+
+Location
+    Bay Area or Remote
+
+Hours
+    For both roles we are flexible in how we start working together, but prefer someone who is able to commit at least 20 hours per week.
+
+Contact
+    admin@doikayt.org
