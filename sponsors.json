@@ -2274,13 +2274,13 @@
       "Youth development"
     ],
     "fees": "Model A: 7% (non-grant income) / 12% (grant-reporting income); Model C: 5%/8%.",
-    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "application_process": "Online interest form via southernvision.ourpowerbase.net; info@southernvision.org for direct inquiries ahead of applying.",
     "eligibility_requirements": [
-      "Aligned mission values",
-      "Must be located in the U.S. South and focused on activism/organizing for social justice",
+      "Aligned mission values \u2014 grassroots organizing/activism/long-term social change (not social services), anti-racism, intersectionality, base-building",
+      "Must be located in one of: Florida, Georgia, South Carolina, North Carolina, Virginia, Maryland, Tennessee, Mississippi, Alabama, Louisiana, Arkansas, Texas \u2014 site doesn't address whether remote-only work qualifies or physical presence is required",
       "Has an advisory group",
       "Minimum budget",
-      "Does not sponsor academic research, direct service/social services, capital campaigns, or building projects"
+      "Does not sponsor academic research (unless tied to a grassroots campaign), direct service/social services, capital campaigns, or building projects"
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation.",
     "tier": "Tier 2",
@@ -2289,11 +2289,12 @@
     "status": {
       "date_last_verified": "2026-08-17",
       "source_urls": [
-        "https://fiscalsponsordirectory.org/?page_id=12779"
+        "https://fiscalsponsordirectory.org/?page_id=12779",
+        "https://southernvision.org/fiscal-sponsorship/"
       ],
-      "current_assessment": "Strongest mission-fit match found anywhere in the incubation sweep \u2014 'movement infrastructure,' grassroots social/racial/economic justice organizing, explicit 'Political advocacy/social justice' project type, favorable fee structure (5-7% baseline). Re-tiered from Excluded to Tier 2 on 2026-08-17: Doikayt is US-based and fully remote, so the 'located in the U.S. South' eligibility requirement isn't a clean geographic disqualifier the way a hard single-metro restriction is \u2014 it depends on what 'located' actually means to them (registered/mailing address vs. founder residency vs. something else), which is unconfirmed and worth asking directly rather than assuming either way.",
-      "next_action": "Direct inquiry once current Tier 1 outreach resolves.",
-      "application_status": "Not started"
+      "current_assessment": "Strongest mission-fit match found anywhere in the incubation sweep \u2014 'movement infrastructure,' grassroots social/racial/economic justice organizing, explicit 'Political advocacy/social justice' project type, favorable fee structure (5-7% baseline). Re-tiered from Excluded to Tier 2 on 2026-08-17: Doikayt is US-based and fully remote, so the 'located in the U.S. South' eligibility requirement isn't a clean geographic disqualifier the way a hard single-metro restriction is \u2014 it depends on what 'located' actually means to them (registered/mailing address vs. founder residency vs. something else), which is unconfirmed and worth asking directly rather than assuming either way. Confirmed via their own site: the named states are FL/GA/SC/NC/VA/MD/TN/MS/AL/LA/AR/TX, and the page itself doesn't address whether remote-only work qualifies.",
+      "next_action": "Awaiting reply to outreach inquiry sent 2026-08-17.",
+      "application_status": "Inquiry sent 2026-08-17"
     },
     "change_log": [
       {
@@ -2303,6 +2304,14 @@
       {
         "date": "2026-08-17",
         "change": "Re-tiered Excluded \u2192 Tier 2 at user's direction: Doikayt is US-based and remote, so 'located in the U.S. South' may be satisfiable (e.g. via mailing address) rather than a hard geographic bar \u2014 worth confirming directly with the sponsor instead of assuming disqualification. Added outreach.*."
+      },
+      {
+        "date": "2026-08-17",
+        "change": "Verified fee/eligibility details against southernvision.org directly (previously only had the directory listing): named 12 Southern states, application is via an interest form at southernvision.ourpowerbase.net with info@southernvision.org for direct questions. Site doesn't address remote-only eligibility, confirming the open question. Outreach email drafted for info@southernvision.org asking this directly, plus the standard campaign-work and project-type-fit questions."
+      },
+      {
+        "date": "2026-08-17",
+        "change": "User sent the drafted outreach inquiry to info@southernvision.org directly (not via this session's Gmail connection). Awaiting reply."
       }
     ],
     "geographic_scope_other_description": "U.S. South",
