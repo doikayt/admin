@@ -994,4 +994,1555 @@
     "structural_fit_score": "Weak",
     "mission_fit_score": "Weak"
   }
+,
+  {
+    "org_name": "Apereo Foundation",
+    "website": "https://apereo.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "International",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Works internationally to increase awareness, development and adoption of open source software in support of academia: teaching, learning, research.",
+    "project_types_sponsored": [
+      "Open source educational and research software/technologies",
+      "Education"
+    ],
+    "fees": "10% management fee on net revenue.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Open source software projects must be in support of the academic mission (teaching, learning, research) \u2014 not open-ended"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Technology/project type outside scope \u2014 sponsorship restricted to open-source software in support of an academic mission; Doikayt's grassroots political-organizing tooling isn't academic despite the shared open-source/software structural fit.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=14250",
+        "https://apereo.org"
+      ],
+      "current_assessment": "Excluded on mission/project-type grounds despite being a genuinely software-native c3 fiscal sponsor (Model A, 10% fee) \u2014 worth remembering as a structural pattern (tech nonprofits do sponsor software) even though this specific org's academic-only scope doesn't fit.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Technology/project type outside scope \u2014 sponsorship restricted to open-source software in support of an academic mission; Doikayt's grassroots political-organizing tooling isn't academic despite the shared open-source/software structural fit."
+      }
+    ]
+  },
+  {
+    "org_name": "Berkeley Art Center",
+    "website": "http://www.berkeleyartcenter.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "Local/metro",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Serves the diverse and creative citizens of the Bay Area through visual art exhibitions and related programs.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Education",
+      "Festivals and events"
+    ],
+    "fees": "10% administration fee.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Arts/Culture/Humanities mission alignment",
+      "Greater Bay Area geographic restriction"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Arts-and-culture-only project type, regionally restricted to the Greater Bay Area \u2014 double mismatch on project type and geography.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=439"
+      ],
+      "current_assessment": "Routine exclusion, same pattern as Arts Alive!/SOMArts.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Arts-and-culture-only project type, regionally restricted to the Greater Bay Area \u2014 double mismatch on project type and geography."
+      }
+    ],
+    "geographic_scope_other_description": "Greater Bay Area (Sonoma to Santa Clara County)"
+  },
+  {
+    "org_name": "Brooklyn Arts Council",
+    "website": "http://www.brooklynartscouncil.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "Local/metro",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Coordinating, educational, and service organization promoting the arts through public educational and cultural activities in Brooklyn.",
+    "project_types_sponsored": [
+      "Arts and culture"
+    ],
+    "fees": "6%.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Brooklyn-based or Brooklyn-benefiting artistic projects only",
+      "$5,000 minimum budget",
+      "Student projects not eligible"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Arts-and-culture-only project type restricted to Brooklyn-based or Brooklyn-benefiting work \u2014 mismatch on project type and geography.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=825"
+      ],
+      "current_assessment": "Routine exclusion.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Arts-and-culture-only project type restricted to Brooklyn-based or Brooklyn-benefiting work \u2014 mismatch on project type and geography."
+      }
+    ],
+    "geographic_scope_other_description": "Brooklyn, NY"
+  },
+  {
+    "org_name": "CascadiaNow!",
+    "website": "https://cascadianow.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model B",
+      "Model C"
+    ],
+    "geographic_scope": "Regional (multi-state)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A positive social movement for an inclusive and unified Pacific Northwest with a recognizable culture of bioregional sustainability.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Disaster relief",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Festivals and events",
+      "Health/nutrition",
+      "Housing",
+      "People/communities of color",
+      "Social services",
+      "Veterans",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "15% on revenues.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Must serve communities in or from the Cascadia bioregion (WA/OR/N.CA/ID/MT/AK)"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to the Cascadia bioregion (WA/OR/N.CA/ID/MT/AK) \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=8564"
+      ],
+      "current_assessment": "Routine geographic exclusion. Self-describes as a 'philanthropic incubator for grassroots, community-centered projects' \u2014 decent mission-pattern match, moot given the hard regional restriction.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to the Cascadia bioregion (WA/OR/N.CA/ID/MT/AK) \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "Washington, Oregon, Northern California, Idaho, Montana, Alaska (the 'Cascadia' bioregion)"
+  },
+  {
+    "org_name": "Chappy & Friends",
+    "website": "https://ChappyandFriends.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Ignites grassroots animal welfare projects by lending them tax-exempt status; operates nationwide.",
+    "project_types_sponsored": [
+      "Animal welfare/rescue/advocacy"
+    ],
+    "fees": "$120 annual membership + 7.0% of grants/donations.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Projects dedicated to saving or improving the lives of animals"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Mission/project-type scope specific to animal welfare \u2014 outside Doikayt's software/movement-tech scope, independent of geography.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=4148"
+      ],
+      "current_assessment": "Routine exclusion \u2014 clean mission mismatch (animal welfare only).",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Mission/project-type scope specific to animal welfare \u2014 outside Doikayt's software/movement-tech scope, independent of geography."
+      }
+    ]
+  },
+  {
+    "org_name": "Community2gether Inc",
+    "website": "https://community2gether.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "Unclear",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A community-organization incubator providing new community organizations with banking, insurance, and tax-deductible status, and visioning support.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Disaster relief",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Festivals and events",
+      "People/communities of color",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "10%.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Geographic (unspecified \u2014 small Orange County, NY-based org)"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Unclear",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=8157"
+      ],
+      "current_assessment": "Small org (10 sponsored projects), based in Warwick, NY. Stated project-type checklist doesn't include political advocacy or technology work, and geographic scope is stated as a criterion but not detailed on the listing \u2014 plausible local/metro restriction given the small-town base. Low priority; not excluded outright only because the geographic restriction isn't explicitly confirmed.",
+      "next_action": "None for now \u2014 low-priority landscape entry; revisit only if geographic/project-type ambiguity is resolved in Doikayt's favor.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 3: Small org (10 sponsored projects), based in Warwick, NY. Stated project-type checklist doesn't include political advocacy or technology work, and geographic scope is stated as a criterion but not detailed on the listing \u2014 plausible local/metro restriction given the small-town base. Low priority; not excluded outright only because the geographic restriction isn't explicitly confirmed."
+      }
+    ]
+  },
+  {
+    "org_name": "Community Capital Fund",
+    "website": "http://info@ccfkansascity.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "Local/metro",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A Community Development Corporation providing grants, technical assistance, and coaching to under-resourced neighborhoods and businesses in Greater Kansas City.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Festivals and events",
+      "Health/nutrition",
+      "Housing",
+      "People/communities of color",
+      "Political advocacy/social justice",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "5%-10% administrative fee, varies by project.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Greater Kansas City Metropolitan Area geographic restriction"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to the Greater Kansas City Metropolitan Area \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=8347"
+      ],
+      "current_assessment": "Routine geographic exclusion \u2014 notable only in that its project-type list explicitly includes 'Political advocacy/social justice,' confirming that category alone isn't disqualifying elsewhere in this landscape.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to the Greater Kansas City Metropolitan Area \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "Greater Kansas City Metropolitan Area"
+  },
+  {
+    "org_name": "CORE Foundation Inc",
+    "website": "http://corefoundation.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "Unclear",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A charity incubator which ignites and supports charitable projects that address societal needs, build community and enable positive change.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Disaster relief",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Food insecurity",
+      "Health/nutrition",
+      "Homelessness",
+      "Housing",
+      "LGBTQ",
+      "Mental health",
+      "Open space/Parks",
+      "People/communities of color",
+      "Social services",
+      "Veterans",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "$500 onboarding fee + 10% fiscal sponsor fee.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "$5,000 minimum budget and donors in the pipeline",
+      "State/region-restricted (region unspecified in source, likely Virginia given HQ)"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to their state/region (unspecified, likely Virginia given HQ) \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=8373"
+      ],
+      "current_assessment": "Routine geographic exclusion.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to their state/region (unspecified, likely Virginia given HQ) \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "Stated only as 'our state or region' on the listing (HQ in Reston, VA) \u2014 specific state/region not named in source material."
+  },
+  {
+    "org_name": "Earth Island Institute",
+    "website": "http://www.earthisland.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "International",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "An international environmental organization and fiscal sponsor to ~80 projects in conservation, wildlife protection, climate, environmental justice and related areas.",
+    "project_types_sponsored": [
+      "Environment/environmental justice (core requirement; may also touch health, international development, women, youth)"
+    ],
+    "fees": "10% general income; negotiated rate on federal grants.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values",
+      "Environment must be at the core of the project"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Project-type scope requires environment to be at the core of sponsored work \u2014 Doikayt's software/movement-tech focus doesn't qualify despite a secondary Green-AI/sustainability interest noted in the org profile.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=473"
+      ],
+      "current_assessment": "Well-established, well-regarded sponsor (70+ projects since 1982) but hard-restricted to environment-core projects.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Project-type scope requires environment to be at the core of sponsored work \u2014 Doikayt's software/movement-tech focus doesn't qualify despite a secondary Green-AI/sustainability interest noted in the org profile."
+      }
+    ]
+  },
+  {
+    "org_name": "Economic Empowerment Foundation for Exempt Startups & Small Businesses (EEF-501c)",
+    "website": "https://FoundationFiscalSponsorships.com",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C",
+      "Model F",
+      "Other"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A 501(c) 'Business Incubator Council' sharing internal assets/resources with startup 501(c)s; offers proposal review, grant-writing support, and fiscal sponsorship services.",
+    "project_types_sponsored": [
+      "Broad \u2014 startups pursuing exemption, U.S. businesses, students, 501(c)s in mergers/reinstatement, for-profits converting to 501(c)"
+    ],
+    "fees": "Sliding-scale admin fees, described as 'lowest legally allowed'; exact schedule unclear.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Must be registered in one of the 50 states, D.C., or Puerto Rico as a non-stock business entity",
+      "U.S. entities only"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Unclear",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=14438",
+        "https://FoundationFiscalSponsorships.com"
+      ],
+      "current_assessment": "No hard structural disqualifier found (broad eligibility, no geographic restriction), but the org's self-description is unusually opaque and trademark-heavy ('Sibling Trusts', 'Pollination Partners', '501cBizInc(TM)'), no named contact person is given, and the fee schedule isn't stated in concrete terms. This reads as a credibility/transparency concern that warrants real due diligence before any engagement \u2014 not something to take at face value from the directory listing alone.",
+      "next_action": "None for now \u2014 would need significant independent verification of legitimacy before even a first inquiry.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 3: No hard structural disqualifier found (broad eligibility, no geographic restriction), but the org's self-description is unusually opaque and trademark-heavy ('Sibling Trusts', 'Pollination Partners', '501cBizInc(TM)'), no named contact person is given, and the fee schedule isn't stated in concrete terms. This reads as a credibility/transparency concern that warrants real due diligence before any engagement \u2014 not something to take at face value from the directory listing alone."
+      }
+    ],
+    "fiscal_sponsorship_models_other_description": "Also offers 'Model L' (Single Member LLC), not in the standard A-F taxonomy."
+  },
+  {
+    "org_name": "Evergreen Social Impact",
+    "website": "http://evergreensocialimpact.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C",
+      "Model F"
+    ],
+    "geographic_scope": "Regional (multi-state)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Strengthens mission-driven organizations in the Pacific Northwest via shared infrastructure, fiduciary services, and administrative support.",
+    "project_types_sponsored": [
+      "Children/youth/families",
+      "Environment/sustainable growth",
+      "Food insecurity/Nutrition",
+      "Health",
+      "Homelessness",
+      "LGBTQ",
+      "People/communities of color",
+      "Political advocacy/social justice",
+      "Social services",
+      "Veterans",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "10% (Model A) + 5% for government-source revenue; Model C minimum 7.5%.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Pacific Northwest geographic restriction",
+      "Has an advisory group"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to the Pacific Northwest \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=10228"
+      ],
+      "current_assessment": "Routine geographic exclusion \u2014 notable only for explicitly listing 'Political advocacy/social justice' as an accepted project type.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to the Pacific Northwest \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "Pacific Northwest"
+  },
+  {
+    "org_name": "EveryLibrary Institute NFP",
+    "website": "http://everylibraryinstutute.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model B"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A public policy, tax policy, and education policy think tank and incubator focused on building capacity within the library sector.",
+    "project_types_sponsored": [
+      "Library and library-related projects only"
+    ],
+    "fees": "12% of total grant/award, negotiable.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Solely focused on libraries and library-related projects"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Technology/project type outside scope \u2014 sponsorship is solely for library-sector projects, unrelated to Doikayt's general-purpose movement-tech work.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=12149"
+      ],
+      "current_assessment": "Routine exclusion \u2014 clean niche-sector mismatch.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Technology/project type outside scope \u2014 sponsorship is solely for library-sector projects, unrelated to Doikayt's general-purpose movement-tech work."
+      }
+    ]
+  },
+  {
+    "org_name": "Filmmakers Collaborative SF",
+    "website": "https://www.filmmakerscollaborative.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "Unclear",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A nonprofit media organization with a mission to catalyze positive change through filmmaking.",
+    "project_types_sponsored": [
+      "Arts and culture (independent film/media addressing social, environmental, cultural issues)"
+    ],
+    "fees": "4%-7% depending on donation size; 7% for government funding.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Public benefit, reasonable budget, sound creative approach"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Technology/project type outside scope \u2014 fiscal sponsorship limited to independent film and media projects, not general-purpose software.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/filmmakers-collaborative-sf/"
+      ],
+      "current_assessment": "Routine exclusion \u2014 clean project-type mismatch (film/media only).",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Technology/project type outside scope \u2014 fiscal sponsorship limited to independent film and media projects, not general-purpose software."
+      }
+    ]
+  },
+  {
+    "org_name": "Foundation for California Community Colleges",
+    "website": "http://www.foundationccc.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "State",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Official nonprofit partner to the California Community Colleges system; works to reduce barriers to opportunity and strengthen California communities.",
+    "project_types_sponsored": [
+      "Children/youth/families",
+      "Disaster relief",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Food insecurity/Nutrition",
+      "Health",
+      "Homelessness",
+      "Housing",
+      "LGBTQ",
+      "Mental health",
+      "People/communities of color",
+      "Political advocacy/social justice",
+      "Social services",
+      "Veterans",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "11%-17% depending on services.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values",
+      "California-only geographic restriction",
+      "Minimum budget"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to California \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=485"
+      ],
+      "current_assessment": "Routine geographic exclusion.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to California \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_state": "California"
+  },
+  {
+    "org_name": "Future Incubator",
+    "website": "https://futureincubator.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "The operational partner for youth-led initiatives, envisioning a future where young leaders have resources to turn bold ideas into long-lasting impact.",
+    "project_types_sponsored": [
+      "Youth-led and youth-serving organizations only"
+    ],
+    "fees": "5% (volunteer-led projects) or 8% (projects with hiring needs).",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Youth-led/youth-serving org requirement"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Technology/project type outside scope \u2014 sponsorship restricted to youth-led/youth-serving organizations; Doikayt is not youth-led.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/future-incubator/"
+      ],
+      "current_assessment": "Very new org (501(c)(3) since 2025) but hard-restricted to youth-led work.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Technology/project type outside scope \u2014 sponsorship restricted to youth-led/youth-serving organizations; Doikayt is not youth-led."
+      }
+    ]
+  },
+  {
+    "org_name": "Greater Washington Community Foundation",
+    "website": "http://www.thecommunityfoundation.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "Local/metro",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Ignites the power of philanthropy to respond to critical community needs and build a thriving Greater Washington region.",
+    "project_types_sponsored": [
+      "Any project with positive community impact, particularly benefiting low-income communities and communities of color"
+    ],
+    "fees": "Minimum 10% of each contribution.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values",
+      "Has an advisory group",
+      "$5,000 minimum initial contribution + ability to raise $50,000 in year one",
+      "Restricted to the Greater Washington D.C. region"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to the Greater Washington D.C. metro region \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/greater-washington-community-foundation/"
+      ],
+      "current_assessment": "Routine geographic exclusion; also carries a real fundraising-ability bar ($50k in year one) that would be a separate concern even absent geography.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to the Greater Washington D.C. metro region \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "D.C., Montgomery County MD, Northern Virginia, Prince George's County MD"
+  },
+  {
+    "org_name": "Hacker Fund",
+    "website": "https://www.hacker.fund",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model B",
+      "Model C",
+      "Model F",
+      "Other"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Empowers technologists to create social change by incubating their charitable, educational and scientific projects.",
+    "project_types_sponsored": [
+      "Children/youth/families (tech education)",
+      "Education",
+      "Festivals and events (hackathons/conferences)",
+      "People/communities of color (tech access)",
+      "Women (tech access)",
+      "Youth development (tech sector)"
+    ],
+    "fees": "10% (Model C) or 15% (Model A) administrative fee.",
+    "application_process": "Direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Applicant must be a technologist/technology organization",
+      "Project must be charitable, educational, or scientific under IRS rules",
+      "Must help the disadvantaged, educate the community, or protect the environment"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 2",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Unclear",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=2515",
+        "https://www.hacker.fund"
+      ],
+      "current_assessment": "The most direct tech-sector mission match found in the incubation sweep \u2014 a 501(c)(3) explicitly built to fiscally sponsor technologists, with five fiscal-sponsorship models including the flexible Model C, no geographic restriction, and eligibility framed around 'technologist/technology organization.' Open question: their sponsored-project examples emphasize tech-education-access programs (hackathons, accessibility education) rather than building and operating software tools for other organizations, so it's unconfirmed whether Doikayt's actual activity (building movement-tech tools, occasionally serving paying political-campaign customers) fits their eligibility frame as well as the mission statement suggests.",
+      "next_action": "Direct inquiry once current Tier 1 outreach resolves.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 2: The most direct tech-sector mission match found in the incubation sweep \u2014 a 501(c)(3) explicitly built to fiscally sponsor technologists, with five fiscal-sponsorship models including the flexible Model C, no geographic restriction, and eligibility framed around 'technologist/technology organization.' Open question: their sponsored-project examples emphasize tech-education-access programs (hackathons, accessibility education) rather than building and operating software tools for other organizations, so it's unconfirmed whether Doikayt's actual activity (building movement-tech tools, occasionally serving paying political-campaign customers) fits their eligibility frame as well as the mission statement suggests."
+      }
+    ],
+    "outreach": {
+      "contact_person": "Justin Brezhnev, CEO <team@hacker.fund>",
+      "recommended_approach": "Direct inquiry emphasizing Doikayt as a technologist-led organization building charitable/educational open-source tools \u2014 lead with the structural fit (they exist specifically to sponsor technologists) before the campaign-services question.",
+      "questions_to_ask": [
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program, or would it need to run through the sponsor's own compliance review as their activity?",
+        "Does 'helping the disadvantaged, educating the community, or protecting the environment' extend to building and operating software tools for other organizations, or only to tech-education/access programs like their listed examples (hackathons, accessibility education)?",
+        "Which of the five models (A/B/C/F/L) fits a small, self-funded, unincorporated founder-led project best?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether Doikayt's occasional paid political-campaign work is compatible with their 'charitable, educational, or scientific' framing under IRS rules \u2014 requires direct confirmation"
+      ]
+    },
+    "fiscal_sponsorship_models_other_description": "Also offers 'Model L' (Single Member LLC), not in the standard A-F taxonomy."
+  },
+  {
+    "org_name": "Institute for Nonprofit News",
+    "website": "http://www.inn.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "An incubator and support network for nonprofit newsrooms, strengthening independent public-service information sources.",
+    "project_types_sponsored": [
+      "Nonpartisan news organizations only"
+    ],
+    "fees": "7% + $65/hour for accounting services beyond 2 hours/month.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Must provide credible, nonpartisan news as a public service"
+    ],
+    "political_activity_restrictions": "Explicitly requires nonpartisan journalism \u2014 a poor fit independent of any campaign question.",
+    "tier": "Excluded",
+    "exclusion_reason": "Technology/project type outside scope \u2014 sponsorship restricted to nonpartisan journalism/news organizations, not general-purpose software or movement-tech work.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=4421"
+      ],
+      "current_assessment": "Routine exclusion \u2014 clean sector mismatch (journalism only).",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Technology/project type outside scope \u2014 sponsorship restricted to nonpartisan journalism/news organizations, not general-purpose software or movement-tech work."
+      }
+    ]
+  },
+  {
+    "org_name": "The Marion Institute",
+    "website": "http://www.marioninstitute.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "Unclear",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "An incubator of initiatives that promote positive social change, with a focus on sustainability, education, health and healing, and spirituality.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Health/nutrition",
+      "International development",
+      "People/communities of color",
+      "Political advocacy/social justice",
+      "Social services",
+      "Women",
+      "Youth development",
+      "Spirituality/mindfulness"
+    ],
+    "fees": "10% of revenue, reduced above $500,000.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values",
+      "$40,000 minimum annual budget"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Unclear",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=1815"
+      ],
+      "current_assessment": "'Political advocacy/social justice' is an accepted project type and no geographic restriction is stated, but the org's actual core focus (sustainability, health/healing, spirituality) is a weak thematic tie to Doikayt's movement-tech work, and the $40,000 minimum annual budget is a real, currently-unconfirmed bar for a self-funded, pre-revenue project. Small program (7 sponsored projects).",
+      "next_action": "None for now \u2014 revisit only if Doikayt's budget clears the $40k minimum and other Tier 1/2 options are exhausted.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 3: 'Political advocacy/social justice' is an accepted project type and no geographic restriction is stated, but the org's actual core focus (sustainability, health/healing, spirituality) is a weak thematic tie to Doikayt's movement-tech work, and the $40,000 minimum annual budget is a real, currently-unconfirmed bar for a self-funded, pre-revenue project. Small program (7 sponsored projects)."
+      }
+    ]
+  },
+  {
+    "org_name": "Mockingbird Incubator",
+    "website": "http://www.mockingbirdincubator.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A Los Angeles-based nonprofit providing education and fiscal sponsorship to social-justice projects across the U.S.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Disaster relief",
+      "Economic development",
+      "Environment/sustainable growth",
+      "Food insecurity/Nutrition",
+      "Homelessness",
+      "LGBTQ",
+      "Social services",
+      "Women",
+      "Youth development",
+      "Social-justice projects broadly"
+    ],
+    "fees": "10% of funds received, up to 13% for certain federal grants.",
+    "application_process": "Direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "No government funding",
+      "Projects at every stage welcome"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 2",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Unclear",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=12047",
+        "http://www.mockingbirdincubator.org"
+      ],
+      "current_assessment": "Strong stated social-justice/movement mission ('closing gaps in services and removing barriers to justice, equity, diversity and inclusion'), national scope, welcomes projects at any stage \u2014 a good pattern match to Doikayt's grassroots orientation. Open questions: Model A only (comprehensive, absorbs the project entirely \u2014 same opportunistic-campaign-work concern as Tides Center), and their 'No government funding' eligibility clause needs clarification (unclear if this restricts the sponsored project or just Mockingbird itself).",
+      "next_action": "Direct inquiry once current Tier 1 outreach resolves.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 2: Strong stated social-justice/movement mission ('closing gaps in services and removing barriers to justice, equity, diversity and inclusion'), national scope, welcomes projects at any stage \u2014 a good pattern match to Doikayt's grassroots orientation. Open questions: Model A only (comprehensive, absorbs the project entirely \u2014 same opportunistic-campaign-work concern as Tides Center), and their 'No government funding' eligibility clause needs clarification (unclear if this restricts the sponsored project or just Mockingbird itself)."
+      }
+    ],
+    "outreach": {
+      "contact_person": "Jessica Payne, Executive Director <info@mockingbirdincubator.org>",
+      "recommended_approach": "Direct inquiry leading with the social-justice/movement-building mission overlap, similar framing to the Movement Strategy Center outreach.",
+      "questions_to_ask": [
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program, or would it need to run through the sponsor's own compliance review as their activity?",
+        "What does the 'No government funding' eligibility criterion restrict \u2014 the sponsored project's revenue sources, or just Mockingbird's own funding model?",
+        "Is Model A the only option, or would a Model C-style arrangement ever be considered for a project wanting to retain more independence?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether Model A's full-absorption structure creates the same opportunistic-campaign-work tension flagged for Tides Center \u2014 requires direct confirmation"
+      ]
+    }
+  },
+  {
+    "org_name": "New Sun Rising",
+    "website": "http://www.newsunrising.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "Local/metro",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Strengthens nonprofits, social enterprises and collaborations through capacity building, accessible funding, and data-informed approaches.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Economic development",
+      "Environment/sustainable growth",
+      "Festivals and events",
+      "Health/nutrition",
+      "People/communities of color",
+      "Social services",
+      "Youth development"
+    ],
+    "fees": "10% + $525 annual membership fee.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values (Equity, Entrepreneurship, Place)",
+      "Southwestern Pennsylvania geographic restriction"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to Southwestern Pennsylvania \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=922"
+      ],
+      "current_assessment": "Routine geographic exclusion.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to Southwestern Pennsylvania \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "Southwestern Pennsylvania"
+  },
+  {
+    "org_name": "Nonprofit Organization for Philanthropic Initiatives (NOPI)",
+    "website": "https://thenopi.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C",
+      "Model F"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Led by women and members of the LGBTQ+ community; provides comprehensive support and accelerates the impact of informal charitable projects, pending nonprofits, and established nonprofits.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Disaster relief",
+      "Drug treatment",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Food insecurity/Nutrition",
+      "Health",
+      "Homelessness",
+      "Housing",
+      "LGBTQ",
+      "Mental health",
+      "Open space/Parks",
+      "People/communities of color",
+      "Political advocacy/social justice",
+      "Social services",
+      "Transportation",
+      "Veterans",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "10% of contributions + 5% on fund transfers + $350 one-time onboarding contribution.",
+    "application_process": "Direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Organized/operated exclusively for charitable purposes",
+      "International activities must have US-based primary leadership/home office"
+    ],
+    "political_activity_restrictions": "Standard c3 rule: no substantial participation/intervention in any political campaign on behalf of or against a candidate. Same restriction already priced into Doikayt's deferred-campaign-work c3 strategy \u2014 not a unique disqualifier here.",
+    "tier": "Tier 2",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Unclear",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=9610",
+        "https://thenopi.org"
+      ],
+      "current_assessment": "Very broad accepted project-type list (21 categories including 'Political advocacy/social justice'), national scope, three fiscal-sponsorship models including the flexible Model C, and no restriction narrower than the standard c3 campaign-intervention rule already factored into the current strategy. Formerly named 'Nonprofit Incubator.' Fee structure (10% + 5% + $350 onboarding) is layered and should be clarified before applying.",
+      "next_action": "Direct inquiry once current Tier 1 outreach resolves.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 2: Very broad accepted project-type list (21 categories including 'Political advocacy/social justice'), national scope, three fiscal-sponsorship models including the flexible Model C, and no restriction narrower than the standard c3 campaign-intervention rule already factored into the current strategy. Formerly named 'Nonprofit Incubator.' Fee structure (10% + 5% + $350 onboarding) is layered and should be clarified before applying."
+      }
+    ],
+    "outreach": {
+      "contact_person": "Amanda LaFleur, Executive Director <amanda@thenopi.org>",
+      "recommended_approach": "Direct inquiry describing Doikayt's open-source software program plus its broader grassroots/movement orientation \u2014 their broad, inclusive project-type list suggests room for a not-neatly-categorized org like Doikayt.",
+      "questions_to_ask": [
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program, or would it need to run through the sponsor's own compliance review as their activity?",
+        "Can you walk through the full fee structure (10% + 5% transfer fee + $350 onboarding) as it would apply to a small, self-funded project?",
+        "Which of Model A/C/F would you recommend for an unincorporated, single-founder project doing generic open-source software work?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Total effective fee burden across the layered fee structure \u2014 requires direct confirmation before comparing to other Tier 1/2 candidates"
+      ]
+    }
+  },
+  {
+    "org_name": "Open Space Institute Inc",
+    "website": "http://openspaceinstitute.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "State",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A national leader in land conservation; its Citizen Action fiscal-sponsorship program serves as an incubator for environmentally focused grassroots organizations.",
+    "project_types_sponsored": [
+      "Open space/Parks",
+      "Environmental education",
+      "Community gardens"
+    ],
+    "fees": "Model A: 8% (individuals/foundations) or 10% (government); Model C: 6% or 8%.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values",
+      "Restricted to their state/region (New York)",
+      "Minimum budget",
+      "Cannot already have 501(c)(3) status"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to New York, combined with an environment/open-space -only project type \u2014 double mismatch with Doikayt's national, software-focused scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=873"
+      ],
+      "current_assessment": "Routine double exclusion (geography + project type).",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to New York, combined with an environment/open-space -only project type \u2014 double mismatch with Doikayt's national, software-focused scope."
+      }
+    ],
+    "geographic_scope_state": "New York"
+  },
+  {
+    "org_name": "Resources for Human Development",
+    "website": "http://www.rhd.org/newbeginnings",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A"
+    ],
+    "geographic_scope": "Local/metro",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "New Beginnings Nonprofit Incubator, a program of RHD (one of Philadelphia's largest social service providers), helps small community-based programs grow.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Disaster relief",
+      "Drug treatment",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Faith-based/religious",
+      "Festivals and events",
+      "Health/nutrition",
+      "Housing",
+      "International development",
+      "Mental health",
+      "People/communities of color",
+      "Political advocacy/social justice",
+      "Social services",
+      "Transportation",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "15% on all expenses charged to the sponsored unit.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values",
+      "Philadelphia-area geographic restriction",
+      "Has an advisory group",
+      "Clear service niche, non-duplicative of existing Incubator services"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to the Philadelphia area \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=928"
+      ],
+      "current_assessment": "Routine geographic exclusion \u2014 long track record (200+ nonprofits incubated since 1981) but hard-restricted to the Philadelphia region.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to the Philadelphia area \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "Philadelphia area"
+  },
+  {
+    "org_name": "SOMArts",
+    "website": "http://www.somarts.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "Local/metro",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Operates the South of Market Cultural Center; cultivates access to the arts in the Bay Area.",
+    "project_types_sponsored": [
+      "Arts and culture"
+    ],
+    "fees": "Model C: 10%-11%; Model A: 12%.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values (arts and culture)",
+      "San Francisco Bay Area geographic restriction"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Arts-and-culture-only project type, regionally restricted to the SF Bay Area \u2014 double mismatch on project type and geography.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=571"
+      ],
+      "current_assessment": "Routine double exclusion, same pattern as Arts Alive!/Berkeley Art Center.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Arts-and-culture-only project type, regionally restricted to the SF Bay Area \u2014 double mismatch on project type and geography."
+      }
+    ],
+    "geographic_scope_other_description": "San Francisco Bay Area"
+  },
+  {
+    "org_name": "Southern Vision Alliance",
+    "website": "https://southernvision.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "Regional (multi-state)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Supports emergent grassroots groups organizing for social, racial, economic, gender and environmental justice in the U.S. South; builds movement infrastructure and mobilizes resources.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Disaster relief",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Food insecurity/Nutrition",
+      "Health",
+      "Homelessness",
+      "Housing",
+      "LGBTQ",
+      "Mental health",
+      "Open space/Parks",
+      "People/communities of color",
+      "Political advocacy/social justice",
+      "Transportation",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "Model A: 7% (non-grant income) / 12% (grant-reporting income); Model C: 5%/8%.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Must be located in the U.S. South and focused on activism/organizing for social justice",
+      "Has an advisory group",
+      "Minimum budget",
+      "Does not sponsor academic research, direct service/social services, capital campaigns, or building projects"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to the U.S. South \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=12779"
+      ],
+      "current_assessment": "IMPORTANT: this is the strongest mission-fit match found anywhere in the incubation sweep \u2014 'movement infrastructure,' grassroots social/racial/economic justice organizing, explicit 'Political advocacy/social justice' project type, favorable fee structure (5-7% baseline). Excluded purely on the U.S.-South geographic restriction per the same default applied to every other regionally-restricted sponsor in this sweep. Worth revisiting directly with the user if Doikayt's founder/operating base is or could plausibly be considered U.S.-South \u2014 this exclusion is geography-only, not mission-driven.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to the U.S. South \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "U.S. South"
+  },
+  {
+    "org_name": "Springboard for the Arts",
+    "website": "http://www.springboardforthearts.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "Unclear",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Supports artists with the tools to make a living and a life, and to build just and equitable communities.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Festivals and events"
+    ],
+    "fees": "$60-$120 annual fee + 7% of grants/donations.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values",
+      "Geographic (unspecified on listing; MN-based)",
+      "Only sponsors new organizations, not individuals"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Arts-and-culture-only project type \u2014 mismatch independent of the unconfirmed geographic scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=762"
+      ],
+      "current_assessment": "Routine exclusion \u2014 clean project-type mismatch (arts only).",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Arts-and-culture-only project type \u2014 mismatch independent of the unconfirmed geographic scope."
+      }
+    ]
+  },
+  {
+    "org_name": "TriCounty Community Network",
+    "website": "http://tcnetwork.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model B",
+      "Model C",
+      "Other",
+      "Model F"
+    ],
+    "geographic_scope": "Local/metro",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Invests in nonprofits to help them become more effective; locally based, locally run, locally supported.",
+    "project_types_sponsored": [
+      "Arts and culture",
+      "Children/youth/families",
+      "Disaster relief",
+      "Drug treatment",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Faith-based/religious",
+      "Festivals and events",
+      "Health/nutrition",
+      "Housing",
+      "International development",
+      "Mental health",
+      "People/communities of color",
+      "Political advocacy/social justice",
+      "Social services",
+      "Transportation",
+      "Veterans",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "10%-15% of budget, or flat monthly fee.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission values",
+      "Restricted to 5 named Pennsylvania counties",
+      "Has an advisory group"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Geographic eligibility restricted to 5 Pennsylvania counties \u2014 does not match Doikayt's non-geographically-restricted national scope.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=8025"
+      ],
+      "current_assessment": "Routine geographic exclusion \u2014 notably flexible on models (6 different models offered) if geography weren't a blocker.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to 5 Pennsylvania counties \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      }
+    ],
+    "geographic_scope_other_description": "Montgomery, Chester, Bucks, Berks and Philadelphia counties, PA",
+    "fiscal_sponsorship_models_other_description": "Also offers 'Model D, Group Extension' (likely Group Exemption) and 'Model L' (Single Member LLC), not in the standard A-F taxonomy."
+  },
+  {
+    "org_name": "Unique Projects Inc",
+    "website": "https://www.pentacle.org/services/financial/sponsorship/unique-projects/",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model C"
+    ],
+    "geographic_scope": "Unclear",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A nonprofit fiscal sponsorship program administered by Pentacle/Dance Works, Inc., serving the performing arts community.",
+    "project_types_sponsored": [
+      "Arts and culture (dance, theater, interdisciplinary/multimedia)"
+    ],
+    "fees": "5.5% (unincorporated artists) or 7.5% (LLCs/incorporated artists); $100/yr for in-kind contributions.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Advancement of the performing arts",
+      "Performing-arts project type only"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Technology/project type outside scope \u2014 sponsorship restricted to dance, theater, and related performing-arts projects.",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=887"
+      ],
+      "current_assessment": "Routine exclusion \u2014 clean project-type mismatch (performing arts only).",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Technology/project type outside scope \u2014 sponsorship restricted to dance, theater, and related performing-arts projects."
+      }
+    ]
+  },
+  {
+    "org_name": "Visions Made Viable",
+    "website": "http://www.visionsmadeviable.org",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model C"
+    ],
+    "geographic_scope": "Unclear",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "A Christian-faith-motivated nonprofit dedicated to serving social visionaries and social entrepreneurs tackling major challenges facing local communities and the world.",
+    "project_types_sponsored": [
+      "Children/youth/families",
+      "Disaster relief",
+      "Economic development",
+      "Education",
+      "Environment/sustainable growth",
+      "Faith-based/religious",
+      "Housing",
+      "International development",
+      "People/communities of color",
+      "Social services",
+      "Women",
+      "Youth development"
+    ],
+    "fees": "10% of all funds managed, deducted at deposit.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Aligned mission/values (explicitly Christian-faith-motivated, though open to 'people of good will, regardless of their backgrounds')",
+      "Geographic (unspecified on listing)"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Unclear",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=581"
+      ],
+      "current_assessment": "No political-advocacy/social-justice or technology project type listed, and the organization's core motivating mission is explicitly Christian faith \u2014 a weak thematic tie to Doikayt's secular movement-tech work, even though the eligibility language says people of any background are welcome. Geographic scope unconfirmed.",
+      "next_action": "None for now \u2014 weak mission tie; revisit only if other Tier 1/2/3 options are exhausted.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 3: No political-advocacy/social-justice or technology project type listed, and the organization's core motivating mission is explicitly Christian faith \u2014 a weak thematic tie to Doikayt's secular movement-tech work, even though the eligibility language says people of any background are welcome. Geographic scope unconfirmed."
+      }
+    ]
+  },
+  {
+    "org_name": "Youth Leadership Incubator dba Hack+",
+    "website": "https://hackplus.io",
+    "legal_tax_structure": "501(c)(3) public charity",
+    "fiscal_sponsorship_models": [
+      "Model A",
+      "Model B",
+      "Model C"
+    ],
+    "geographic_scope": "National (US)",
+    "accepts_unincorporated_projects": "Unclear",
+    "stated_mission": "Helps students start businesses, nonprofits and events, handling the legal aspects so students can focus on building.",
+    "project_types_sponsored": [
+      "Student-led projects only (any age)"
+    ],
+    "fees": "0%-10% based on level of support chosen.",
+    "application_process": "Unclear/Requires confirmation \u2014 direct inquiry via listed contact.",
+    "eligibility_requirements": [
+      "Must be a student-led project"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Technology/project type outside scope \u2014 sponsorship restricted to student-led projects; Doikayt is not a student-led org (despite the appealing tech-adjacent 'Hack+' branding).",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "status": {
+      "date_last_verified": "2026-08-16",
+      "source_urls": [
+        "https://fiscalsponsordirectory.org/?page_id=4036&preview=true"
+      ],
+      "current_assessment": "Routine exclusion \u2014 clean eligibility mismatch (student-led only), notable only for the coincidental tech-sector branding.",
+      "next_action": "None \u2014 parked as reference.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-16",
+        "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Technology/project type outside scope \u2014 sponsorship restricted to student-led projects; Doikayt is not a student-led org (despite the appealing tech-adjacent 'Hack+' branding)."
+      }
+    ]
+  }
+
 ]

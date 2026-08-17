@@ -7,7 +7,9 @@ in the original planning doc, not included here — see chat history if needed).
 
 ## Subgoal status (as of 2026-08-13)
 
-- **Subgoal 2 (candidate discovery):** Done. 12 candidates in `sponsors.json`.
+- **Subgoal 2 (candidate discovery):** Done. 48 candidates in `sponsors.json` — the original 12,
+  5 more from a shallow 2026-08-14 pass of TSNE's fiscal-sponsor-directory referral, and 31 more
+  from a full sweep of that same directory (~414 listings checked) on 2026-08-16.
 - **Subgoal 3 (structural screening):** Done for all 12. Re-screened twice as
   strategy evolved (c4-first -> split c3/c4 -> deferred-campaign-work, see
   Section 5 of the profile and each record's `change_log`).
