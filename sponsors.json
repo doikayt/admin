@@ -2283,26 +2283,46 @@
       "Does not sponsor academic research, direct service/social services, capital campaigns, or building projects"
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation.",
-    "tier": "Excluded",
-    "exclusion_reason": "Geographic eligibility restricted to the U.S. South \u2014 does not match Doikayt's non-geographically-restricted national scope.",
-    "structural_fit_score": "Weak",
-    "mission_fit_score": "Weak",
+    "tier": "Tier 2",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Unclear",
     "status": {
-      "date_last_verified": "2026-08-16",
+      "date_last_verified": "2026-08-17",
       "source_urls": [
         "https://fiscalsponsordirectory.org/?page_id=12779"
       ],
-      "current_assessment": "IMPORTANT: this is the strongest mission-fit match found anywhere in the incubation sweep \u2014 'movement infrastructure,' grassroots social/racial/economic justice organizing, explicit 'Political advocacy/social justice' project type, favorable fee structure (5-7% baseline). Excluded purely on the U.S.-South geographic restriction per the same default applied to every other regionally-restricted sponsor in this sweep. Worth revisiting directly with the user if Doikayt's founder/operating base is or could plausibly be considered U.S.-South \u2014 this exclusion is geography-only, not mission-driven.",
-      "next_action": "None \u2014 parked as reference.",
-      "application_status": "N/A"
+      "current_assessment": "Strongest mission-fit match found anywhere in the incubation sweep \u2014 'movement infrastructure,' grassroots social/racial/economic justice organizing, explicit 'Political advocacy/social justice' project type, favorable fee structure (5-7% baseline). Re-tiered from Excluded to Tier 2 on 2026-08-17: Doikayt is US-based and fully remote, so the 'located in the U.S. South' eligibility requirement isn't a clean geographic disqualifier the way a hard single-metro restriction is \u2014 it depends on what 'located' actually means to them (registered/mailing address vs. founder residency vs. something else), which is unconfirmed and worth asking directly rather than assuming either way.",
+      "next_action": "Direct inquiry once current Tier 1 outreach resolves.",
+      "application_status": "Not started"
     },
     "change_log": [
       {
         "date": "2026-08-16",
         "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Excluded: Geographic eligibility restricted to the U.S. South \u2014 does not match Doikayt's non-geographically-restricted national scope."
+      },
+      {
+        "date": "2026-08-17",
+        "change": "Re-tiered Excluded \u2192 Tier 2 at user's direction: Doikayt is US-based and remote, so 'located in the U.S. South' may be satisfiable (e.g. via mailing address) rather than a hard geographic bar \u2014 worth confirming directly with the sponsor instead of assuming disqualification. Added outreach.*."
       }
     ],
-    "geographic_scope_other_description": "U.S. South"
+    "geographic_scope_other_description": "U.S. South",
+    "outreach": {
+      "contact_person": "Bridgette Burge, HR Director <info@southernvision.org>; Jess Jude, Associate Director <jess@southernvision.org>",
+      "recommended_approach": "Direct inquiry leading with the movement-infrastructure/grassroots-justice mission overlap (closest match of any candidate found), and ask upfront how they define 'located in the U.S. South' for a fully remote, US-based org \u2014 don't let the geographic question go unasked given how strong the rest of the fit is.",
+      "questions_to_ask": [
+        "What does 'located in the U.S. South' require in practice for a fully remote organization \u2014 a registered/mailing address in the region, founder residency, board composition, or something else?",
+        "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program, or would it need to run through the sponsor's own compliance review as their activity?",
+        "SVA states it does not sponsor 'academic research, direct service/social services, capital campaigns, or building projects' \u2014 does open-source software development read as a fit within your accepted project types, or does it need more explicit framing?"
+      ],
+      "info_sponsor_likely_requires": [
+        "Org overview / mission statement",
+        "Rough budget/revenue projection",
+        "Description of software products and open-source project portfolio"
+      ],
+      "issues_to_clarify_before_applying": [
+        "Whether Doikayt's lack of a physical Southern presence is disqualifying or immaterial to a remote-first sponsor \u2014 requires direct confirmation, not resolvable from public materials"
+      ]
+    }
   },
   {
     "org_name": "Springboard for the Arts",
