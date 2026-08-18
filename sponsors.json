@@ -1938,8 +1938,8 @@
         "https://www.mockingbirdincubator.org/about-us"
       ],
       "current_assessment": "Strong stated social-justice/movement mission ('closing gaps in services and removing barriers to justice, equity, diversity and inclusion'), national scope, welcomes projects at any stage \u2014 a good pattern match to Doikayt's grassroots orientation. Open questions: Model A only (comprehensive, absorbs the project entirely \u2014 same opportunistic-campaign-work concern as Tides Center), and their 'No government funding' eligibility clause needs clarification (unclear if this restricts the sponsored project or just Mockingbird itself). Application funnels through an intake quiz (/fiscal-sponsorship-quiz) rather than direct email, but a pre-application inquiry email is still the plan, to get these questions answered before investing time in the quiz.",
-      "next_action": "Outreach email drafted 2026-08-17 (Model A/campaign-work question, 'no government funding' clause, mission framing around Doikayt's wiki/blog) \u2014 pending send.",
-      "application_status": "Not started"
+      "next_action": "Awaiting reply to outreach inquiry sent 2026-08-17.",
+      "application_status": "Inquiry sent 2026-08-17"
     },
     "change_log": [
       {
@@ -1949,6 +1949,10 @@
       {
         "date": "2026-08-17",
         "change": "Verified Jessica Payne (Executive Director) and info@mockingbirdincubator.org against their own About Us page (previously only sourced from the directory listing) \u2014 both confirmed current and accurate; info@ is genuinely their only public contact channel, no separate personal email published. Outreach email drafted, leading with their 'teaching hospital' positioning and Doikayt's own wiki/blog as evidence of ecosystem-minded mission fit, plus the Model A/campaign-work and 'no government funding' questions."
+      },
+      {
+        "date": "2026-08-17",
+        "change": "User sent the drafted outreach email to Jessica Payne <info@mockingbirdincubator.org>. Awaiting reply."
       }
     ],
     "outreach": {
