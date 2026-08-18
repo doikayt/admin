@@ -1931,19 +1931,24 @@
     "structural_fit_score": "Moderate",
     "mission_fit_score": "Unclear",
     "status": {
-      "date_last_verified": "2026-08-16",
+      "date_last_verified": "2026-08-17",
       "source_urls": [
         "https://fiscalsponsordirectory.org/?page_id=12047",
-        "http://www.mockingbirdincubator.org"
+        "http://www.mockingbirdincubator.org",
+        "https://www.mockingbirdincubator.org/about-us"
       ],
-      "current_assessment": "Strong stated social-justice/movement mission ('closing gaps in services and removing barriers to justice, equity, diversity and inclusion'), national scope, welcomes projects at any stage \u2014 a good pattern match to Doikayt's grassroots orientation. Open questions: Model A only (comprehensive, absorbs the project entirely \u2014 same opportunistic-campaign-work concern as Tides Center), and their 'No government funding' eligibility clause needs clarification (unclear if this restricts the sponsored project or just Mockingbird itself).",
-      "next_action": "Direct inquiry once current Tier 1 outreach resolves.",
+      "current_assessment": "Strong stated social-justice/movement mission ('closing gaps in services and removing barriers to justice, equity, diversity and inclusion'), national scope, welcomes projects at any stage \u2014 a good pattern match to Doikayt's grassroots orientation. Open questions: Model A only (comprehensive, absorbs the project entirely \u2014 same opportunistic-campaign-work concern as Tides Center), and their 'No government funding' eligibility clause needs clarification (unclear if this restricts the sponsored project or just Mockingbird itself). Application funnels through an intake quiz (/fiscal-sponsorship-quiz) rather than direct email, but a pre-application inquiry email is still the plan, to get these questions answered before investing time in the quiz.",
+      "next_action": "Outreach email drafted 2026-08-17 (Model A/campaign-work question, 'no government funding' clause, mission framing around Doikayt's wiki/blog) \u2014 pending send.",
       "application_status": "Not started"
     },
     "change_log": [
       {
         "date": "2026-08-16",
         "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 2: Strong stated social-justice/movement mission ('closing gaps in services and removing barriers to justice, equity, diversity and inclusion'), national scope, welcomes projects at any stage \u2014 a good pattern match to Doikayt's grassroots orientation. Open questions: Model A only (comprehensive, absorbs the project entirely \u2014 same opportunistic-campaign-work concern as Tides Center), and their 'No government funding' eligibility clause needs clarification (unclear if this restricts the sponsored project or just Mockingbird itself)."
+      },
+      {
+        "date": "2026-08-17",
+        "change": "Verified Jessica Payne (Executive Director) and info@mockingbirdincubator.org against their own About Us page (previously only sourced from the directory listing) \u2014 both confirmed current and accurate; info@ is genuinely their only public contact channel, no separate personal email published. Outreach email drafted, leading with their 'teaching hospital' positioning and Doikayt's own wiki/blog as evidence of ecosystem-minded mission fit, plus the Model A/campaign-work and 'no government funding' questions."
       }
     ],
     "outreach": {
