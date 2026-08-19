@@ -1,0 +1,24 @@
+Tides SEF Application — "Tides envisions a world of shared prosperity and social justice by
+working with innovative partners to accelerate the pace of social change in the areas of:
+quality education, a sustainable environment, equality and human rights, healthy individuals
+and communities. Briefly describe how your Charitable Purpose aligns with Tides' mission."
+
+---
+
+Tides' focus on equality and human rights is the closest and clearest match to our work. Organizations doing civil-rights and social-justice work are now, more than ever, vulnerable to sudden deplatforming — account suspension, service cutoffs, payment processor freezes — often with no warning and independent of any wrongdoing, simply because the work is politically sensitive. This is also where your emphasis on powering solutions that come directly from communities historically denied power lines up closely with our own orientation: technology should ultimately be controlled by the people who use it, not by the platforms hosting it.
+
+The specific project this Fund would support puts that into practice. GASify and its first application, geoCRM, meet grassroots organizations where they already are — most already track contacts in a Google Sheet, so geoCRM adds real capability at far reduced cost.
+We're also using this Fund to investigate whether that same functionality could run on self-hosted, open-source alternatives to Google Workspace — giving these organizations a real path off Big Tech platforms over time, rather than just working within them as we do today.
+
+Quality education is the second strong connection — and it's where the commitment above becomes durable regardless of the technical trajectory of any of our individual products. Whether or not that self-hosted migration path proves feasible for geoCRM specifically, we're committed to the broader work of teaching our mission-aligned partners how to reduce their own Big Tech dependence: our wiki (wiki.doikayt.org) already catalogs self-hosted, open-source alternatives across messaging, VPNs, office tools, and more, and we actively use it in how we onboard and support partner organizations.
+
+This same education focus now overlaps directly with environmental responsibility — an area where we want to become real thought leaders, not just practitioners. We use AI in our own tooling, but treat its environmental cost as a design constraint rather than an afterthought — favoring smaller, efficient, locally-run models over energy-intensive cloud-scale infrastructure wherever practical, and helping the partner organizations we work with make that same shift instead of defaulting to expensive, energy-intensive cloud AI.
+
+We're aware that many progressive and grassroots organizations have developed a reflexive skepticism toward AI, and the underlying concerns are legitimate. But we see those costs as a consequence of how AI has been built and deployed in a profit-maximizing environment, not as something inherent to the technology itself. Left entirely in the hands of monied interests optimizing purely for extraction and scale, this trajectory becomes zero-sum: a small extractive cohort wins precisely because working Americans lose. 
+
+As we successfully adopt this more local approach to AI-native development, we plan to document our learnings in our blog and in training material specifically so other under-resourced organizations adopting AI tools can do so in a less environmentally damaging way, not just so our own operations are greener. That makes this simultaneously an education deliverable and a sustainability practice, rather than two separate, thinner connections.
+
+The connection to healthy individuals and communities is more indirect but real: the community groups we support are themselves doing the frontline work of civic participation, mutual aid, and community organizing. Strengthening their technical capacity — and, over time, their independence from Big Tech platforms — enhances their ability to do that work effectively and durably, which we see as a multiplier on Tides' community-health goals rather than a program we run directly.
+
+
+

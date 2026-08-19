@@ -10,7 +10,7 @@
 
 **geoCRM (working code name):** The  first application we plan to build with GASify — a lightweight CRM (customer relationship management) platform that turns an ordinary Google Sheet of contacts into a geographically-aware customer outreach tool by adding two capabilities to the Sheets menu:
 
-- **Sign-up capture** — auto-generates a matching [Google Form](https://www.google.com/forms/about/) and [QR code](https://en.wikipedia.org/wiki/QR_code) directly from the sheet's columns, so new sign-ups flow straight back into the same sheet.
+- **Sign-up capture** — auto-generates a matching [Google Form](https://www.google.com/forms/about/) and [QR code](https://en.wikipedia.org/wiki/QR_code) directly from the sheet's columns, so new sign-ups flow straight back into the same sheet -- without requiring tedious and error prone transcription of hand-written contact information.
 - **Geo-filtering** — filters the contact list to everyone within a chosen radius of a target location — e.g., "who's within 5 miles of Saturday's event."
 
 *Customer list for Company A, provided via Google Sheet — geo-filtering capability added by our platform:*
@@ -67,7 +67,7 @@ GASify packages standard web-app code into a GAS-compatible bundle, deployed dir
 
 ## Distribution Channel
 
-Customers can sign up via **[Google Workspace Marketplace](https://workspace.google.com/marketplace):** the official app store for Google Workspace. Any organization already using Sheets can find and install geoCRM in a couple of clicks — no migration, no new account, no separate login.
+Customers can sign up via **[Google Workspace Marketplace](https://workspace.google.com/marketplace)**. Any organization already using Sheets can find and install geoCRM in a couple of clicks — no migration, no new account, no separate login.
 
 ## Commercial Opportunity
 
