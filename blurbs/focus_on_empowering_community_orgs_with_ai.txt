@@ -1,0 +1,38 @@
+
+Alignment with Tides Mission
+
+Tides' focus on equality and human rights is the closest and clearest match to our work, and it runs deeper than
+shared values — it's built into how we design our tools. Organizations doing civil-rights and social-justice work
+increasingly depend on commercial Big Tech platforms for core operations, which leaves them vulnerable to sudden
+deplatforming — account suspension, service cutoffs, payment processor freezes — often with no warning and
+independent of any wrongdoing, simply because the work is politically sensitive. We build open-source, self-hostable
+tools specifically to reduce that dependency, so the organizations doing the work retain control of their own
+infrastructure rather than operating at the pleasure of a platform that could cut them off. This is also where your
+emphasis on powering solutions that come directly from communities historically denied power lines up closely with
+our own orientation: technology should be controlled by the people who use it, not by the platforms hosting it.
+
+Quality education is the second strong connection, and it now overlaps directly with environmental responsibility.
+We use AI in our own tooling, but treat its environmental cost as a design constraint rather than an afterthought —
+favoring smaller, efficient, locally-run models over water sucking, energy-intensive cloud-
+scale infrastructure wherever practical.
+
+We're aware that many progressive and grassroots organizations have developed a reflexive skepticism toward AI, and 
+the underlying concerns — water and energy consumption chief among them — are legitimate. But we see those costs as 
+a consequence of how AI has been built and deployed in a profit-maximizing environment, not as something inherent to
+the technology itself. Left entirely in the hands of profit-motivated actors, this 
+trajectory leads toward greater economic inequality and more fractured, socially isolated communities — the opposite of what 
+organizations like ours and Tides' partners are working toward. We believe there's a better path: technology built 
+and used in service of community needs, deliberately mindful of its ecological cost. If organizations like ours cede
+this ground entirely to those with no such accountability, the communities we serve lose that fight before it 
+starts.
+
+We document our approach on our blog and in training material specifically so other under-resourced organizations
+adopting AI tools can do so in a less environmentally damaging way, not just so our own operations are greener. That
+makes this simultaneously an education deliverable and a sustainability practice, rather than two separate, thinner
+connections. 
+
+The connection to healthy individuals and communities is more indirect but real: the community groups we support are
+themselves doing the frontline work of civic participation, mutual aid, and community organizing. Strengthening
+their technical capacity and platform independence strengthens their ability to do that work effectively and
+durably, which we see as a multiplier on Tides' community-health goals rather than a program we run directly.
+

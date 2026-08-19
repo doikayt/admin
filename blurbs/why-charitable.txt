@@ -1,0 +1,29 @@
+Although we are a secular organization, our core ethos is intimately tied to the Jewish tradition of Tikkun Olam —
+the obligation to repair and heal the world — and to the Jewish Labor Bund's commitment to multi-ethnic,
+working-class solidarity (more on our founding philosophy at doikayt.org/about.html).
+
+In practice, this shows up directly in our work defending human and civil rights.  Locally we 
+work with Vigil4Gaza (youtube.com/@vigil4gaza), regularly
+helping with their social media tech. More broadly, we are active members of Tech for Palestine
+(techforpalestine.org). On that platform we have met incredibly 
+bright young software engineers from conflict zones, and we hope to
+bring some of these developers on board for projects as we get funding.
+
+We see this as part of a broader principle: working shoulder-to-shoulder in multi-ethnic coalitions for human,
+worker, and free-speech rights is itself a way of eliminating prejudice and discrimination and lessening tension
+between communities. Speaking personally, my own experience in these spaces is that my Palestinian Christian and
+Muslim comrades are extremely appreciative when Jewish people are hands-on and visible in their events.
+
+With regard to combating community deterioration, we see that deterioration playing out in the declining health,
+privacy, and economic security of our fellow Americans. As voting alone becomes an increasingly unreliable avenue
+for change, we see community and grassroots organizing as one of the most effective forms of redress — but that
+redress depends on organizations having secure digital tools to communicate, coordinate, and mobilize. This is where
+our own work fits directly: we build that infrastructure, and we build it specifically to resist the erosion of
+those same rights through Big Tech surveillance and deplatforming, so the organizations doing this work retain
+control of their own infrastructure rather than depending on platforms that harvest their data and/or silence them
+without warning.
+
+Finally, by making our tools available on a completely free, open-source basis, we not only make sophisticated
+technology available to grassroots campaigns and organizations that couldn't otherwise afford it — the source code
+itself becomes a teaching vehicle, and its modular design allows pieces to be adapted to other community projects.
+
