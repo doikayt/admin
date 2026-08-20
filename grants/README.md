@@ -7,14 +7,19 @@ priority that drives screening here, and [`prompt.md`](prompt.md) for the `grant
 
 ## Status (as of 2026-08-20)
 
-Schema and scaffolding just built. No candidates researched yet. Starting cluster to work
-through first (named in earlier internal discussion, not yet turned into tracked records):
-Mozilla Open Source Support (MOSS), NLnet, Sovereign Tech Fund, Media Democracy Fund, NetGain —
+1 candidate researched: Mozilla Technology Fund (MTF), Tier 3 — see `grants.json` for detail.
+MOSS (Mozilla Open Source Support), named in earlier internal discussion as a starting
+candidate, turned out to be defunct (indefinite hiatus since Mozilla's 2020 restructuring);
+MTF is its stated successor but has no open call as of this writing and recent cycle themes
+(AI-centric) don't obviously match Doikayt's domain.
+
+Remaining starting cluster to work through (named in earlier internal discussion, not yet
+turned into tracked records): NLnet, Sovereign Tech Fund, Media Democracy Fund, NetGain —
 digital-rights / open-source-tech funders whose model (restricted, deliverable-scoped software
 grants) is a close structural match for funding the GASify/build-tools/geoCRM stack. This is a
 starting point to research, not a pre-screened shortlist — each still needs real research
 against the schema in [`prompt.md`](prompt.md), including whether it accepts fiscally sponsored
-applicants.
+applicants. Given MOSS's fate, verify each is still actually active before investing further.
 
 ## Current Tier 1 candidates (contact these first)
 

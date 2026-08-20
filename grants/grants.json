@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "org_name": "Mozilla Technology Fund (MTF)",
+    "website": "https://www.mozillafoundation.org/en/what-we-fund/programs/mozilla-technology-fund-mtf/",
+    "funder_type": "Unclear",
+    "geographic_scope": "Unclear",
+    "accepts_fiscally_sponsored_applicants": "Requires confirmation",
+    "accepts_unincorporated_direct_applicants": "Unclear",
+    "stated_mission": "Mozilla Foundation's grantmaking program; MTF specifically funds open source technology projects with awards up to $50,000 plus a year of mentorship/support and access to Mozilla Fellows as subject-matter mentors.",
+    "funding_priorities": [
+      "Open source technology projects (theme rotates per cycle)",
+      "Recent cycles per web search (not primary-source confirmed): AI transparency/bias, environmental justice + AI",
+      "A separate 'Democracy x AI Cohort 2026' also ran under Mozilla Foundation, initial proposals due 2026-03-16 (already closed)"
+    ],
+    "funding_type": [
+      "Restricted / project-specific"
+    ],
+    "grant_size_range": "Up to $50,000 (MTF); note MOSS, the predecessor program, historically ranged $5,000-$150,000+ but MOSS itself is defunct",
+    "typical_grant_period": "1 year, with mentorship/support",
+    "application_cycle": "Thematic, rotating focus per call; no evidence of a currently open general call as of 2026-08-20",
+    "application_deadline": "Unclear",
+    "application_process": "Historically an online call-for-proposals per themed cycle. As of 2026-08-20, the MTF-specific call-for-proposals URL redirects to Mozilla Foundation's generic Grantmaking landing page, which lists no active/open MTF call.",
+    "eligibility_requirements": [
+      "Must have a working product or prototype in hand — idea-stage projects are not considered. Doikayt/geoCRM: prototype already exists (confirmed by Chris, 2026-08-20), so this specific bar is met.",
+      "Per web search only (not confirmed on Mozilla's own site, which redirected away): individuals, teams, nonprofits, and sometimes for-profits are eligible; unregistered/unincorporated organizations reportedly can apply via a legally registered fiscal host — requires direct confirmation once MTF's own eligibility page is reachable.",
+      "Recent call themes (AI transparency/bias; environmental justice + AI; Democracy x AI) do not obviously match Doikayt's GASify/geoCRM domain (GAS tooling / grassroots CRM) — fit depends entirely on whatever the next call's theme turns out to be."
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "exclusion_reason": "",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Weak",
+    "mission_alignment": {
+      "sponsor_mission_summary": "Mozilla Foundation funds open-source technology projects advancing public-interest goals; MTF specifically funds prototype-stage projects, one grant cycle at a time, around a rotating theme (recent cycles: AI transparency/bias, then environmental justice + AI).",
+      "doikayt_overlap": "Doikayt is exactly the kind of small, open-source, prototype-stage, technologist-led project MTF's general model targets — but none of MTF's recently published themes (AI, environmental justice, democracy) map cleanly onto GASify/geoCRM's actual domain.",
+      "potential_concerns": [
+        "No currently open call as of 2026-08-20",
+        "Thematic mismatch with recent cycles (AI-centric; GASify/geoCRM is not an AI project)",
+        "Fiscal-sponsor acceptance not yet primary-source confirmed"
+      ],
+      "best_fit_framing": "If a future MTF call's theme is broad enough to include general open-source movement-tech infrastructure (not AI-specific), position GASify/geoCRM as grassroots-org-controlled infrastructure resisting Big Tech dependency — echoes Mozilla's own 'healthy internet' framing. Not a fit under the current/recent AI-specific themes."
+    },
+    "status": {
+      "date_last_verified": "2026-08-20",
+      "source_urls": [
+        "https://www.mozilla.org/en-US/moss/",
+        "https://www.mozillafoundation.org/en/what-we-fund/programs/mozilla-technology-fund-mtf/call-for-proposals/",
+        "https://www.mozillafoundation.org/en/what-we-do/grantmaking/"
+      ],
+      "current_assessment": "MOSS (Mozilla's historical open-source grant program) is defunct — on indefinite hiatus since Mozilla's 2020 restructuring, not accepting applications. Its stated successor is the Mozilla Technology Fund (MTF), up to $50k per award with a year of mentorship. However: (1) MTF's own call-for-proposals URL currently redirects to Mozilla Foundation's generic Grantmaking landing page, which lists no active/open MTF call as of 2026-08-20 — MTF appears to run periodic themed cycles rather than being continuously open. (2) Recent cycle themes found via web search (not primary-source confirmed) were AI-transparency/bias, then environmental-justice+AI, plus a separate 'Democracy x AI Cohort 2026' that already closed 2026-03-16 — none obviously match GASify/geoCRM's domain. (3) MTF does require 'a product or working prototype in hand' (not idea-stage) — Chris confirmed geoCRM already has a working prototype, so that specific bar is met. (4) Fiscal-sponsor acceptance ('unregistered organisations... via a legally registered fiscal host') came from a search-engine synthesis, not Mozilla's own eligibility page directly, and needs primary-source confirmation before relying on it.",
+      "next_action": "Watch for a future MTF call for proposals with a theme broad enough to plausibly include GASify/geoCRM (general open-source infrastructure, not AI-specific); re-verify eligibility (fiscal-sponsor acceptance, current grant size, deadline) directly against Mozilla's own site once a call is open, since current findings are largely search-derived rather than primary-source-confirmed.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-20",
+        "change": "Initial entry created. Researched as the successor to MOSS (which is defunct/on indefinite hiatus). Landed Tier 3: structurally plausible (prototype-stage open-source project, geoCRM prototype already exists) but no open call found as of today and recent published themes (AI-centric) don't match Doikayt's GAS-tooling/CRM domain. Several fields marked Unclear/Requires confirmation because Mozilla's own MTF-specific eligibility page redirected to a generic landing page rather than being directly readable."
+      }
+    ]
+  }
+]
