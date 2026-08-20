@@ -46,12 +46,12 @@ is baked into `outreach.questions_to_ask` on the live Tier 1 candidates.
 ## Current Tier 1 candidates (contact these first)
 
 Run `jq -r '.[] | select(.tier == "Tier 1") | .org_name' sponsors.json` to
-regenerate this list from source. As of this snapshot:
+regenerate this list from source. As of this snapshot (2026-08-20):
 
 - Tides Center
 - Movement Strategy Center
-- Alliance for Global Justice
-- TSNE (Third Sector New England)
+- Open Collective Foundation
+- Software Freedom Conservancy
 
 ## Querying sponsors.json
 
