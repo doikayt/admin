@@ -52,12 +52,21 @@ Current open source projects we have underway include:
     * build-tools — automated documentation-generation and verification tooling designed to detect documentation drift during builds.
     * typescript-build-config — shared TypeScript development, testing, formatting, and release infrastructure.
 
-Note that the latter three projects form the basis of a software stack for development of 
+Note that the latter three projects form the basis of a software stack for development of
 Google Application Script (GAS)-based apps such as the targeting tool we built for the Butch Ware
-Campaign. The goal of that project was to filter volunteer database entries by geographical proximity to a 
-particular event, and we provided this functionality via a GAS extension hook to Google spread sheets. 
+Campaign. The goal of that project was to filter volunteer database entries by geographical proximity to a
+particular event, and we provided this functionality via a GAS extension hook to Google spread sheets.
 
-
+Current funding priority (as of 2026-08-20): completing this GAS app-development stack —
+gas-demodulify-plugin/GASify (working code name for the platform layer), build-tools, and
+typescript-build-config — through to its first flagship application, geoCRM (see
+blurbs/geocrm.md). Doikayt Wiki and qwiki are back-burnered, not actively pursued for funding
+right now. This is a priority ordering, not an exclusivity rule: Doikayt is equally open to
+general/unrestricted funding and to funding restricted to this specific stack — restricted,
+funder-dictated project scope is no longer treated as a downside, since executing on this stack
+is strategic and time-critical. Fiscal-sponsorship structures that keep the project as its own
+separate legal entity and disburse funds against an approved purpose (NNFS Model C) offer the
+most flexibility for operating under either funding shape.
 
 We develop our software via an AI-native, spec-to-code pipeline.
 
