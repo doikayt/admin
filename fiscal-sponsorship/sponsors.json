@@ -579,17 +579,17 @@
     "fees": "~5% of funds raised.",
     "application_process": "Apply via Open Collective platform; sponsorship is tightly coupled to using the OC transparent-ledger tooling.",
     "eligibility_requirements": [
-      "Requires operating transparently on the Open Collective platform, which publicly discloses all transaction-level financials \u2014 a real consideration for a project with paying political-campaign clients"
+      "Requires operating transparently on the Open Collective platform, which publicly discloses all transaction-level financials \u2014 previously flagged as a concern for a project with paying political-campaign clients, but that concern is moot now that campaign-services work is deferred (see 2026-08-12 strategy update)"
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation \u2014 general 501(c)(3) candidate/campaign-intervention prohibition presumably applies; public transaction transparency itself could be a practical concern independent of legal eligibility.",
     "status": {
-      "date_last_verified": "2026-08-11",
+      "date_last_verified": "2026-08-20",
       "source_urls": [
         "https://joinit.com/blog/fiscal-sponsorship-organizations",
         "https://www.idealist.org/pt/ong/d6dae8c1c36b4267a78fe955cc86a7df-open-collective-foundation-covina"
       ],
-      "current_assessment": "Open-source/tech mission fit is strong, but the platform's public, transaction-level financial transparency is a real practical concern for an org with paying political-campaign clients, independent of legal eligibility. Worth a direct question rather than assuming disqualifying.",
-      "next_action": "Lower priority than Tier 2 candidates; revisit if Tier 1/2 outreach stalls.",
+      "current_assessment": "Re-scored 2026-08-20: open-source/tech mission fit was already noted as strong. The public transaction-transparency concern was tied to paying political-campaign clients, which is no longer active scope under the deferred-campaign-work strategy, so it no longer weighs against structural fit.",
+      "next_action": "Prepare outreach alongside other Tier 1 candidates.",
       "application_status": "Not started"
     },
     "change_log": [
@@ -600,11 +600,15 @@
       {
         "date": "2026-08-12",
         "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Re-scored under corrected funding priority (GASify/build-tools/geoCRM platform completion is now the active target, wiki back-burnered; restricted project-scoped funding is acceptable). Structural fit Moderate -> Strong (the campaign-client transparency concern is moot since campaign work is deferred) and mission fit Unclear -> Strong (already implicitly strong per prior assessment, now formally scored). Tier 3 -> Tier 1."
       }
     ],
-    "tier": "Tier 3",
-    "structural_fit_score": "Moderate",
-    "mission_fit_score": "Unclear"
+    "tier": "Tier 1",
+    "structural_fit_score": "Strong",
+    "mission_fit_score": "Strong"
   },
   {
     "org_name": "Software Freedom Conservancy",
@@ -622,18 +626,18 @@
     "fees": "Reported ~10% of most member-project revenue/donations for general operations; higher for some event-focused projects.",
     "application_process": "Apply via sfconservancy.org; Conservancy and project jointly negotiate a Fiscal Sponsorship Agreement (FSA) after a membership offer.",
     "eligibility_requirements": [
-      "Project must dedicate itself to advancement of software freedom and user rights to copy/share/modify/improve software \u2014 a narrower mission fit than Doikayt's broader grassroots-organizing scope, even though Doikayt does maintain FOSS tooling"
+      "Project must dedicate itself to advancement of software freedom and user rights to copy/share/modify/improve software \u2014 a direct mission match under Doikayt's current platform-completion priority (GASify/build-tools/geoCRM), not the mismatch it looked like under the earlier broad-mandate framing"
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation \u2014 Conservancy's core focus is software freedom, not political/campaign work; campaign-services revenue is likely outside its mission scope even if not explicitly prohibited by its c3 status.",
     "status": {
-      "date_last_verified": "2026-08-11",
+      "date_last_verified": "2026-08-20",
       "source_urls": [
         "https://sfconservancy.org/projects/services/",
         "https://sfconservancy.org/projects/apply/",
         "https://www.oss.fund/software-freedom-conservancy/"
       ],
-      "current_assessment": "Narrower FOSS-only mission scope than Doikayt's broader grassroots-organizing mandate; likely a mission-fit mismatch even though Doikayt does maintain open-source tooling. Political/campaign-services revenue is likely outside their mission scope regardless of legal eligibility.",
-      "next_action": "Lower priority; revisit only if Doikayt narrows toward being primarily a FOSS maintainer.",
+      "current_assessment": "Re-scored 2026-08-20: Doikayt's active funding priority is completing the GASify/build-tools/geoCRM software stack, not broad grassroots-organizing work \u2014 Conservancy's FOSS-only mission scope, previously read as a mismatch, is now a direct fit. Genuinely software-native fiscal sponsor (Model F: legal home, GPL enforcement support, bookkeeping, fundraising infra) with no geographic restriction.",
+      "next_action": "Prepare outreach: position Doikayt as a FOSS project seeking fiscal sponsorship specifically for the GASify/build-tools/geoCRM stack.",
       "application_status": "N/A"
     },
     "change_log": [
@@ -644,11 +648,15 @@
       {
         "date": "2026-08-12",
         "change": "Subgoal 3 screening pass: set tier/structural_fit_score under the split-sponsor structure (c3 handles software/grants/general nonprofit work; a separate c4 handles selective campaign services). mission_fit_score left Unclear pending formal Subgoal 4 analysis."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Re-scored under corrected funding priority (GASify/build-tools/geoCRM platform completion is now the active target, wiki back-burnered; restricted project-scoped funding is acceptable). Structural fit Weak -> Strong and mission fit Unclear -> Strong: the FOSS-only mission scope previously read as narrower-than-Doikayt's-mandate is now an exact match. Tier 3 -> Tier 1."
       }
     ],
-    "tier": "Tier 3",
-    "structural_fit_score": "Weak",
-    "mission_fit_score": "Unclear"
+    "tier": "Tier 1",
+    "structural_fit_score": "Strong",
+    "mission_fit_score": "Strong"
   },
   {
     "org_name": "Fractured Atlas",
@@ -1778,24 +1786,28 @@
     "structural_fit_score": "Moderate",
     "mission_fit_score": "Unclear",
     "status": {
-      "date_last_verified": "2026-08-16",
+      "date_last_verified": "2026-08-20",
       "source_urls": [
         "https://fiscalsponsordirectory.org/?page_id=2515",
         "https://www.hacker.fund"
       ],
-      "current_assessment": "The most direct tech-sector mission match found in the incubation sweep \u2014 a 501(c)(3) explicitly built to fiscally sponsor technologists, with five fiscal-sponsorship models including the flexible Model C, no geographic restriction, and eligibility framed around 'technologist/technology organization.' Open question: their sponsored-project examples emphasize tech-education-access programs (hackathons, accessibility education) rather than building and operating software tools for other organizations, so it's unconfirmed whether Doikayt's actual activity (building movement-tech tools, occasionally serving paying political-campaign customers) fits their eligibility frame as well as the mission statement suggests.",
-      "next_action": "Direct inquiry once current Tier 1 outreach resolves.",
+      "current_assessment": "The most direct tech-sector mission match found in the incubation sweep \u2014 a 501(c)(3) explicitly built to fiscally sponsor technologists, with five fiscal-sponsorship models including the flexible Model C, no geographic restriction, and eligibility framed around 'technologist/technology organization.' Open question: their sponsored-project examples emphasize tech-education-access programs (hackathons, accessibility education) rather than building and operating software tools for other organizations, so it's unconfirmed whether Doikayt's actual activity (building movement-tech tools, occasionally serving paying political-campaign customers) fits their eligibility frame as well as the mission statement suggests. Re-visited 2026-08-20: under the corrected funding priority, the open question about their tech-education-leaning examples can be addressed head-on with a sharper pitch \u2014 Doikayt is seeking funding to complete a specific software platform (GASify/build-tools/geoCRM), not requesting support for a general tech-education program.",
+      "next_action": "Direct inquiry now, leading with the sharper pitch: funding completion of a specific software platform, not a tech-education program.",
       "application_status": "Not started"
     },
     "change_log": [
       {
         "date": "2026-08-16",
         "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 2: The most direct tech-sector mission match found in the incubation sweep \u2014 a 501(c)(3) explicitly built to fiscally sponsor technologists, with five fiscal-sponsorship models including the flexible Model C, no geographic restriction, and eligibility framed around 'technologist/technology organization.' Open question: their sponsored-project examples emphasize tech-education-access programs (hackathons, accessibility education) rather than building and operating software tools for other organizations, so it's unconfirmed whether Doikayt's actual activity (building movement-tech tools, occasionally serving paying political-campaign customers) fits their eligibility frame as well as the mission statement suggests."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Re-visited under corrected funding priority (GASify/build-tools/geoCRM platform completion is now the active target). Tier and scores unchanged (still Tier 2 / Moderate / Unclear) pending actual outreach, but next_action sharpened: lead with 'funding completion of a specific software platform' rather than a general tech-education framing, directly addressing the open eligibility question."
       }
     ],
     "outreach": {
       "contact_person": "Justin Brezhnev, CEO <team@hacker.fund>",
-      "recommended_approach": "Direct inquiry emphasizing Doikayt as a technologist-led organization building charitable/educational open-source tools \u2014 lead with the structural fit (they exist specifically to sponsor technologists) before the campaign-services question.",
+      "recommended_approach": "Direct inquiry leading with the sharper pitch: Doikayt is seeking fiscal sponsorship to fund completion of a specific software platform (GASify/build-tools/geoCRM), not a general tech-education program \u2014 addresses the open question about their sponsored-project examples leaning tech-education before it comes up.",
       "questions_to_ask": [
         "If an opportunistic political-campaign-services engagement arises while sponsored, can it be declined/referred out cleanly, or handled outside the sponsored program, or would it need to run through the sponsor's own compliance review as their activity?",
         "Does 'helping the disadvantaged, educating the community, or protecting the environment' extend to building and operating software tools for other organizations, or only to tech-education/access programs like their listed examples (hackathons, accessibility education)?",
