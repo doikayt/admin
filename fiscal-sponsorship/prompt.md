@@ -40,7 +40,7 @@ activities, document that finding and explain why rather than forcing the projec
 unsuitable sponsorship model.
 
 The Doikayt organizational profile lives in
-[`doikayt.profile.txt`](doikayt.profile.txt).
+[`../doikayt.profile.txt`](../doikayt.profile.txt).
 
 ## CANDIDATE RECORD SCHEMA
 

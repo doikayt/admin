@@ -1,7 +1,7 @@
 # Doikayt Fiscal Sponsor Research
 
 Living research project to identify and pursue a fiscal sponsor for Doikayt
-Mobilization Labs. See `doikayt.profile.txt` for the org profile that drives
+Mobilization Labs. See [`../doikayt.profile.txt`](../doikayt.profile.txt) for the org profile that drives
 screening, and `sponsors.json` for the candidate database (schema described
 in the original planning doc, not included here — see chat history if needed).
 
@@ -61,7 +61,7 @@ examples and shell aliases.
 ## Resuming this research in a new session
 
 1. Clone/pull this repo.
-2. Hand Claude `sponsors.json`, `doikayt.profile.txt`, and this README.
+2. Hand Claude `sponsors.json`, [`../doikayt.profile.txt`](../doikayt.profile.txt), and this README.
 3. Tell it what happened since the last commit (contact results, new
    information, strategy changes) — it should update `sponsors.json` in
    place: bump `status.date_last_verified`, `status.current_assessment`,

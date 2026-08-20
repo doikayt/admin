@@ -1,5 +1,5 @@
 # Shell aliases/functions for querying sponsors.json.
-# Source from the repo root: `source docs/sponsors-aliases.sh`
+# Source from fiscal-sponsorship/: `source docs/sponsors-aliases.sh`
 # See docs/querying-sponsors.md for what each one does.
 
 alias sponsors-tier1="jq -r '.[] | select(.tier == \"Tier 1\") | \"\\(.org_name)\\n  \\(.status.next_action)\\n\"' sponsors.json"
