@@ -91,8 +91,15 @@ array with its `exclusion_reason`, same as a Tier 1 candidate.
   Descriptive only — not a screening factor under the current priority (see "Relationship to
   fiscal-sponsorship search" above).
   Allowed values (enum, one or more): `"General operating support"`,
-  `"Restricted / project-specific"`, `"Capacity building"`, `"Emergency/rapid-response"`,
-  `"Other"`, `"Unclear"`
+  `"Restricted / project-specific"`, `"Directed / infrastructure grant"`,
+  `"Capacity building"`, `"Emergency/rapid-response"`, `"Other"`, `"Unclear"`
+
+  `"Directed / infrastructure grant"` is a specific flavor of restricted funding: the funder
+  is paying to get something built or maintained because their own strategy/ecosystem depends
+  on it — not merely approving a project Doikayt proposed. MOSS's "Foundational Technology"
+  track and NLnet/Sovereign Tech Fund's general model are examples. Tag a candidate this way
+  whenever the funder's stated priorities describe infrastructure they need to exist, whether
+  or not it's built yet.
 
 - `grant_size_range`
   Example: `"$10,000–$250,000"`
@@ -196,6 +203,13 @@ Same approach as fiscal-sponsorship research: for each serious candidate, determ
 whether Doikayt technically qualifies, but how Doikayt's mission and current work relate to the
 funder's mission — funder mission, Doikayt overlap, potential concerns, best-fit framing. Do
 not recommend deceptive or materially misleading positioning.
+
+For a candidate tagged `"Directed / infrastructure grant"`, `best_fit_framing` should lead
+differently than for a general-mission funder: frame Doikayt as the party positioned to build
+the specific infrastructure the funder's own strategy needs — closer to pitching an early
+customer or co-developer than appealing to a shared cause. Name the specific gap their stated
+priorities describe and how GASify/build-tools/geoCRM fills it, rather than opening with
+Doikayt's broader mission statement.
 
 ## Tier definitions
 

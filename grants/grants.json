@@ -13,7 +13,8 @@
       "A separate 'Democracy x AI Cohort 2026' also ran under Mozilla Foundation, initial proposals due 2026-03-16 (already closed)"
     ],
     "funding_type": [
-      "Restricted / project-specific"
+      "Restricted / project-specific",
+      "Directed / infrastructure grant"
     ],
     "grant_size_range": "Up to $50,000 (MTF); note MOSS, the predecessor program, historically ranged $5,000-$150,000+ but MOSS itself is defunct",
     "typical_grant_period": "1 year, with mentorship/support",
@@ -55,6 +56,10 @@
       {
         "date": "2026-08-20",
         "change": "Initial entry created. Researched as the successor to MOSS (which is defunct/on indefinite hiatus). Landed Tier 3: structurally plausible (prototype-stage open-source project, geoCRM prototype already exists) but no open call found as of today and recent published themes (AI-centric) don't match Doikayt's GAS-tooling/CRM domain. Several fields marked Unclear/Requires confirmation because Mozilla's own MTF-specific eligibility page redirected to a generic landing page rather than being directly readable."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Tagged funding_type with the new 'Directed / infrastructure grant' category (added to the schema today) -- MTF's 'Foundational Technology' track is exactly this pattern: Mozilla pays to get infrastructure built/maintained because their own ecosystem depends on it, not merely approving a proposed project. No change to tier or scores."
       }
     ]
   }
