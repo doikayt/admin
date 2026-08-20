@@ -2,28 +2,46 @@ Although we are a secular organization, our core ethos is intimately tied to the
 the obligation to repair and heal the world — and to the Jewish Labor Bund's commitment to multi-ethnic,
 working-class solidarity (more on our founding philosophy at doikayt.org/about.html).
 
-In practice, this shows up directly in our work defending human and civil rights.  Locally we 
-work with Vigil4Gaza (youtube.com/@vigil4gaza), regularly
-helping with their social media tech. More broadly, we are active members of Tech for Palestine
-(techforpalestine.org). On that platform we have met incredibly 
-bright young software engineers from conflict zones, and we hope to
-bring some of these developers on board for projects as we get funding.
+In practice, this shows up directly in our efforts to promote human and civil rights. Locally we work with
+Vigil4Gaza (youtube.com/@vigil4gaza), regularly helping with their social media tech. More broadly, we are active
+members of Tech for Palestine (techforpalestine.org). On that platform we have met incredibly bright young software
+engineers from conflict zones, and we hope to bring some of these developers on board for projects as we get
+funding.
 
 We see this as part of a broader principle: working shoulder-to-shoulder in multi-ethnic coalitions for human,
-worker, and free-speech rights is itself a way of eliminating prejudice and discrimination and lessening tension
+labor, and free-speech rights is itself a way of eliminating prejudice and discrimination and lessening tension
 between communities. Speaking personally, my own experience in these spaces is that my Palestinian Christian and
 Muslim comrades are extremely appreciative when Jewish people are hands-on and visible in their events.
 
 With regard to combating community deterioration, we see that deterioration playing out in the declining health,
 privacy, and economic security of our fellow Americans. As voting alone becomes an increasingly unreliable avenue
 for change, we see community and grassroots organizing as one of the most effective forms of redress — but that
-redress depends on organizations having secure digital tools to communicate, coordinate, and mobilize. This is where
-our own work fits directly: we build that infrastructure, and we build it specifically to resist the erosion of
-those same rights through Big Tech surveillance and deplatforming, so the organizations doing this work retain
-control of their own infrastructure rather than depending on platforms that harvest their data and/or silence them
-without warning.
+redress depends on organizations having secure digital tools to communicate, coordinate, and mobilize.
 
-Finally, by making our tools available on a completely free, open-source basis, we not only make sophisticated
-technology available to grassroots campaigns and organizations that couldn't otherwise afford it — the source code
-itself becomes a teaching vehicle, and its modular design allows pieces to be adapted to other community projects.
+The specific project this Fund would support is where this mission becomes concrete. GASify is an open-source
+framework for building Google Apps Script extensions; geoCRM, its first application, is a lightweight geographic CRM
+that turns any grassroots group's Google Sheet of contacts into a tool for segmenting supporters by location and
+capturing new sign-ups (full detail in our Commercial Aspects answer). It's the kind of tool the organizations we
+work alongside actually need day to day, and typically can't afford from commercial vendors.
+
+GASify/geoCRM operationalizes each of the threads above directly. Releasing it free and MIT-licensed open-source
+means it reaches under-resourced grassroots and civil-rights organizations regardless of budget — advancing the same
+community bridge-building and civil-rights promotion objectives described above.
+
+We plan to build this software so our apps meet potential users where they are: most grassroots groups already track
+contacts in a Google Sheet. This means geoCRM adds real capability with no migration cost, no new account, and no
+per-seat subscription fee — unlike the up to $75/user/month enterprise tools that price out under-resourced
+organizations entirely. And because it's open and modular, the code itself becomes a teaching vehicle — extending
+the redress described above past any single engagement, into pieces other community projects can adapt for their own
+work.
+
+Meeting people where they are is only half the story, though. We also see this Fund supporting an important next
+step: a focused technical investigation into whether the same geographic-CRM functionality could run on self-hosted,
+open-source alternatives to Google Workspace — the kind of tools already documented on our own wiki
+(wiki.doikayt.org). If that investigation shows a viable path, it would give our users a
+genuine migration path to where they likely want to go: off Google and other Big Tech platforms entirely, rather
+than just working within them as we do today. This is exploratory, not a commitment to a specific outcome or
+timeline — but it's directly in line with our founding commitment to reducing organizations' dependence on Big Tech
+infrastructure, and this Fund gives us room to actually test it rather than just talk about it.
+
 

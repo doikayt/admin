@@ -1,0 +1,1 @@
+Yes.  We will be developing software, articles and training materials.  All such materials will be available under an open source license (e.g., MIT license)  for the first, and Creative Commons Attribution licensing for the latter two.

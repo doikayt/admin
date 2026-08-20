@@ -429,16 +429,16 @@
     ],
     "political_activity_restrictions": "As a 501(c)(3), subject to standard prohibition on candidate/campaign intervention; AFGJ does offer political-advocacy support within c3-permissible bounds.",
     "status": {
-      "date_last_verified": "2026-08-13",
+      "date_last_verified": "2026-08-20",
       "source_urls": [
         "https://northstarfund.org/wp-content/uploads/2022/02/Fiscal-Sponsors-updated-February-2022.pdf",
         "https://joinit.com/blog/fiscal-sponsorship-organizations",
         "https://afgj.org/fsp",
         "https://afgj.org/fsp/apply-for-fiscal-sponsorship"
       ],
-      "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy. Sponsors under Model C (project retains its own separate legal existence, sponsor approves grant purposes) \u2014 this model is inherently friendlier to Doikayt's plan of mostly-grant-funded software work with an occasional out-of-scope opportunistic engagement, though sponsor sign-off is still required, not assumed. Lower fee (7-8%) than Tides Center.",
-      "next_action": "Awaiting reply to outreach inquiry sent 2026-08-13.",
-      "application_status": "Inquiry sent 2026-08-13"
+      "current_assessment": "Re-elevated to Tier 1 under the deferred-campaign-work strategy, then downgraded to Tier 2 on 2026-08-20 after Chris confirmed the AFGJ apply page itself states fiscal-sponsorship applications are currently paused \u2014 this explains the lack of any reply to the 2026-08-13 outreach inquiry. Structural/mission fit is unchanged and still strong (Model C remains a good match for Doikayt's mostly-grant-funded software work); the blocker is purely intake availability, not compatibility. Lower fee (7-8%) than Tides Center.",
+      "next_action": "Monitor https://afgj.org/fsp/apply-for-fiscal-sponsorship for intake to reopen; no application is currently possible. Consider a direct follow-up to fiscalsponsorship@afgj.org asking for an expected reopening date.",
+      "application_status": "Blocked \u2014 AFGJ fiscal sponsorship application intake confirmed paused as of 2026-08-20."
     },
     "change_log": [
       {
@@ -456,9 +456,13 @@
       {
         "date": "2026-08-13",
         "change": "Contact confirmed via web research: fiscalsponsorship@afgj.org (Elane Spivak Rodriguez, National Fiscal Sponsorship Coordinator). Outreach inquiry emailed same day, covering the Model C opportunistic-campaign-work question plus a mission-alignment note on the anti-militarist overlap."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Chris confirmed via the AFGJ apply page (https://afgj.org/fsp/apply-for-fiscal-sponsorship) that fiscal sponsorship applications are currently paused — explains the lack of reply to the 2026-08-13 outreach inquiry. Downgraded tier from Tier 1 to Tier 2 (structural/mission fit unchanged and still strong, but not currently actionable) and updated status fields accordingly."
       }
     ],
-    "tier": "Tier 1",
+    "tier": "Tier 2",
     "structural_fit_score": "Strong",
     "mission_fit_score": "Unclear",
     "mission_alignment": {

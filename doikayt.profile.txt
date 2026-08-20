@@ -4,7 +4,8 @@ This document describes Doikayt's internal conception of its mission and organiz
 orientation and should not necessarily be treated as a complete statement of its public-facing mission.
 
 Status: Early-stage, currently unincorporated
-Purpose of this document: Internal working profile for evaluating fiscal sponsors and, subsequently, other funding sources. This is not necessarily public-facing language.
+Purpose of this document: Internal working profile for evaluating fiscal sponsors and, 
+subsequently, other funding sources. This is not necessarily public-facing language.
 
 1. Organizational Overview
 
@@ -56,6 +57,8 @@ Google Application Script (GAS)-based apps such as the targeting tool we built f
 Campaign. The goal of that project was to filter volunteer database entries by geographical proximity to a 
 particular event, and we provided this functionality via a GAS extension hook to Google spread sheets. 
 
+
+
 We develop our software via an AI-native, spec-to-code pipeline.
 
 4. Intended Beneficiaries / Users
@@ -80,6 +83,8 @@ We align with organizations defined by or built around:
     member-led organizations;
     collective action;
     direct action;
+    Palestinian solidarity 
+    Anti-zionism
     labor organizing;
     moving away from big tech and its propensity for surveillance and deplatforming;
     environmental justice (linking concern for a healthy planet w/ living conditions of marginalized groups);
