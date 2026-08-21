@@ -156,28 +156,27 @@
     "application_deadline": "Rolling",
     "application_process": "Apply via sovereign.tech/programs/fund; a separate Fellowship program exists with its own freelance (global) and employment (Germany-only) tracks",
     "eligibility_requirements": [
-      "CONFIRMED on sovereign.tech/programs/fund: 'We do not finance the development of prototypes' and 'we are currently not looking for user-facing applications, such as messaging apps or file storage services.' This clearly excludes geoCRM (a user-facing CRM app, currently prototype-stage). It does NOT clearly exclude GASify itself -- GASify is a developer framework/tooling layer, not a user-facing application, and is closer to STF's stated target category ('administration tools for developers,' 'libraries for programming languages').",
-      "CONFIRMED: cost of proposed work must exceed EUR 50,000 (current minimum) -- a real stretch to scope credibly at Doikayt's current stage regardless of which project is pitched.",
-      "CONFIRMED 'Prevalence' criterion: funded technology must already be widely used/relied upon, with notable projects or organizations depending on it. This is the binding blocker for GASify specifically -- it has no confirmed external adopters yet, independent of the user-facing-application question.",
-      "Whether GASify itself counts as still-'prototype' in STF's sense, as opposed to geoCRM specifically, is unconfirmed.",
+      "CONFIRMED on sovereign.tech/programs/fund: 'We do not finance the development of prototypes' and 'we are currently not looking for user-facing applications.' Neither applies to build-tools or typescript-build-config specifically -- both are already-built, functioning developer infrastructure (not prototypes), and are dev-facing tooling, not user-facing applications. These knockout rules were written for geoCRM, not this part of the stack.",
+      "CONFIRMED: cost of proposed work must exceed EUR 50,000. Requires a real scoped extension roadmap (not just 'continue maintaining') -- e.g. CI-enforced doc-drift gating, SLSA-style release provenance/attestation, reusable drop-in GitHub Actions packs, dependency-vulnerability scanning -- to credibly clear this bar.",
+      "CONFIRMED 'Prevalence' scoring criterion (not a knockout rule, but weighted in review): 'widely used... notable projects or organizations rely on this technology.' Currently thin for build-tools/typescript-build-config -- published to npm but not yet externally adopted at meaningful scale. A roadmap framed as public TypeScript-OSS-ecosystem infrastructure (not 'our internal tools') strengthens this and the related 'Public Interest' criterion even ahead of actual adoption.",
+      "CONFIRMED 'Expertise' scoring criterion: applicant/org should be a recognized part of the relevant community, or have community/maintainer endorsement. Currently a gap -- Doikayt/Chris isn't yet an established figure in the TypeScript build-tooling or GitHub Actions ecosystem specifically. Partially offset by a real asset for the separate 'Activities'/feasibility criterion: both tools are already dogfooded in production by Chris (typescript-build-config's release pipeline was validated and published, per project history) -- this means the application can be demoed as working software rather than pitched as a plan, which is stronger evidence of feasibility even where community-recognition (Expertise) is still thin.",
       "CONFIRMED: not eligible if another public entity is already funding the same proposed activities.",
-      "Code/documentation must be freely reusable under OSI/FSF-approved licenses with no non-commercial or no-derivative clauses."
+      "Code/documentation must be freely reusable under OSI/FSF-approved licenses with no non-commercial or no-derivative clauses -- build-tools/typescript-build-config already meet this (open source)."
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation.",
-    "tier": "Tier 3",
+    "tier": "Tier 2",
     "exclusion_reason": "",
-    "structural_fit_score": "Weak",
-    "mission_fit_score": "Unclear",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Moderate",
     "mission_alignment": {
       "sponsor_mission_summary": "German government-backed agency funding maintenance and resilience of critical, widely-used open source infrastructure that societies and economies already depend on.",
-      "doikayt_overlap": "GASify (the framework layer, not geoCRM) is conceptually closer to STF's target category than initially assessed -- it's developer tooling/infrastructure, not a user-facing application, so the 'not looking for user-facing applications' exclusion doesn't clearly apply to it. The binding blocker is Prevalence: GASify has no confirmed external adopters yet, and STF explicitly funds technology already widely relied upon, not new frameworks seeking their first users.",
+      "doikayt_overlap": "build-tools (doc-generation/drift-detection) and typescript-build-config (standardized GitHub-based build/test/release workflows) are fully platform-agnostic, already built and working, and squarely match STF's target category (developer administration tools, software supply-chain integrity) -- much closer than GASify/geoCRM. STF's own mission language ('many more people are using the software than contributing to it... fragile ecosystem') maps well onto a reframed pitch: CI-enforced doc-correctness gating and release-provenance/security tooling as public infrastructure for the TypeScript open-source ecosystem, not just Doikayt's internal tools.",
       "potential_concerns": [
-        "EUR 50,000 minimum project scope",
-        "Prevalence bar: GASify isn't yet widely used/relied upon by others -- this is the real blocker, not the user-facing-application criterion",
-        "Whether GASify itself (vs geoCRM) would be read as still-prototype-stage by STF is unconfirmed",
+        "EUR 50,000 minimum requires a real, credibly-scoped extension roadmap, not just continued maintenance of what exists",
+        "Prevalence and Expertise are the two scored criteria (not knockout rules) that are currently weak -- external adoption and community standing haven't been established yet",
         "Government-of-Germany funded -- worth confirming no geographic/citizenship restriction applies in practice"
       ],
-      "best_fit_framing": "Revisit once GASify (not geoCRM) has meaningful external adoption -- other developers or projects actually building on the framework, not just Doikayt's own use of it. At that point GASify's framing as developer infrastructure, not a user-facing app, becomes a real asset rather than a moot distinction."
+      "best_fit_framing": "Pitch build-tools/typescript-build-config specifically (not GASify/geoCRM) as public software-supply-chain/developer-infrastructure for the wider TypeScript open-source ecosystem -- e.g. CI-enforced doc-drift gating, SLSA-style release provenance and attestation baked into the standard release pipeline, dependency-vulnerability scanning, and reusable drop-in GitHub Actions packs. This framing echoes STF's own stated concern about an under-maintained, fragile open-source ecosystem and gives reviewers a legible reason to fund it even before Doikayt has outside adopters."
     },
     "status": {
       "date_last_verified": "2026-08-20",
@@ -185,9 +184,9 @@
         "https://www.sovereign.tech/",
         "https://www.sovereign.tech/programs/fund (fetched directly via curl after WebFetch was blocked)"
       ],
-      "current_assessment": "CORRECTED 2026-08-20: the prior assessment overstated the exclusion by treating GASify and geoCRM as one candidate. STF's 'not looking for user-facing applications' language clearly excludes geoCRM (a user-facing CRM app) but does not clearly exclude GASify itself, which is developer tooling/infrastructure -- closer to STF's actual target category ('administration tools for developers'). The real blocker for GASify specifically is the Prevalence criterion (must already be widely relied upon by others), which GASify doesn't meet yet regardless of the user-facing question, plus the EUR 50,000 minimum project cost. Reclassified from Excluded back to Tier 3 -- too early, not categorically wrong.",
-      "next_action": "Revisit once GASify (as distinct from geoCRM) has real external adoption -- other projects or developers relying on it -- and a credibly EUR 50,000+ scoped body of work to propose against it specifically, not geoCRM.",
-      "application_status": "N/A"
+      "current_assessment": "CORRECTED 2026-08-20 (second correction -- Chris pointed out build-tools and typescript-build-config are fully Google-agnostic, already built and working, unlike GASify/geoCRM which the prior assessment was implicitly still centered on). Both of STF's knockout rules ('no prototypes,' 'not looking for user-facing applications') were written with geoCRM in mind and do not apply to this part of the stack -- it's finished developer infrastructure, not a user-facing prototype. The real open items are the two scored (not knockout) criteria: Prevalence (not yet widely externally adopted) and Expertise (not yet an established name in this specific tooling community), plus scoping a credible EUR 50,000+ extension roadmap. A supply-chain/ecosystem-infrastructure framing (doc-drift CI gating, release provenance/attestation, dependency scanning, reusable Action packs) directly echoes STF's own stated mission concern about an under-maintained, fragile OSS ecosystem, and is the strongest lever available for the weak Prevalence/Expertise scoring.",
+      "next_action": "Scope a concrete EUR 50,000+ extension roadmap for build-tools/typescript-build-config along the supply-chain/infrastructure framing (doc-drift CI gating, release provenance/attestation, dependency-vulnerability scanning, reusable Action packs) before applying -- this is the actual next step, not further eligibility research. STF's application cycle appears to be rolling (per an earlier reference), so timing is more about readiness than a hard external deadline.",
+      "application_status": "Not started"
     },
     "change_log": [
       {
@@ -201,6 +200,10 @@
       {
         "date": "2026-08-20",
         "change": "Correction (Chris flagged this): the prior Excluded verdict conflated GASify (the framework) with geoCRM (the user-facing app built on it). STF's 'not looking for user-facing applications' language applies to geoCRM, not to GASify as developer tooling. Reclassified Excluded -> Tier 3: GASify's real blocker is the Prevalence criterion (not yet widely relied upon externally) and the EUR 50,000 floor, not a categorical exclusion. mission_fit_score changed from Weak to Unclear to reflect this is now a stage question, not a hard mismatch."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Second correction (Chris): the prior Tier-3 reassessment was still implicitly anchored on GASify/geoCRM. Chris pointed out build-tools and typescript-build-config are already built, working, and fully Google-agnostic -- neither of STF's knockout rules (no prototypes, no user-facing apps) applies to them. Reclassified Tier 3 -> Tier 2 (structural_fit_score Weak -> Moderate, mission_fit_score Weak -> Moderate). Real remaining gaps are the scored Prevalence/Expertise criteria and scoping a credible EUR 50,000+ roadmap -- brainstormed a supply-chain/ecosystem-infrastructure framing (CI doc-drift gating, release provenance/attestation, dependency scanning, reusable Action packs) that directly echoes STF's own mission language about a fragile, under-maintained OSS ecosystem."
       }
     ]
   },
