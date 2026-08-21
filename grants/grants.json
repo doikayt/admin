@@ -185,7 +185,7 @@
         "https://www.sovereign.tech/programs/fund (fetched directly via curl after WebFetch was blocked)"
       ],
       "current_assessment": "CORRECTED 2026-08-20 (second correction -- Chris pointed out build-tools and typescript-build-config are fully Google-agnostic, already built and working, unlike GASify/geoCRM which the prior assessment was implicitly still centered on). Both of STF's knockout rules ('no prototypes,' 'not looking for user-facing applications') were written with geoCRM in mind and do not apply to this part of the stack -- it's finished developer infrastructure, not a user-facing prototype. The real open items are the two scored (not knockout) criteria: Prevalence (not yet widely externally adopted) and Expertise (not yet an established name in this specific tooling community), plus scoping a credible EUR 50,000+ extension roadmap. A supply-chain/ecosystem-infrastructure framing (doc-drift CI gating, release provenance/attestation, dependency scanning, reusable Action packs) directly echoes STF's own stated mission concern about an under-maintained, fragile OSS ecosystem, and is the strongest lever available for the weak Prevalence/Expertise scoring.",
-      "next_action": "Scope a concrete EUR 50,000+ extension roadmap for build-tools/typescript-build-config along the supply-chain/infrastructure framing (doc-drift CI gating, release provenance/attestation, dependency-vulnerability scanning, reusable Action packs) before applying -- this is the actual next step, not further eligibility research. STF's application cycle appears to be rolling (per an earlier reference), so timing is more about readiness than a hard external deadline.",
+      "next_action": "Chris is proposing to Tech for Palestine that build-tools be incorporated there as an infrastructure project -- this is a direct, concrete move to build the 'installed base' STF's Prevalence criterion asks for, not just a roadmap on paper. Expected to conclude or bear fruit in roughly 3 weeks (started 2026-08-20, check back around 2026-09-10). Follow up with Sovereign Tech Fund once that outcome is known: if Tech for Palestine adoption lands, the Prevalence story is meaningfully stronger and it's worth moving toward a real application; if not, fall back to scoping the EUR 50,000+ extension roadmap (doc-drift CI gating, release provenance/attestation, dependency-vulnerability scanning, reusable Action packs) as the alternate path to Prevalence/credibility.",
       "application_status": "Not started"
     },
     "change_log": [
@@ -204,6 +204,10 @@
       {
         "date": "2026-08-20",
         "change": "Second correction (Chris): the prior Tier-3 reassessment was still implicitly anchored on GASify/geoCRM. Chris pointed out build-tools and typescript-build-config are already built, working, and fully Google-agnostic -- neither of STF's knockout rules (no prototypes, no user-facing apps) applies to them. Reclassified Tier 3 -> Tier 2 (structural_fit_score Weak -> Moderate, mission_fit_score Weak -> Moderate). Real remaining gaps are the scored Prevalence/Expertise criteria and scoping a credible EUR 50,000+ roadmap -- brainstormed a supply-chain/ecosystem-infrastructure framing (CI doc-drift gating, release provenance/attestation, dependency scanning, reusable Action packs) that directly echoes STF's own mission language about a fragile, under-maintained OSS ecosystem."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Chris is proposing to Tech for Palestine that build-tools be incorporated there as an infrastructure project -- a direct move to build the 'installed base' STF's Prevalence criterion asks for. Outreach started 2026-08-20, expected to conclude or bear fruit in roughly 3 weeks (~2026-09-10). A follow-up reminder was scheduled for that date to check the outcome and decide next steps with Sovereign Tech Fund."
       }
     ]
   },
