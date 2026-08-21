@@ -7,19 +7,29 @@ priority that drives screening here, and [`prompt.md`](prompt.md) for the `grant
 
 ## Status (as of 2026-08-20)
 
-1 candidate researched: Mozilla Technology Fund (MTF), Tier 3 — see `grants.json` for detail.
-MOSS (Mozilla Open Source Support), named in earlier internal discussion as a starting
-candidate, turned out to be defunct (indefinite hiatus since Mozilla's 2020 restructuring);
-MTF is its stated successor but has no open call as of this writing and recent cycle themes
-(AI-centric) don't obviously match Doikayt's domain.
+The full starting cluster named in earlier internal discussion (MOSS, NLnet, Sovereign Tech
+Fund, Media Democracy Fund, NetGain) has been researched. **No Tier 1 candidate identified
+yet.** Summary:
 
-Remaining starting cluster to work through (named in earlier internal discussion, not yet
-turned into tracked records): NLnet, Sovereign Tech Fund, Media Democracy Fund, NetGain —
-digital-rights / open-source-tech funders whose model (restricted, deliverable-scoped software
-grants) is a close structural match for funding the GASify/build-tools/geoCRM stack. This is a
-starting point to research, not a pre-screened shortlist — each still needs real research
-against the schema in [`prompt.md`](prompt.md), including whether it accepts fiscally sponsored
-applicants. Given MOSS's fate, verify each is still actually active before investing further.
+- **NLnet Foundation** — Tier 2. Best structural fit found so far (individuals or
+  not-yet-established organizations can apply directly, per NLnet's own materials — no fiscal
+  sponsor or legal entity needed at all), but mission fit against GASify/geoCRM specifically is
+  unclear: NLnet's flagship funded projects (Tor, WireGuard, Jitsi, PeerTube) are core
+  internet/protocol infrastructure, and GASify/geoCRM depend on the proprietary Google Apps
+  Script platform. `build-tools`/`typescript-build-config` may be the stronger specific pitch.
+  Calls reopen 2026-09-03, deadline 2026-11-03 — real near-term action item.
+- **Mozilla Technology Fund (MTF)** — Tier 3. Successor to MOSS (defunct since 2020). No open
+  call found; recent cycle themes have been AI-centric, not a domain match.
+- **Sovereign Tech Fund** — Tier 3. Roughly EUR 50,000 minimum project scope and a focus on
+  already-critical/widely-used infrastructure — both mismatched to Doikayt's current stage.
+- **Media Democracy Fund** — Tier 3. Good thematic mission overlap, but does not accept
+  unsolicited applications — no path in without a warm referral.
+- **NetGain Partnership** — Tier 3. A foundation collaborative, not an independently operating
+  grantmaker; last confirmed open call was 2020; historical grant recipients skew toward
+  research/policy orgs at a larger scale ($250k+ average) than fits Doikayt now.
+
+See `grants.json` for full detail on each. Given MOSS's fate, always verify a funder is still
+actually active before investing further research time.
 
 ## Current Tier 1 candidates (contact these first)
 

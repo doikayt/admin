@@ -62,5 +62,246 @@
         "change": "Tagged funding_type with the new 'Directed / infrastructure grant' category (added to the schema today) -- MTF's 'Foundational Technology' track is exactly this pattern: Mozilla pays to get infrastructure built/maintained because their own ecosystem depends on it, not merely approving a proposed project. No change to tier or scores."
       }
     ]
+  },
+  {
+    "org_name": "NLnet Foundation",
+    "website": "https://nlnet.nl/",
+    "funder_type": "Other",
+    "funder_type_other_description": "Dutch charitable foundation (stichting), not a US 501(c)(3) entity",
+    "geographic_scope": "International",
+    "accepts_fiscally_sponsored_applicants": true,
+    "accepts_unincorporated_direct_applicants": true,
+    "stated_mission": "Supporting the open internet since 1997; funds open hardware, software, standards, science, and data that further an open internet commons.",
+    "funding_priorities": [
+      "Core internet infrastructure (routing, DNS, encryption, decentralization)",
+      "Open standards",
+      "Software supply chain security (CodeSupply fund)",
+      "Decentralized platforms with end-to-end encryption (ELFA fund)",
+      "Resilient/trustworthy digital infrastructure (Restack fund)"
+    ],
+    "funding_type": [
+      "Directed / infrastructure grant"
+    ],
+    "grant_size_range": "Up to EUR 50,000 for general open-source internet infrastructure funds; specific funds (e.g. NGI TALER) cap around EUR 60,000 total per recipient over the program lifetime",
+    "typical_grant_period": "Unclear -- milestone/deliverable-based disbursement is typical of NGI-style programs, not confirmed for current funds",
+    "application_cycle": "Rolling/periodic per fund; new deadline sequence reopens 2026-09-03",
+    "application_deadline": "2026-11-03",
+    "application_process": "Apply directly via nlnet.nl/propose/ following the fund-specific guide; proposals must be submitted in English",
+    "eligibility_requirements": [
+      "Must release software/hardware/content under libre/open licenses and apply open standards where possible -- a hard requirement across all funds",
+      "Per NLnet materials (via search synthesis, not yet confirmed directly against nlnet.nl/*/guideforapplicants/): individuals, informal organizations, or entities not yet formally established can apply directly -- formal legal structure is explicitly not the deciding factor",
+      "Each specific fund (Restack, CodeSupply, ELFA, NGI TALER, etc.) has its own scope/conditions beyond the general open-internet requirement. NLnet's flagship examples (Tor, WireGuard, Jitsi, PeerTube) lean toward core internet/protocol-level infrastructure, not application-layer tooling built on a proprietary platform -- GASify/geoCRM's fit against any specific current fund is unconfirmed"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 2",
+    "exclusion_reason": "",
+    "structural_fit_score": "Strong",
+    "mission_fit_score": "Unclear",
+    "mission_alignment": {
+      "sponsor_mission_summary": "NLnet funds projects that strengthen the open internet commons -- historically core internet infrastructure and protocols (Tor, WireGuard, Jitsi, PeerTube), now organized under funds like Restack (resilient digital infrastructure), CodeSupply (software supply chain security), and ELFA (decentralized encrypted platforms).",
+      "doikayt_overlap": "build-tools and typescript-build-config are generic, platform-agnostic open-source developer tooling and could plausibly fit a supply-chain/infrastructure framing (e.g. CodeSupply). GASify and geoCRM are built specifically on Google Apps Script/Workspace, which is in real tension with NLnet's open-standards/open-internet ethos -- that is Doikayt building on top of Big Tech infrastructure, not away from it, at the technical layer, even though Doikayt's broader mission (grassroots orgs controlling their own tools) points the other direction.",
+      "potential_concerns": [
+        "GASify/geoCRM's dependency on proprietary Google Apps Script is a real tension against NLnet's open-standards/open-internet mission, not just an open question",
+        "Which specific current fund (if any) actually fits hasn't been confirmed",
+        "Deadline 2026-11-03, cycle reopens 2026-09-03 -- enough lead time to research properly before rushing an application"
+      ],
+      "best_fit_framing": "Untested. If pursued, likely stronger to pitch build-tools/typescript-build-config (platform-agnostic FOSS developer infrastructure) under a supply-chain/tooling-focused fund (e.g. CodeSupply) than to pitch GASify/geoCRM, whose core value proposition depends on a proprietary Google platform."
+    },
+    "status": {
+      "date_last_verified": "2026-08-20",
+      "source_urls": [
+        "https://nlnet.nl/",
+        "https://nlnet.nl/propose/",
+        "https://nlnet.nl/useroperated/guideforapplicants/",
+        "https://www.grantchain.eu/blog/nlnet-foundation-grants-guide"
+      ],
+      "current_assessment": "Best structural fit of any grant funder researched so far: per NLnet materials, individuals or informal/not-yet-established organizations can apply directly, with no fiscal sponsor or legal entity required at all -- this bypasses the chicken-and-egg problem entirely rather than just softening it. Calls reopen 2026-09-03 with a 2026-11-03 deadline. However, mission fit for GASify/geoCRM specifically is genuinely uncertain: NLnet's flagship funded projects (Tor, WireGuard, Jitsi, PeerTube) are core internet/protocol infrastructure, and GASify/geoCRM's dependency on proprietary Google Apps Script sits in real tension with that ethos. build-tools/typescript-build-config (platform-agnostic dev tooling) may be the stronger specific pitch. Several eligibility details came from search-engine synthesis (grantchain.eu, aggregated guides) rather than NLnet's own fund-specific guideforapplicants pages, which direct WebFetch attempts on nlnet.nl/propose/ and nlnet.nl/faq/ did not fully surface -- confirm directly before relying on them.",
+      "next_action": "Before 2026-09-03 (when calls reopen): read the specific fund guides (Restack, CodeSupply, ELFA) directly at nlnet.nl to confirm scope and whether build-tools/typescript-build-config is a better fit than GASify/geoCRM; confirm the individuals/informal-org eligibility claim against NLnet's own guideforapplicants page rather than search-engine synthesis.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-20",
+        "change": "Initial entry created as part of researching the starting grant-funder cluster. Landed Tier 2: exceptionally strong structural fit (no legal entity or fiscal sponsor required at all, per NLnet materials) but mission fit against GASify/geoCRM specifically is unclear given NLnet's protocol/infrastructure-level focus versus GASify's dependency on the proprietary Google Apps Script platform. Several fields flagged as search-derived rather than primary-source-confirmed since direct WebFetch of nlnet.nl/propose/ and /faq/ did not surface full eligibility text."
+      }
+    ]
+  },
+  {
+    "org_name": "Sovereign Tech Fund / Sovereign Tech Agency",
+    "website": "https://www.sovereign.tech/",
+    "funder_type": "Government entity",
+    "geographic_scope": "International",
+    "accepts_fiscally_sponsored_applicants": "Unclear",
+    "accepts_unincorporated_direct_applicants": "Unclear",
+    "stated_mission": "A German government-backed agency (Sovereign Tech Agency) that funds and strengthens critical open source infrastructure the digital ecosystem depends on, for security, resilience, and technological diversity.",
+    "funding_priorities": [
+      "Critical, widely-relied-upon open source infrastructure",
+      "Digital public infrastructure",
+      "Security and maintenance of foundational software dependencies"
+    ],
+    "funding_type": [
+      "Directed / infrastructure grant"
+    ],
+    "grant_size_range": "Minimum roughly EUR 50,000 (cost of proposed work must exceed this); no fixed upper limit",
+    "typical_grant_period": "Unclear",
+    "application_cycle": "Unclear/rolling (one third-party project-fundraising tracker lists it as 'Rolling Deadline')",
+    "application_deadline": "Rolling",
+    "application_process": "Apply via sovereign.tech/programs/fund; a separate Fellowship program exists with its own freelance (global) and employment (Germany-only) tracks",
+    "eligibility_requirements": [
+      "EUR 50,000 minimum project cost -- likely too large a scope for Doikayt's current stage/team size to credibly propose",
+      "Sovereign Tech Fund specifically targets already-widely-relied-upon critical open source infrastructure (e.g. curl/OpenSSL-class dependencies) -- GASify/geoCRM are early-stage and not yet widely adopted, a stage mismatch distinct from NLnet's protocol-focus mismatch",
+      "Code/documentation must be freely reusable under OSI/FSF-approved licenses with no non-commercial or no-derivative clauses"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "exclusion_reason": "",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Weak",
+    "mission_alignment": {
+      "sponsor_mission_summary": "German government-backed agency funding maintenance and resilience of critical, widely-used open source infrastructure that societies and economies already depend on.",
+      "doikayt_overlap": "Minimal at Doikayt's current stage. GASify/geoCRM are new and not yet widely relied upon, and the roughly EUR 50,000+ minimum project scope is a real stretch for a self-funded, pre-revenue project.",
+      "potential_concerns": [
+        "EUR 50,000 minimum project scope",
+        "'Already critical/widely used' eligibility bar",
+        "Government-of-Germany funded -- worth confirming no geographic/citizenship restriction applies in practice"
+      ],
+      "best_fit_framing": "Revisit later if/when build-tools or typescript-build-config reach meaningful external adoption outside Doikayt itself -- not a near-term fit."
+    },
+    "status": {
+      "date_last_verified": "2026-08-20",
+      "source_urls": [
+        "https://www.sovereign.tech/",
+        "https://www.sovereign.tech/programs/fund",
+        "https://github.com/numfocus/project-fundraising/issues/106"
+      ],
+      "current_assessment": "Direct WebFetch of sovereign.tech was blocked (HTTP 403); findings are search-engine-derived and need primary-source confirmation before being relied on. The two disqualifying signals found are consistent across sources: a roughly EUR 50,000 minimum project cost, and a mission focus on infrastructure that is already critical/widely relied upon (their model, per multiple sources, is closer to funding maintenance of things like curl or OpenSSL than funding a new, early-stage tool). GASify/geoCRM don't clear either bar at Doikayt's current stage.",
+      "next_action": "Revisit only once a Doikayt project (most likely build-tools or typescript-build-config) has meaningful external adoption and a credibly EUR 50,000+ scoped body of work to propose.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-20",
+        "change": "Initial entry created as part of researching the starting grant-funder cluster. Landed Tier 3 / Weak-Weak: the roughly EUR 50,000 minimum project cost and the 'already critical/widely-used infrastructure' focus don't match Doikayt's current early stage. Direct site fetch was blocked (403); findings are search-derived and flagged for confirmation."
+      }
+    ]
+  },
+  {
+    "org_name": "Media Democracy Fund",
+    "website": "https://mediademocracyfund.org/",
+    "funder_type": "Other",
+    "funder_type_other_description": "A donor collaborative / pooled fund, fiscally sponsored by New Venture Fund",
+    "geographic_scope": "National (US)",
+    "accepts_fiscally_sponsored_applicants": "Unclear",
+    "accepts_unincorporated_direct_applicants": "Unclear",
+    "stated_mission": "Mobilizing philanthropy where movements and technology meet; funds digital equity, justice, and transformative/civic journalism initiatives in the US.",
+    "funding_priorities": [
+      "Digital equity and justice",
+      "Civic/transformative journalism",
+      "Technology policy work at the intersection of movements and tech"
+    ],
+    "funding_type": [
+      "Unclear"
+    ],
+    "grant_size_range": "Unclear",
+    "typical_grant_period": "Unclear",
+    "application_cycle": "N/A -- does not accept unsolicited applications",
+    "application_deadline": "Unclear",
+    "application_process": "Does NOT accept unsolicited grant applications or funding requests -- invitation/solicitation-only model. General inquiries can be sent to staff via email.",
+    "eligibility_requirements": [
+      "Solicited/invitation-only grantmaking -- there is no open application process to apply against"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "exclusion_reason": "",
+    "structural_fit_score": "Weak",
+    "mission_fit_score": "Moderate",
+    "mission_alignment": {
+      "sponsor_mission_summary": "A donor collaborative mobilizing philanthropy at the intersection of social/political movements and technology, focused on digital equity, justice, and civic journalism in the US.",
+      "doikayt_overlap": "Doikayt's grassroots-movement-tooling mission overlaps well thematically, but MDF does not accept unsolicited applications -- there is no direct path in without an existing relationship or referral.",
+      "potential_concerns": [
+        "No open application process",
+        "Typical grant size unknown",
+        "Would need a warm introduction, not a cold application"
+      ],
+      "best_fit_framing": "Not applicable until a referral path is identified -- don't spend outreach effort here without a warm connection."
+    },
+    "status": {
+      "date_last_verified": "2026-08-20",
+      "source_urls": [
+        "https://mediademocracyfund.org/",
+        "https://www.cima.ned.org/donor-profiles/media-democracy-fund/",
+        "https://www.influencewatch.org/non-profit/media-democracy-fund/"
+      ],
+      "current_assessment": "Thematic mission overlap (movements + technology, digital equity) is real, but MDF explicitly does not accept unsolicited applications -- it operates on a solicited/invitation basis. There's no actionable near-term path in without a warm introduction or referral.",
+      "next_action": "Watch for any warm-introduction opportunity (e.g. via another funder or contact in this space); do not attempt a cold/unsolicited application.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-20",
+        "change": "Initial entry created as part of researching the starting grant-funder cluster. Landed Tier 3: good thematic mission fit but structurally inaccessible right now since MDF does not accept unsolicited applications."
+      }
+    ]
+  },
+  {
+    "org_name": "NetGain Partnership",
+    "website": "https://netgainpartnership.org/",
+    "funder_type": "Other",
+    "funder_type_other_description": "A collaborative network/pooled fund of eight major foundations (Democracy Fund, Ford, Knight, MacArthur, Mozilla, Open Society, Skoll, Whitmore), not an independent grantmaking entity itself",
+    "geographic_scope": "Unclear",
+    "accepts_fiscally_sponsored_applicants": "Unclear",
+    "accepts_unincorporated_direct_applicants": "Unclear",
+    "stated_mission": "Advancing the public interest in the digital age; a collaborative of major foundations working on technology policy, internet governance, platform accountability, and disinformation.",
+    "funding_priorities": [
+      "Internet platform accountability",
+      "Disinformation and public-interest research on online platforms",
+      "Digital public sphere health",
+      "Finance-focused strategies to check Big Tech company power",
+      "Public interest technology field-building"
+    ],
+    "funding_type": [
+      "Unclear"
+    ],
+    "grant_size_range": "Historical: 5 grants totaling $1.25M collectively (roughly $250k average) to strengthen the public-interest-technology field -- likely larger, established-org-scale grants, not small tooling grants",
+    "typical_grant_period": "Unclear",
+    "application_cycle": "Historically periodic concept-note calls for a 'Small Grants Fund' (last confirmed instance found: 2020); no evidence of a currently open call as of 2026-08-20",
+    "application_deadline": "Unclear -- no open call found",
+    "application_process": "Historically: submit a concept note in response to a periodic call for proposals; primarily a collaborative/pooled fund among founding foundations rather than a continuously open grants program",
+    "eligibility_requirements": [
+      "No confirmed current open call as of 2026-08-20",
+      "Historical focus (disinformation, platform-accountability research) skews toward policy/research organizations, not tooling-for-grassroots-orgs -- real mission-mismatch risk unless framed carefully"
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "exclusion_reason": "",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Weak",
+    "mission_alignment": {
+      "sponsor_mission_summary": "A collaborative of major foundations funding technology-policy research, platform accountability, and counterweights to growing platform power.",
+      "doikayt_overlap": "Weak direct overlap -- NetGain's historical focus is policy/research on platform harms, not building practical tools for grassroots orgs. A possible stretch framing exists (GASify as a 'technological intervention' reducing dependency on Big Tech platforms) but is unconfirmed and untested.",
+      "potential_concerns": [
+        "No confirmed open call",
+        "Historical grant recipients skew toward research/policy orgs, not small tooling projects",
+        "Grants historically large (roughly $250k average) relative to Doikayt's current stage"
+      ],
+      "best_fit_framing": "Untested stretch: GASify/geoCRM as a technological intervention giving grassroots orgs independence from Big Tech platforms, framed as a counterweight to platform power rather than a research project. Needs a live call and a warm path in before pursuing."
+    },
+    "status": {
+      "date_last_verified": "2026-08-20",
+      "source_urls": [
+        "https://www.netgainpartnership.org/",
+        "https://netgainpartnership.org/grants",
+        "https://www.netgainpartnership.org/news-announcements/2020/10/netgain-partners-invite-concept-notes-for-small-grants-fund"
+      ],
+      "current_assessment": "NetGain is a collaborative of eight major foundations, not an independently operating grantmaker with a continuously open application process. The only confirmed concrete grant activity found (a concept-note-based Small Grants Fund) dates to 2020, with no evidence of a currently open call. Historical focus and grant sizes (~$250k average) skew toward established research/policy organizations working on platform accountability and disinformation, not early-stage tooling projects like GASify/geoCRM.",
+      "next_action": "Watch netgainpartnership.org/grants for a future open concept-note call; don't invest further research or outreach effort without one.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-08-20",
+        "change": "Initial entry created as part of researching the starting grant-funder cluster. Landed Tier 3: no confirmed current open call, and historical focus/grant scale skew toward research/policy organizations rather than early-stage tooling projects."
+      }
+    ]
   }
 ]
