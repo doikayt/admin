@@ -156,27 +156,28 @@
     "application_deadline": "Rolling",
     "application_process": "Apply via sovereign.tech/programs/fund; a separate Fellowship program exists with its own freelance (global) and employment (Germany-only) tracks",
     "eligibility_requirements": [
-      "CONFIRMED directly on sovereign.tech/programs/fund: 'We do not finance the development of prototypes.' geoCRM is explicitly prototype-stage -- disqualifying.",
-      "CONFIRMED: 'We are currently not looking for user-facing applications, such as messaging apps or file storage services.' geoCRM (a CRM built into Google Sheets) is a user-facing application -- explicitly out of current scope.",
-      "CONFIRMED: cost of proposed work must exceed EUR 50,000 (current minimum).",
-      "CONFIRMED: funded technology must already be 'prevalent' -- widely adopted, with notable projects/organizations relying on it. Doikayt's projects have not reached this bar.",
+      "CONFIRMED on sovereign.tech/programs/fund: 'We do not finance the development of prototypes' and 'we are currently not looking for user-facing applications, such as messaging apps or file storage services.' This clearly excludes geoCRM (a user-facing CRM app, currently prototype-stage). It does NOT clearly exclude GASify itself -- GASify is a developer framework/tooling layer, not a user-facing application, and is closer to STF's stated target category ('administration tools for developers,' 'libraries for programming languages').",
+      "CONFIRMED: cost of proposed work must exceed EUR 50,000 (current minimum) -- a real stretch to scope credibly at Doikayt's current stage regardless of which project is pitched.",
+      "CONFIRMED 'Prevalence' criterion: funded technology must already be widely used/relied upon, with notable projects or organizations depending on it. This is the binding blocker for GASify specifically -- it has no confirmed external adopters yet, independent of the user-facing-application question.",
+      "Whether GASify itself counts as still-'prototype' in STF's sense, as opposed to geoCRM specifically, is unconfirmed.",
       "CONFIRMED: not eligible if another public entity is already funding the same proposed activities.",
       "Code/documentation must be freely reusable under OSI/FSF-approved licenses with no non-commercial or no-derivative clauses."
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation.",
-    "tier": "Excluded",
-    "exclusion_reason": "Project-stage restriction: Sovereign Tech Fund's own eligibility page explicitly states 'We do not finance the development of prototypes' and 'We are currently not looking for user-facing applications, such as messaging apps or file storage services.' geoCRM is both a prototype-stage project and a user-facing application (a CRM built into Google Sheets) -- explicitly outside their stated current scope, not just a stretch. The 'Prevalence' criterion (technology must already be widely used/relied upon by notable projects) is a further bar none of Doikayt's projects currently clear, and the EUR 50,000 minimum project cost remains a real stretch at Doikayt's current stage.",
+    "tier": "Tier 3",
+    "exclusion_reason": "",
     "structural_fit_score": "Weak",
-    "mission_fit_score": "Weak",
+    "mission_fit_score": "Unclear",
     "mission_alignment": {
       "sponsor_mission_summary": "German government-backed agency funding maintenance and resilience of critical, widely-used open source infrastructure that societies and economies already depend on.",
-      "doikayt_overlap": "Minimal at Doikayt's current stage. GASify/geoCRM are new and not yet widely relied upon, and the roughly EUR 50,000+ minimum project scope is a real stretch for a self-funded, pre-revenue project.",
+      "doikayt_overlap": "GASify (the framework layer, not geoCRM) is conceptually closer to STF's target category than initially assessed -- it's developer tooling/infrastructure, not a user-facing application, so the 'not looking for user-facing applications' exclusion doesn't clearly apply to it. The binding blocker is Prevalence: GASify has no confirmed external adopters yet, and STF explicitly funds technology already widely relied upon, not new frameworks seeking their first users.",
       "potential_concerns": [
         "EUR 50,000 minimum project scope",
-        "'Already critical/widely used' eligibility bar",
+        "Prevalence bar: GASify isn't yet widely used/relied upon by others -- this is the real blocker, not the user-facing-application criterion",
+        "Whether GASify itself (vs geoCRM) would be read as still-prototype-stage by STF is unconfirmed",
         "Government-of-Germany funded -- worth confirming no geographic/citizenship restriction applies in practice"
       ],
-      "best_fit_framing": "Revisit later if/when build-tools or typescript-build-config reach meaningful external adoption outside Doikayt itself -- not a near-term fit."
+      "best_fit_framing": "Revisit once GASify (not geoCRM) has meaningful external adoption -- other developers or projects actually building on the framework, not just Doikayt's own use of it. At that point GASify's framing as developer infrastructure, not a user-facing app, becomes a real asset rather than a moot distinction."
     },
     "status": {
       "date_last_verified": "2026-08-20",
@@ -184,8 +185,8 @@
         "https://www.sovereign.tech/",
         "https://www.sovereign.tech/programs/fund (fetched directly via curl after WebFetch was blocked)"
       ],
-      "current_assessment": "UPDATED 2026-08-20 with primary-source confirmation (direct curl fetch succeeded after the WebFetch tool was blocked with HTTP 403). Sovereign Tech Fund's own eligibility page explicitly and unambiguously excludes exactly what GASify/geoCRM currently is: 'We do not finance the development of prototypes' and 'We are currently not looking for user-facing applications, such as messaging apps or file storage services.' Combined with the EUR 50,000 minimum project cost and a 'Prevalence' criterion requiring the technology to already be widely relied upon, this isn't a soft mismatch needing more research -- it's a direct, stated exclusion. Moved from Tier 3 (uncertain) to Excluded.",
-      "next_action": "None -- parked as reference. Revisit only if a Doikayt project (most likely build-tools or typescript-build-config, not GASify/geoCRM) reaches meaningful external prevalence/adoption and moves well past prototype stage.",
+      "current_assessment": "CORRECTED 2026-08-20: the prior assessment overstated the exclusion by treating GASify and geoCRM as one candidate. STF's 'not looking for user-facing applications' language clearly excludes geoCRM (a user-facing CRM app) but does not clearly exclude GASify itself, which is developer tooling/infrastructure -- closer to STF's actual target category ('administration tools for developers'). The real blocker for GASify specifically is the Prevalence criterion (must already be widely relied upon by others), which GASify doesn't meet yet regardless of the user-facing question, plus the EUR 50,000 minimum project cost. Reclassified from Excluded back to Tier 3 -- too early, not categorically wrong.",
+      "next_action": "Revisit once GASify (as distinct from geoCRM) has real external adoption -- other projects or developers relying on it -- and a credibly EUR 50,000+ scoped body of work to propose against it specifically, not geoCRM.",
       "application_status": "N/A"
     },
     "change_log": [
@@ -196,6 +197,10 @@
       {
         "date": "2026-08-20",
         "change": "Primary-source update: direct curl fetch of sovereign.tech (after WebFetch was blocked with HTTP 403) surfaced explicit, unambiguous exclusion criteria -- 'We do not finance the development of prototypes' and 'not currently looking for user-facing applications' -- that directly rule out geoCRM's current stage and form. Reclassified from Tier 3 (uncertain, search-derived) to Excluded (confirmed, primary-source). structural_fit_score and mission_fit_score both set to Weak; exclusion_reason set to project-stage restriction."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Correction (Chris flagged this): the prior Excluded verdict conflated GASify (the framework) with geoCRM (the user-facing app built on it). STF's 'not looking for user-facing applications' language applies to geoCRM, not to GASify as developer tooling. Reclassified Excluded -> Tier 3: GASify's real blocker is the Prevalence criterion (not yet widely relied upon externally) and the EUR 50,000 floor, not a categorical exclusion. mission_fit_score changed from Weak to Unclear to reflect this is now a stage question, not a hard mismatch."
       }
     ]
   },

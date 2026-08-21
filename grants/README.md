@@ -23,10 +23,13 @@ yet.** Summary:
   transitioning away from — needs re-confirming against whichever fund(s) actually reopen.
 - **Mozilla Technology Fund (MTF)** — Tier 3. Successor to MOSS (defunct since 2020). No open
   call found; recent cycle themes have been AI-centric, not a domain match.
-- **Sovereign Tech Fund** — **Excluded** (primary-source confirmed). Their own eligibility page
-  explicitly states "We do not finance the development of prototypes" and "we are currently not
-  looking for user-facing applications" — geoCRM is both. Not a soft mismatch; a stated
-  exclusion.
+- **Sovereign Tech Fund** — Tier 3 (corrected from an earlier overstated Excluded verdict).
+  Their "not looking for user-facing applications" language excludes geoCRM specifically, but
+  not GASify — the framework layer is developer tooling, closer to their actual target category
+  ("administration tools for developers"). The real blocker for GASify is their "Prevalence"
+  criterion (must already be widely relied upon externally), which it doesn't meet yet, plus the
+  EUR 50,000 minimum project cost. Too early, not categorically wrong — revisit once GASify has
+  real external adoption.
 - **Media Democracy Fund** — Tier 3. Good thematic mission overlap, but does not accept
   unsolicited applications — no path in without a warm referral.
 - **NetGain Partnership** — Tier 3. A foundation collaborative, not an independently operating
