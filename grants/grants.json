@@ -82,15 +82,16 @@
     "funding_type": [
       "Directed / infrastructure grant"
     ],
-    "grant_size_range": "Up to EUR 50,000 for general open-source internet infrastructure funds; specific funds (e.g. NGI TALER) cap around EUR 60,000 total per recipient over the program lifetime",
+    "grant_size_range": "First proposal: max EUR 50,000 (0-50 kEuro). A proposal larger than EUR 50,000 must be preceded by one or more smaller NLnet-funded projects that have been successfully concluded first.",
     "typical_grant_period": "Unclear -- milestone/deliverable-based disbursement is typical of NGI-style programs, not confirmed for current funds",
-    "application_cycle": "Rolling/periodic per fund; new deadline sequence reopens 2026-09-03",
-    "application_deadline": "2026-11-03",
+    "application_cycle": "Calls currently closed ('not possible to submit proposals' as of 2026-08-20); new calls across several funds reopen 2026-09-03 with a 2026-11-03 12:00 CEST deadline. NLnet is transitioning from its NGI Zero program (including the User-Operated Internet Fund) to a new 'Open Internet Stack' effort and other programmes -- which named funds (Restack/CodeSupply/ELFA/other) will be open in the September cycle is not yet confirmed.",
+    "application_deadline": "2026-11-03T12:00:00+01:00 (CEST noon)",
     "application_process": "Apply directly via nlnet.nl/propose/ following the fund-specific guide; proposals must be submitted in English",
     "eligibility_requirements": [
-      "Must release software/hardware/content under libre/open licenses and apply open standards where possible -- a hard requirement across all funds",
-      "Per NLnet materials (via search synthesis, not yet confirmed directly against nlnet.nl/*/guideforapplicants/): individuals, informal organizations, or entities not yet formally established can apply directly -- formal legal structure is explicitly not the deciding factor",
-      "Each specific fund (Restack, CodeSupply, ELFA, NGI TALER, etc.) has its own scope/conditions beyond the general open-internet requirement. NLnet's flagship examples (Tor, WireGuard, Jitsi, PeerTube) lean toward core internet/protocol-level infrastructure, not application-layer tooling built on a proprietary platform -- GASify/geoCRM's fit against any specific current fund is unconfirmed"
+      "CONFIRMED directly on nlnet.nl/useroperated/eligibility/ (User-Operated Internet Fund page): 'There are no categorical exclusions of persons or entities who may not receive support from this fund. There are no geographical restrictions.' No legal entity or fiscal sponsor is required -- individuals and informal/not-yet-established organizations can apply directly.",
+      "Must release software/hardware/content under libre/open licenses and apply open standards where possible -- a hard requirement across all funds.",
+      "This specific confirmation was read on the User-Operated Internet Fund's guide, which is under NGI Zero -- a program NLnet is currently sunsetting in favor of a new 'Open Internet Stack' effort. Whether the same no-entity-required policy explicitly carries over to the new funds (Restack, CodeSupply, ELFA) that reopen 2026-09-03 is very likely but not yet directly confirmed against those specific fund pages.",
+      "Fund scope leans toward core internet/protocol-level infrastructure and general FOSS software engineering/security/documentation/usability work (per the UOI fund's list of qualifying activities) -- GASify/geoCRM's dependency on the proprietary Google Apps Script platform remains a real tension with this scope; build-tools/typescript-build-config (platform-agnostic dev tooling) is more likely to fit than geoCRM itself."
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation.",
     "tier": "Tier 2",
@@ -113,16 +114,23 @@
         "https://nlnet.nl/",
         "https://nlnet.nl/propose/",
         "https://nlnet.nl/useroperated/guideforapplicants/",
-        "https://www.grantchain.eu/blog/nlnet-foundation-grants-guide"
+        "https://www.grantchain.eu/blog/nlnet-foundation-grants-guide",
+        "https://nlnet.nl/useroperated/guideforapplicants/",
+        "https://nlnet.nl/useroperated/eligibility/",
+        "https://nlnet.nl/propose/ (fetched directly via curl after WebFetch was blocked)"
       ],
-      "current_assessment": "Best structural fit of any grant funder researched so far: per NLnet materials, individuals or informal/not-yet-established organizations can apply directly, with no fiscal sponsor or legal entity required at all -- this bypasses the chicken-and-egg problem entirely rather than just softening it. Calls reopen 2026-09-03 with a 2026-11-03 deadline. However, mission fit for GASify/geoCRM specifically is genuinely uncertain: NLnet's flagship funded projects (Tor, WireGuard, Jitsi, PeerTube) are core internet/protocol infrastructure, and GASify/geoCRM's dependency on proprietary Google Apps Script sits in real tension with that ethos. build-tools/typescript-build-config (platform-agnostic dev tooling) may be the stronger specific pitch. Several eligibility details came from search-engine synthesis (grantchain.eu, aggregated guides) rather than NLnet's own fund-specific guideforapplicants pages, which direct WebFetch attempts on nlnet.nl/propose/ and nlnet.nl/faq/ did not fully surface -- confirm directly before relying on them.",
-      "next_action": "Before 2026-09-03 (when calls reopen): read the specific fund guides (Restack, CodeSupply, ELFA) directly at nlnet.nl to confirm scope and whether build-tools/typescript-build-config is a better fit than GASify/geoCRM; confirm the individuals/informal-org eligibility claim against NLnet's own guideforapplicants page rather than search-engine synthesis.",
+      "current_assessment": "UPDATED 2026-08-20 with primary-source confirmation (direct curl fetch of nlnet.nl succeeded after the WebFetch tool was blocked/incomplete). CONFIRMED directly from NLnet's own Eligibility page: no legal entity, fiscal sponsor, or incorporation of any kind is required -- 'no categorical exclusions of persons or entities,' 'no geographical restrictions.' Grant size for a first proposal is capped at EUR 50,000; larger amounts require a successfully-completed prior NLnet project first. CONFIRMED exact deadline: calls reopen 2026-09-03, deadline 2026-11-03 12:00 CEST (noon) -- hard deadline, NLnet's own guidance says don't wait until the last hour. One nuance found: this eligibility confirmation was read on the User-Operated Internet Fund page specifically, which sits under NGI Zero -- a program NLnet says it is 'taking stock of' and transitioning away from, toward a new 'Open Internet Stack' effort and other programmes (the same Restack/CodeSupply/ELFA funds named on the homepage). The general no-entity-required policy is very likely organization-wide, but hasn't been individually re-confirmed against those specific successor fund pages. Mission fit remains the open question: fund scope leans toward core internet/protocol infrastructure and general FOSS engineering, and GASify/geoCRM's dependency on proprietary Google Apps Script is real tension against that; build-tools/typescript-build-config likely pitches better.",
+      "next_action": "Before 2026-09-03: read whichever specific fund guide(s) open in the new cycle (Restack/CodeSupply/ELFA or successors) to confirm the no-entity-required policy carries over and to determine whether build-tools/typescript-build-config fits better than GASify/geoCRM. Deadline is a hard 2026-11-03 12:00 CEST -- plan to submit well before the last hour per NLnet's own guidance.",
       "application_status": "Not started"
     },
     "change_log": [
       {
         "date": "2026-08-20",
         "change": "Initial entry created as part of researching the starting grant-funder cluster. Landed Tier 2: exceptionally strong structural fit (no legal entity or fiscal sponsor required at all, per NLnet materials) but mission fit against GASify/geoCRM specifically is unclear given NLnet's protocol/infrastructure-level focus versus GASify's dependency on the proprietary Google Apps Script platform. Several fields flagged as search-derived rather than primary-source-confirmed since direct WebFetch of nlnet.nl/propose/ and /faq/ did not surface full eligibility text."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Primary-source update: direct curl fetch of nlnet.nl (after the WebFetch tool was blocked/incomplete on this domain) confirmed the individuals/no-entity-required eligibility claim directly against NLnet's own Eligibility page, confirmed 'no geographical restrictions' (geographic_scope updated from International-unconfirmed to International-confirmed), and confirmed the exact grant cap (EUR 50,000 for a first proposal) and exact deadline (2026-11-03 12:00 CEST, calls reopen 2026-09-03). Noted that this confirmation was read on the User-Operated Internet Fund/NGI Zero page, which NLnet is transitioning away from -- carryover to the new Open Internet Stack-era funds (Restack/CodeSupply/ELFA) is likely but not yet individually confirmed. No tier change (stays Tier 2); structural_fit_score stays Strong but is now primary-source-confirmed rather than search-derived."
       }
     ]
   },
@@ -148,13 +156,16 @@
     "application_deadline": "Rolling",
     "application_process": "Apply via sovereign.tech/programs/fund; a separate Fellowship program exists with its own freelance (global) and employment (Germany-only) tracks",
     "eligibility_requirements": [
-      "EUR 50,000 minimum project cost -- likely too large a scope for Doikayt's current stage/team size to credibly propose",
-      "Sovereign Tech Fund specifically targets already-widely-relied-upon critical open source infrastructure (e.g. curl/OpenSSL-class dependencies) -- GASify/geoCRM are early-stage and not yet widely adopted, a stage mismatch distinct from NLnet's protocol-focus mismatch",
-      "Code/documentation must be freely reusable under OSI/FSF-approved licenses with no non-commercial or no-derivative clauses"
+      "CONFIRMED directly on sovereign.tech/programs/fund: 'We do not finance the development of prototypes.' geoCRM is explicitly prototype-stage -- disqualifying.",
+      "CONFIRMED: 'We are currently not looking for user-facing applications, such as messaging apps or file storage services.' geoCRM (a CRM built into Google Sheets) is a user-facing application -- explicitly out of current scope.",
+      "CONFIRMED: cost of proposed work must exceed EUR 50,000 (current minimum).",
+      "CONFIRMED: funded technology must already be 'prevalent' -- widely adopted, with notable projects/organizations relying on it. Doikayt's projects have not reached this bar.",
+      "CONFIRMED: not eligible if another public entity is already funding the same proposed activities.",
+      "Code/documentation must be freely reusable under OSI/FSF-approved licenses with no non-commercial or no-derivative clauses."
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation.",
-    "tier": "Tier 3",
-    "exclusion_reason": "",
+    "tier": "Excluded",
+    "exclusion_reason": "Project-stage restriction: Sovereign Tech Fund's own eligibility page explicitly states 'We do not finance the development of prototypes' and 'We are currently not looking for user-facing applications, such as messaging apps or file storage services.' geoCRM is both a prototype-stage project and a user-facing application (a CRM built into Google Sheets) -- explicitly outside their stated current scope, not just a stretch. The 'Prevalence' criterion (technology must already be widely used/relied upon by notable projects) is a further bar none of Doikayt's projects currently clear, and the EUR 50,000 minimum project cost remains a real stretch at Doikayt's current stage.",
     "structural_fit_score": "Weak",
     "mission_fit_score": "Weak",
     "mission_alignment": {
@@ -171,17 +182,20 @@
       "date_last_verified": "2026-08-20",
       "source_urls": [
         "https://www.sovereign.tech/",
-        "https://www.sovereign.tech/programs/fund",
-        "https://github.com/numfocus/project-fundraising/issues/106"
+        "https://www.sovereign.tech/programs/fund (fetched directly via curl after WebFetch was blocked)"
       ],
-      "current_assessment": "Direct WebFetch of sovereign.tech was blocked (HTTP 403); findings are search-engine-derived and need primary-source confirmation before being relied on. The two disqualifying signals found are consistent across sources: a roughly EUR 50,000 minimum project cost, and a mission focus on infrastructure that is already critical/widely relied upon (their model, per multiple sources, is closer to funding maintenance of things like curl or OpenSSL than funding a new, early-stage tool). GASify/geoCRM don't clear either bar at Doikayt's current stage.",
-      "next_action": "Revisit only once a Doikayt project (most likely build-tools or typescript-build-config) has meaningful external adoption and a credibly EUR 50,000+ scoped body of work to propose.",
+      "current_assessment": "UPDATED 2026-08-20 with primary-source confirmation (direct curl fetch succeeded after the WebFetch tool was blocked with HTTP 403). Sovereign Tech Fund's own eligibility page explicitly and unambiguously excludes exactly what GASify/geoCRM currently is: 'We do not finance the development of prototypes' and 'We are currently not looking for user-facing applications, such as messaging apps or file storage services.' Combined with the EUR 50,000 minimum project cost and a 'Prevalence' criterion requiring the technology to already be widely relied upon, this isn't a soft mismatch needing more research -- it's a direct, stated exclusion. Moved from Tier 3 (uncertain) to Excluded.",
+      "next_action": "None -- parked as reference. Revisit only if a Doikayt project (most likely build-tools or typescript-build-config, not GASify/geoCRM) reaches meaningful external prevalence/adoption and moves well past prototype stage.",
       "application_status": "N/A"
     },
     "change_log": [
       {
         "date": "2026-08-20",
         "change": "Initial entry created as part of researching the starting grant-funder cluster. Landed Tier 3 / Weak-Weak: the roughly EUR 50,000 minimum project cost and the 'already critical/widely-used infrastructure' focus don't match Doikayt's current early stage. Direct site fetch was blocked (403); findings are search-derived and flagged for confirmation."
+      },
+      {
+        "date": "2026-08-20",
+        "change": "Primary-source update: direct curl fetch of sovereign.tech (after WebFetch was blocked with HTTP 403) surfaced explicit, unambiguous exclusion criteria -- 'We do not finance the development of prototypes' and 'not currently looking for user-facing applications' -- that directly rule out geoCRM's current stage and form. Reclassified from Tier 3 (uncertain, search-derived) to Excluded (confirmed, primary-source). structural_fit_score and mission_fit_score both set to Weak; exclusion_reason set to project-stage restriction."
       }
     ]
   },

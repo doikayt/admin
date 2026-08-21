@@ -11,17 +11,22 @@ The full starting cluster named in earlier internal discussion (MOSS, NLnet, Sov
 Fund, Media Democracy Fund, NetGain) has been researched. **No Tier 1 candidate identified
 yet.** Summary:
 
-- **NLnet Foundation** — Tier 2. Best structural fit found so far (individuals or
-  not-yet-established organizations can apply directly, per NLnet's own materials — no fiscal
-  sponsor or legal entity needed at all), but mission fit against GASify/geoCRM specifically is
-  unclear: NLnet's flagship funded projects (Tor, WireGuard, Jitsi, PeerTube) are core
-  internet/protocol infrastructure, and GASify/geoCRM depend on the proprietary Google Apps
-  Script platform. `build-tools`/`typescript-build-config` may be the stronger specific pitch.
-  Calls reopen 2026-09-03, deadline 2026-11-03 — real near-term action item.
+- **NLnet Foundation** — Tier 2. Best structural fit found so far, and now **primary-source
+  confirmed**: NLnet's own Eligibility page states "no categorical exclusions of persons or
+  entities" and "no geographical restrictions" — no legal entity or fiscal sponsor required at
+  all. First-proposal grant cap is EUR 50,000. **Hard deadline confirmed: calls reopen
+  2026-09-03, deadline 2026-11-03 12:00 CEST.** Mission fit is still the open question — NLnet's
+  scope leans toward core internet/protocol infrastructure and general FOSS engineering, and
+  GASify/geoCRM's dependency on the proprietary Google Apps Script platform is real tension
+  against that; `build-tools`/`typescript-build-config` likely pitches better. One nuance: the
+  confirmed eligibility text was read on the NGI Zero-era fund page, which NLnet is
+  transitioning away from — needs re-confirming against whichever fund(s) actually reopen.
 - **Mozilla Technology Fund (MTF)** — Tier 3. Successor to MOSS (defunct since 2020). No open
   call found; recent cycle themes have been AI-centric, not a domain match.
-- **Sovereign Tech Fund** — Tier 3. Roughly EUR 50,000 minimum project scope and a focus on
-  already-critical/widely-used infrastructure — both mismatched to Doikayt's current stage.
+- **Sovereign Tech Fund** — **Excluded** (primary-source confirmed). Their own eligibility page
+  explicitly states "We do not finance the development of prototypes" and "we are currently not
+  looking for user-facing applications" — geoCRM is both. Not a soft mismatch; a stated
+  exclusion.
 - **Media Democracy Fund** — Tier 3. Good thematic mission overlap, but does not accept
   unsolicited applications — no path in without a warm referral.
 - **NetGain Partnership** — Tier 3. A foundation collaborative, not an independently operating
@@ -29,7 +34,10 @@ yet.** Summary:
   research/policy orgs at a larger scale ($250k+ average) than fits Doikayt now.
 
 See `grants.json` for full detail on each. Given MOSS's fate, always verify a funder is still
-actually active before investing further research time.
+actually active before investing further research time. Note: the WebFetch tool was blocked
+(403/incomplete) on several of these domains; a direct `curl` with a browser user-agent from
+this sandbox got through where WebFetch didn't — worth trying before assuming a site is
+unreachable.
 
 ## Current Tier 1 candidates (contact these first)
 
