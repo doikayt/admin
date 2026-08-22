@@ -272,6 +272,19 @@ Distinguish mission fit (`mission_fit_score`) from legal/structural/activity fit
 unusable for Doikayt — these are two separate fields for exactly this reason; do not
 collapse them into `tier` prematurely.
 
+### Mission-scope narrowness is not a penalty
+
+Per [`../doikayt.profile.txt`](../doikayt.profile.txt) §3 ("Current funding priority"),
+Doikayt's active goal is completing a specific software stack (GASify/build-tools/
+typescript-build-config, through to geoCRM) — not funding a broad grassroots-organizing
+mandate. Do not score a sponsor down for a narrow, software/FOSS-specific mission scope
+on the theory that it's a poorer match than a broad-mandate sponsor; narrow software-only
+scope is now a direct match, not a liability. This reverses an earlier screening pass
+(pre-2026-08-20) that downgraded Software Freedom Conservancy and Open Collective
+Foundation on exactly this basis — see their `change_log` entries for the correction.
+Re-check any `Excluded`/low-tier candidate whose `exclusion_reason` or
+`current_assessment` cites "too narrow" or "FOSS-only" mission scope against this note.
+
 ## Mission alignment approach
 
 For each serious candidate, determine not merely whether Doikayt technically qualifies, but

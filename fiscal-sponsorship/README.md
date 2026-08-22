@@ -46,12 +46,38 @@ is baked into `outreach.questions_to_ask` on the live Tier 1 candidates.
 ## Current Tier 1 candidates (contact these first)
 
 Run `jq -r '.[] | select(.tier == "Tier 1") | .org_name' sponsors.json` to
-regenerate this list from source. As of this snapshot (2026-08-20):
+regenerate this list from source. As of this snapshot (2026-08-21):
 
-- Tides Center
-- Movement Strategy Center
-- Open Collective Foundation
-- Software Freedom Conservancy
+**Active push now (no committed-funding precondition):**
+
+- Software Freedom Conservancy — outreach not yet started; lead candidate.
+- Movement Strategy Center — already contacted 2026-08-13 (Contact Us form,
+  attn Daniel Parada, Director of Fiscal Sponsorship); generic auto-ack
+  received 2026-08-14; substantive reply still pending.
+
+**Deprioritized (blocked on committed funding, not a fit issue):**
+
+- Tides Center — Model C requires $50k-$100k committed funding secured
+  *before* submission (confirmed 2026-08-19); Doikayt has no funding source
+  beyond founder self-funding. Application is fully drafted and ready
+  (see `blurbs/tides-sef-open-questions.md`) but paused. Revisit once real
+  committed funding exists elsewhere, or if the two above stall.
+
+**Excluded — defunct:**
+
+- Open Collective Foundation — dissolved 2024-12-31 (confirmed 2026-08-21 via
+  `opencollective.com/foundation/updates`). Was carried as a live Tier 1
+  candidate in a 2026-08-20 re-score; that was based on stale data. Not a
+  live option — see its `change_log` in `sponsors.json`.
+
+**Considered and passed on:**
+
+- Open Source Collective (`opencollective.com/opensource`) — the tightest
+  mission fit of anything screened (OSS-specific host, 3,500+ projects), but
+  it's a 501(c)(6), not a 501(c)(3): donations aren't tax-deductible and
+  many foundation grants require a c3 grantee. Decided 2026-08-21 not to add
+  it to `sponsors.json` given that mismatch with the core goal of accepting
+  deductible donations and foundation grants.
 
 ## Querying sponsors.json
 

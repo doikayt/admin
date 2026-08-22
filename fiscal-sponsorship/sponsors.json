@@ -63,6 +63,10 @@
       {
         "date": "2026-08-19",
         "change": "Received substantive reply from Tides on the Model C committed-funding question: they want the $100,000 ideally secured prior to submission; at minimum a documented fundraising strategy (potential funders, timeline, solicited amounts) must be in the application. Tides explicitly recommends not submitting yet if funding isn't secured \u2014 build the fundraising plan, make initial asks, then submit closer to securing a gift. This resolves the open question of whether 'Tides acceptance first, fundraising after' was viable \u2014 it isn't; sequencing runs the other way. Extensive application-drafting work is complete (see blurbs/tides-sef-open-questions.md), but submission is now paused pending real fundraising traction."
+      },
+      {
+        "date": "2026-08-21",
+        "change": "Deprioritized relative to Software Freedom Conservancy, Open Collective Foundation, and Movement Strategy Center: those three carry no committed-funding/minimum-budget precondition (checked eligibility_requirements/fees across all 48 records), so they're actionable now, while Tides remains blocked on the $50k-$100k committed-funding bar. Not a fit downgrade \u2014 structural_fit/tier unchanged \u2014 purely a sequencing call. Revisit once real committed funding exists (from any source, self-funding or otherwise) or if SFC/OCF/MSC outreach stalls."
       }
     ],
     "tier": "Tier 1",
@@ -560,8 +564,8 @@
   },
   {
     "org_name": "Open Collective Foundation",
-    "website": "https://opencollective.foundation",
-    "legal_tax_structure": "501(c)(3) public charity",
+    "website": "https://opencollective.com/foundation (opencollective.foundation now redirects to an unrelated squatted domain, southwestplantery.co — do not follow)",
+    "legal_tax_structure": "501(c)(3) public charity (defunct — see exclusion_reason)",
     "fiscal_sponsorship_models": [
       "Model C",
       "Other"
@@ -583,14 +587,14 @@
     ],
     "political_activity_restrictions": "Unclear/Requires confirmation \u2014 general 501(c)(3) candidate/campaign-intervention prohibition presumably applies; public transaction transparency itself could be a practical concern independent of legal eligibility.",
     "status": {
-      "date_last_verified": "2026-08-20",
+      "date_last_verified": "2026-08-21",
       "source_urls": [
-        "https://joinit.com/blog/fiscal-sponsorship-organizations",
-        "https://www.idealist.org/pt/ong/d6dae8c1c36b4267a78fe955cc86a7df-open-collective-foundation-covina"
+        "https://opencollective.com/foundation",
+        "https://opencollective.com/foundation/updates"
       ],
-      "current_assessment": "Re-scored 2026-08-20: open-source/tech mission fit was already noted as strong. The public transaction-transparency concern was tied to paying political-campaign clients, which is no longer active scope under the deferred-campaign-work strategy, so it no longer weighs against structural fit.",
-      "next_action": "Prepare outreach alongside other Tier 1 candidates.",
-      "application_status": "Not started"
+      "current_assessment": "CORRECTION 2026-08-21: OCF is defunct, not an active fiscal sponsor. Its board announced dissolution 2024-02-28, effective 2024-12-31, with all collectives frozen from new transactions as of 2024-10-01. Also, opencollective.foundation (the URL previously on file for this record) now 301-redirects to an unrelated squatted domain — do not follow it. The prior 2026-08-20 re-score treated this as a live Tier 1 candidate; that was stale/wrong.",
+      "next_action": "None — do not pursue. Retained per discipline (don't delete excluded entries), not as a live candidate.",
+      "application_status": "N/A"
     },
     "change_log": [
       {
@@ -603,12 +607,17 @@
       },
       {
         "date": "2026-08-20",
-        "change": "Re-scored under corrected funding priority (GASify/build-tools/geoCRM platform completion is now the active target, wiki back-burnered; restricted project-scoped funding is acceptable). Structural fit Moderate -> Strong (the campaign-client transparency concern is moot since campaign work is deferred) and mission fit Unclear -> Strong (already implicitly strong per prior assessment, now formally scored). Tier 3 -> Tier 1."
+        "change": "Re-scored under corrected funding priority (GASify/build-tools/geoCRM platform completion is now the active target, wiki back-burnered; restricted project-scoped funding is acceptable). Structural fit Moderate -> Strong (the campaign-client transparency concern is moot since campaign work is deferred) and mission fit Unclear -> Strong (already implicitly strong per prior assessment, now formally scored). Tier 3 -> Tier 1. NOTE: this re-score turned out to be based on stale data — see 2026-08-21 correction below."
+      },
+      {
+        "date": "2026-08-21",
+        "change": "Excluded: confirmed via opencollective.com/foundation and opencollective.com/foundation/updates that OCF's board announced dissolution 2024-02-28, froze new transactions 2024-10-01, and dissolved 2024-12-31. Not a live fiscal sponsorship option. Also flagged that opencollective.foundation, this record's on-file website, now redirects to an unrelated squatted domain (southwestplantery.co) rather than anything OCF-related. Discovered while investigating a user report of an Open Collective search result showing a Belgium-based org under a similar name — that led to checking this record's currency directly."
       }
     ],
-    "tier": "Tier 1",
-    "structural_fit_score": "Strong",
-    "mission_fit_score": "Strong"
+    "tier": "Excluded",
+    "exclusion_reason": "Defunct — dissolved 2024-12-31, no longer operating as a fiscal sponsor.",
+    "structural_fit_score": "N/A (defunct)",
+    "mission_fit_score": "N/A (defunct)"
   },
   {
     "org_name": "Software Freedom Conservancy",
