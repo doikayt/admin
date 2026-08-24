@@ -646,8 +646,8 @@
         "https://www.oss.fund/software-freedom-conservancy/"
       ],
       "current_assessment": "Re-scored 2026-08-20: Doikayt's active funding priority is completing the GASify/build-tools/geoCRM software stack, and Doikayt is now equally OK with restricted, project-scoped funding as with general/unrestricted funding (previously restricted scope was treated as a soft negative) \u2014 Conservancy's FOSS-only mission scope, previously read as a mismatch against a broader grassroots-organizing mandate, is now a direct fit rather than a liability. Genuinely software-native fiscal sponsor (Model F: legal home, GPL enforcement support, bookkeeping, fundraising infra) with no geographic restriction.",
-      "next_action": "Prepare outreach: position Doikayt as a FOSS project seeking fiscal sponsorship specifically for the GASify/build-tools/geoCRM stack.",
-      "application_status": "N/A"
+      "next_action": "Awaiting SFC's preliminary questions on ticket #31739. Reply on that thread (or keep [sfconservancy.org #31739] in the subject line) once they respond \u2014 do not send a fresh inquiry.",
+      "application_status": "Inquiry sent"
     },
     "change_log": [
       {
@@ -661,6 +661,10 @@
       {
         "date": "2026-08-20",
         "change": "Re-scored under corrected funding priority (GASify/build-tools/geoCRM platform completion is now the active target, wiki back-burnered; restricted project-scoped funding is acceptable). Structural fit Weak -> Strong and mission fit Unclear -> Strong: the FOSS-only mission scope previously read as narrower-than-Doikayt's-mandate is now an exact match. Tier 3 -> Tier 1."
+      },
+      {
+        "date": "2026-08-21",
+        "change": "Step-1 inquiry email sent to apply@sfconservancy.org (draft in blurbs/sfc-inquiry-email.md) \u2014 led with the platform-neutral build-tools/typescript-build-config infrastructure, framed GASify's Google Sheets dependency as meeting customers where they are, committed funding to a Nominatim-based de-Google spike, and raised a GitHub-to-Codeberg migration spike aligned with SFC's own Give Up GitHub campaign. Received automated ticket confirmation: [sfconservancy.org #31739], from apply@tix.sfconservancy.org. Awaiting substantive reply."
       }
     ],
     "tier": "Tier 1",
@@ -2098,19 +2102,24 @@
     "structural_fit_score": "Moderate",
     "mission_fit_score": "Unclear",
     "status": {
-      "date_last_verified": "2026-08-16",
+      "date_last_verified": "2026-08-24",
       "source_urls": [
         "https://fiscalsponsordirectory.org/?page_id=9610",
-        "https://thenopi.org"
+        "https://thenopi.org",
+        "https://www.thenopi.org/our-impact"
       ],
-      "current_assessment": "Very broad accepted project-type list (21 categories including 'Political advocacy/social justice'), national scope, three fiscal-sponsorship models including the flexible Model C, and no restriction narrower than the standard c3 campaign-intervention rule already factored into the current strategy. Formerly named 'Nonprofit Incubator.' Fee structure (10% + 5% + $350 onboarding) is layered and should be clarified before applying.",
-      "next_action": "Direct inquiry once current Tier 1 outreach resolves.",
+      "current_assessment": "Very broad accepted project-type list (21 categories including 'Political advocacy/social justice'), national scope, three fiscal-sponsorship models including the flexible Model C, and no restriction narrower than the standard c3 campaign-intervention rule already factored into the current strategy. Formerly named 'Nonprofit Incubator.' Fee structure (10% + 5% + $350 onboarding) is layered and should be clarified before applying. 2026-08-24: read the 'Our Impact' page — mission language ('dedicated to reducing systemic inequities') plausibly covers organizing-adjacent work, a reasonable (not strained) fit. But no published scale indicators (no AUM/grant-volume figure found, only an application-count stat) suggest a small, boutique operation — more relationship-driven than institutional. Deprioritized primarily on cost: the layered fee (10% + 5% transfer + $350 onboarding) is the most expensive of the untouched Tier 2 candidates.",
+      "next_action": "Parked — deprioritized below A.J. Muste Memorial Institute (7% flat fee, no transfer/onboarding layer) on cost grounds. Revisit if cheaper Tier 2/1 options are exhausted or if a direct fee-structure clarification from Amanda LaFleur changes the effective-cost picture.",
       "application_status": "Not started"
     },
     "change_log": [
       {
         "date": "2026-08-16",
         "change": "Discovered via full sweep of fiscalsponsordirectory.org (~414 org listing pages scanned for incubation/concept-phase/pre-incorporated language, following up on TSNE's 2026-08-14 'incubation' referral, which turned out not to be a real directory category/filter). Landed Tier 2: Very broad accepted project-type list (21 categories including 'Political advocacy/social justice'), national scope, three fiscal-sponsorship models including the flexible Model C, and no restriction narrower than the standard c3 campaign-intervention rule already factored into the current strategy. Formerly named 'Nonprofit Incubator.' Fee structure (10% + 5% + $350 onboarding) is layered and should be clarified before applying."
+      },
+      {
+        "date": "2026-08-24",
+        "change": "Read NOPI's 'Our Impact' page (via search, direct fetch blocked from sandbox). Mission language plausibly covers organizing-adjacent work — reasonable fit, not a stretch. No published scale figures (AUM, grant volume, active sponsored-project count) found, only an applicant-profile-count stat — reads as a smaller, boutique sponsor. Deprioritized: 'next up' slot goes to A.J. Muste Memorial Institute instead, on cost grounds (7% flat vs. NOPI's layered 10%+5%+$350). Parked, not excluded — may revisit."
       }
     ],
     "outreach": {
