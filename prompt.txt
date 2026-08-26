@@ -1,0 +1,291 @@
+
+Doikayt — FISCAL SPONSORSHIP RESEARCH & STRATEGY
+
+
+# Purpose
+
+Create and maintain a research system to identify, evaluate, and prioritize fiscal sponsors 
+(and track applications to same) that could potentially host 
+Doikayt while it is still an early-stage, unincorporated organization.
+
+The immediate goal is not to find a single sponsor. The goal is to systematically establish 
+the universe of plausible sponsors, determine which are actually compatible with Doikayt, understand how Doikayt's mission aligns with each, and ultimately produce a prioritized shortlist for outreach.
+
+This research should also help us understand how Doikayt should describe and 
+position itself when approaching fiscal sponsors and, eventually, other funding sources.
+
+Do not assume that Doikayt's eventual legal structure has already been decided.
+
+## Constraint: NO RUSH TO INCORPORATE
+
+We have not yet determined the optimal permanent legal structure for Doikayt. In particular, we are considering the 
+implications of a 501(c)(4), earned revenue, political-campaign customers, and potentially 
+a future nonprofit/for-profit structure: similar to what openAI did -- but of course much more ethically.
+
+For this reason, the initial research phase should focus specifically on fiscal sponsorship as the preferred mechanism for operating and raising funds while we remain unincorporated.
+
+Do not assume that Doikayt should incorporate now. Do not make incorporation the default recommendation simply because a particular fiscal sponsor requires it.
+
+The purpose of this research is partly to determine whether fiscal sponsorship provides a viable intermediate structure and, through comparison of prospective sponsors, to learn what permanent organizational/legal structure may ultimately be most appropriate.
+
+If the research establishes that fiscal sponsorship is not viable for Doikayt's intended activities, document that finding and explain why rather than forcing the project into an unsuitable sponsorship model.
+
+
+
+# SUBGOAL 1 — Create an internal company profile for Doikayt  (DONE)
+
+See @doikayt.profile.txt for organizational profile.
+
+
+# SUBGOAL 2 — Establish the Fiscal Sponsor Candidate Universe
+
+Once the initial Doikayt profile is established, identify the broadest practical universe of organizations that could conceivably serve as fiscal sponsors.
+
+Use authoritative directories and primary sources wherever possible, including:
+
+- National Network of Fiscal Sponsors
+- Fiscal Sponsor Directory
+- individual fiscal sponsor websites
+- specialized fiscal-sponsorship directories
+- organizations specializing in grassroots, movement, labor, technology, open-source, social-justice, or political-adjacent projects
+
+Do not limit the search prematurely to organizations that appear to be an obvious fit.
+
+The first objective is candidate discovery, not ranking.
+
+For every candidate, capture at minimum:
+
+- Organization name
+- Website
+- Legal/tax structure
+- Fiscal sponsorship model(s)
+- Geographic scope
+- Whether unincorporated projects can apply
+- Stated mission
+- Types of projects sponsored
+- Fees
+- Application process
+- Relevant eligibility requirements
+- Relevant political-activity restrictions
+- Source URLs
+- Date information was verified
+
+## SUBGOAL 3 — Screen for Structural Compatibility
+
+Evaluate each candidate against Doikayt's actual intended activities.
+
+Pay particular attention to:
+
+- Whether the sponsor requires the project to operate as a 501(c)(3)
+- Whether the sponsor can accommodate a project that may ultimately operate as a 501(c)(4)
+- Political campaign activity
+- Political advocacy
+- Lobbying
+- Providing technical services to political campaigns
+- Earned revenue and charging for services
+- Hiring employees
+- Paying contractors
+- Receiving grants
+- Receiving contributions
+- Ownership and control of intellectual property
+- Ability to operate under the Doikayt name
+- Ability to maintain an independent identity
+- Ability to establish an independent nonprofit later
+- Exit provisions
+
+### Critical screening principle
+
+Do not treat a 501(c)(3) fiscal sponsor as compatible merely because its mission is highly aligned.
+
+If sponsorship requires Doikayt to operate within 501(c)(3) restrictions that would prevent Doikayt from carrying out its intended campaign-related customer activities, classify the sponsor as structurally incompatible.
+
+Do not spend substantial research effort looking for ways to circumvent this constraint.
+
+However, retain such candidates in the database with a clear explanation of the incompatibility. They may be useful for understanding the funding landscape.
+
+Distinguish:
+
+- Mission fit
+
+from
+
+- Legal/structural/activity fit
+
+A sponsor can have excellent mission alignment but still be unusable for Doikayt.
+
+## SUBGOAL 4 — Analyze Mission Alignment
+
+For each serious candidate, determine not merely whether Doikayt technically qualifies, but how Doikayt's mission relates to the sponsor's mission.
+
+For promising sponsors, analyze:
+
+**Sponsor mission**
+What does the sponsor say it exists to accomplish?
+
+**Doikayt overlap**
+What aspects of Doikayt naturally further that mission?
+
+**Potential concerns**
+What aspects of Doikayt might cause the sponsor to hesitate?
+
+**Best-fit framing**
+How could Doikayt accurately describe itself in a way that makes the mission connection clear?
+
+Do not recommend deceptive or materially misleading positioning.
+
+The objective is to identify the most truthful and strategically effective description of Doikayt's work for that particular sponsor.
+
+### Important distinction
+
+Do not reduce Doikayt to "a political organization" merely because political campaigns may be customers.
+
+Likewise, do not reduce Doikayt to "a software organization" if doing so obscures its grassroots/social-impact purpose.
+
+Preserve the actual combination:
+
+> mission-driven technology + grassroots organizational capacity + selected political/campaign customers.
+
+## SUBGOAL 5 — Identify Recurring Mission/Funding Narratives
+
+After evaluating a substantial number of plausible sponsors, analyze the results across sponsors.
+
+Identify recurring themes that appear to make Doikayt particularly relevant to potential sponsors, such as—but not limited to:
+
+- democratization of technology
+- grassroots organizational capacity
+- working-class organizing
+- technology access
+- technology independence
+- open-source infrastructure
+- community organizing
+- movement infrastructure
+- AI access for under-resourced organizations
+- political/campaign infrastructure
+
+Do not assume these are the correct narratives. Determine them from the research.
+
+The objective is to learn:
+
+> Which truthful aspects of Doikayt's mission have the strongest resonance across the fiscal-sponsorship landscape?
+
+These findings should eventually inform:
+
+- website positioning
+- sponsor outreach
+- grant applications
+- funding strategy
+
+## SUBGOAL 6 — Prioritize Sponsors
+
+Only after discovery and screening, produce a prioritized shortlist.
+
+Use at least two distinct dimensions:
+
+**Mission Fit**
+How naturally does Doikayt's mission fit the sponsor?
+
+**Structural/Operational Fit**
+Can the sponsor actually host Doikayt's intended activities?
+
+Do not collapse these prematurely into a single score.
+
+Classify candidates approximately as:
+
+- **Tier 1 — Pursue Now**
+  Strong mission and structural fit.
+- **Tier 2 — Investigate**
+  Potentially strong but important questions remain.
+- **Tier 3 — Possible Later**
+  Interesting but Doikayt is currently too early, lacks some requirement, or the opportunity is better suited to a later stage.
+- **Excluded**
+  Clearly incompatible.
+
+For excluded candidates, always record the reason.
+
+Examples:
+
+- Requires 501(c)(3)
+- Campaign-related activities incompatible
+- Geographic restriction
+- Earned-revenue restriction
+- Mission incompatibility
+- Project-stage restriction
+- Doesn't sponsor unincorporated projects
+- Technology/project type outside scope
+
+The exclusion list is important. Do not repeatedly rediscover the same dead ends.
+
+## SUBGOAL 7 — Develop Sponsor-Specific Outreach Strategy
+
+For the strongest candidates, eventually produce:
+
+- Contact person/department if available
+- Application process
+- Recommended initial approach
+- Questions Doikayt should ask
+- Information the sponsor is likely to require
+- Potential concerns
+- Doikayt's strongest relevant narrative
+- Issues that should be clarified before applying
+
+Do not draft outreach messages until the underlying sponsor research is sufficiently reliable.
+
+## SUBGOAL 8 — Maintain the Research as a Living System
+
+Treat this as ongoing research rather than a one-time report.
+
+For every important sponsor record, maintain:
+
+- Date last verified
+- Source URLs
+- Changes in eligibility
+- Changes in fees
+- Changes in political/activity restrictions
+- Application status
+- Doikayt's current assessment
+- Next action
+
+When information is uncertain, label it `Unverified`, `Unclear`, or `Requires confirmation` rather than guessing.
+
+Prefer primary sources and current sponsor documentation over third-party descriptions.
+
+## RESEARCH DISCIPLINE
+
+Do not equate:
+
+- "nonprofit organization" with "fiscal sponsor"
+- "funding organization" with "fiscal sponsor"
+- "mission-aligned organization" with "potential sponsor"
+- "501(c)(3)" with "compatible sponsor"
+
+The central question is:
+
+> Can this organization legally and practically serve as a fiscal sponsor for the organization Doikayt actually intends to be?
+
+When legal/tax questions arise, distinguish factual research from legal conclusions. Flag issues that should ultimately be reviewed by qualified counsel rather than presenting uncertain legal interpretations as facts.
+
+## INITIAL WORKFLOW
+
+Work incrementally.
+
+**First:**
+
+1. Establish the Doikayt Fiscal Sponsorship Profile.
+2. Identify ambiguities, contradictions, or missing information that materially affect sponsor research.
+3. Establish the proposed research methodology and candidate-data schema.
+
+**Then:**
+
+1. Build the broad candidate universe.
+2. Screen candidates.
+3. Analyze mission alignment.
+4. Prioritize the strongest candidates.
+5. Derive implications for Doikayt's funding/sponsor positioning.
+
+Do not jump immediately to a short list of ten organizations.
+
+The objective is to build a defensible research process and reusable knowledge base, not merely produce a list.
+
+At each stage, preserve the underlying research and reasoning so that subsequent stages can build upon it.
+
+
