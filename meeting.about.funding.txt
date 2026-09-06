@@ -1,0 +1,136 @@
+
+asfari Foundation
+    75k-ish grants
+
+Blossom Hill FOundaton
+
+
+Drosos Foundation
+
+Kahane Foundation - digital and tech
+
+
+Access Now Grants
+
+
+
+Luminate 
+    mobilzation against big tech
+
+Weaving Liberation
+    mostly europe
+
+
+MIT Solve
+
+
+
+Mozilla Foundation
+    maybe through Henry
+
+
+Draper Richards Kaplan Foundation
+    sustainability ?
+
+Echoing Green       **
+    digital rights - they are looking for more inivators from across middle east
+        there is a fellow who can provide an intro - Arraf
+        International solidatir mvmt 
+
+
+NLnet       **
+    open source technology
+        open internet.
+        alternative ethical technoologoy
+
+Proton Foundation 
+    partner w/ the proton commuity..  their useres..
+        identify and pitch different projecst.
+            raffle or auction.
+
+
+Fast Forward 'accelerator' 
+    tech non profits. 
+
+
+funders for ceasfire
+
+
+ichards my AI assistant to put together a report of all the
+fiscal sponsorship sources we have found to date.
+Some of the fields are relevant to my particular 
+funding search.. But this still might be of interest because 
+you can see how AI can help you use a funding database as a status 
+tracking mechanism.
+
+
+ You may access here>
+        
+https://github.com/doikayt/admin/blob/master/fiscal-sponsorship/docs/sponsor-landscape-report.pdf
+
+
+
+
+
+OK.. sort of up to speed now..
+i see what you meant by request an instance -- we definitely need to 
+_set_up_ an instance.   i just found the video below 
+which walks through the components that need to be set up.
+
+        https://www.youtube.com/watch?v=Htd98Mepu4s&t=1215s
+
+
+The video is pretty good -- it assumes you have a public IP and 
+that you are hosting the woodpecker instance on your home network..
+which requires  poking a hole in your firewall ...   
+I'm always reluctant to do that as i'm not super good w/ security..
+
+The route i would suggest is running this on a cloud linux instance VM 
+(woodpecker instance runs on the cloud VM)
+
+
+There's a lot of docker setup, generation of SSL certs and stuff like 
+that...    But it looks pretty straight forward...
+
+So my questions to you are:
+
+    1) do you have access to setup a linux VM that has in/outbound
+    internet connectivity at your campus ?
+
+    2) do you want to take a crack at doing the setup 
+    recommended by Granpa's video?    
+    I know this stuff fairly well if you want to do it while i'm    
+    online and u can ping questions if u get stuck.. i can jump in.
+
+        Alternative:
+
+            do you prefer I just set the instance up to get you unblocked?
+                (don't recommend this because if you try to do the setup
+                 you will learn stuff that is useful down the line
+                 as we complete the move of github)
+
+
+        so... LMK what u think is best to do from here...
+
+thnx !
+/cb
+
+
+
+
+
+
+
+So my question
+
+
+
+
+and for that we could do it through either 
+running virutal machine in the cloud (easiest -- least risk)-- or
+setting up on your or my laptop -- which 
+
+
+
+
+https://www.youtube.com/watch?v=Htd98Mepu4s&t=1215s
