@@ -1,5 +1,8 @@
 # Doikayt Funding — Operating Mode
 
+## ACTIVE ROLE:  BLOG-AUTHOR
+
+
 This repo tracks Doikayt's funding search across two peer tracks:
 
 - [`fiscal-sponsorship/`](fiscal-sponsorship/) — identifying and pursuing a fiscal sponsor.
