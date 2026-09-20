@@ -82,7 +82,7 @@ go where they belong and nowhere else.
   [`governance/diagrams/render-diagrams.mjs`](governance/diagrams/render-diagrams.mjs).
   Small diagrams (like the ESOP flow) stay as inline Mermaid blocks. In the large
   diagrams' edge labels, wrap each circled digit as
-  `<b style='font-size:1.8em'>①</b>` so the numbers stay readable at page width; this only
+  `<b style='font-size:2.3em'>①</b>` so the numbers stay readable at page width; this only
   works because the diagram is a rendered image, not native Mermaid on GitHub.
 - Chris marks instructions for the assistant inline as `[[ request ]]`. Act on them and
   remove the marker once done.
