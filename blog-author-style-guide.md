@@ -76,7 +76,8 @@ go where they belong and nowhere else.
   flow diagram, and the fund-flows diagram in
   [`governance/commons-hub-pattern.md`](governance/commons-hub-pattern.md).
 - Large diagrams (anything that GitHub's fixed-height diagram viewer would crop, roughly
-  taller than 2:1) are rendered to PNG and embedded as a click-through image. The Mermaid
+  taller than 2:1) are rendered to PNG and embedded inline, with a click-through to an SVG
+  of the same diagram (sharp at any zoom). The Mermaid
   source stays tracked as a separate asset in
   [`governance/diagrams/`](governance/diagrams/) and is re-rendered with
   [`governance/diagrams/render-diagrams.mjs`](governance/diagrams/render-diagrams.mjs).
