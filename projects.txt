@@ -1,0 +1,232 @@
+
+Below is a list of tasks that I think we will want to tackle soon:
+
+    whenever we start tackling a task, get feedback from the expert in your pocket:
+            Claude, Gemeni, or whatever your favorite AI demon is.
+
+                Ask:  we are doing this task.  Here is some background on the company. (website wiki whatevr)
+                    what is your recommended approach.
+
+                You can ignore the AI of course.. but definitely ask !  it can be useful ;^)
+
+
+Wiki:
+
+    Set up a doikayt wiki
+        HOW?
+            either Miraheze, or some other hosted option
+                - at this point self hosted seems overkill
+                - see: https://wiki.doikayt.org/index.php/Miraheze_-_free_volunteer-run_MediaWiki_hosting_for_any_wiki
+    
+        WHY?
+
+        Goal is to have a 'roadmap' (thin content mostly summarizes where to go for what) 
+        to all other resources and pieces of infrasrtucture our team needs:
+
+        Sections:
+            Personnel -  staff bios / contact / typical working 
+            
+            Resource pointers:
+                website: doikayt.org
+                code home:              i.e., codeberg or github
+                our discord server
+                when we get into T4P incubator, pointers to all that.
+
+            Onboarding:
+                Welcome for new team members:  what should they do?
+                    i.e., 
+                        - register as codeberg users (if we keep that), setup their access tokens
+                        - add their entry to the Personnel section
+                        - first job of any new person onboarding is to IMPROVE THE ONBOARDING DOC (for the nxt person)
+
+            Software development process overview:
+                pointers to all relevant content on our web site  or elsewhere on our process/culture/procedures
+                    (e.g.: >>  this should be kept in mind> https://www.doikayt.org/practice.html)
+                Here we describe how to use dk-scaffold to create a new project
+                What our protocol is for PR's  (how many reviewers) etc.
+                CULTURE:
+                    visibility  is key.. frequent  checkins
+                    Dont' get stuck:   spinning for more than 15 minutes?  
+                         - ping a team member for help
+                         - we should be willing to switch gears / jump in and unstick  our colleagues if we are able
+                                - not that we have to switch and spend hours on their task.. a quick bit of help
+                    
+
+
+Security architecture recommendation:
+
+    At a minimum, we want Bitwarden setup for credentials management
+        why?  for example, for the project below, we dont' want the credentials for 
+        stuff like our logins to social media channels (discussed below) living on 
+        one of our individual laptops.  What if we get captured by the enemy? 
+                                        What if ICE throws Chris in a detention center. 
+        
+                        we want resilience against the above.
+                        Someone needs to figure this out
+    
+
+MARCOM/Product-Marketing
+
+    Product Marketing S/W:
+
+        Goal here is the promotion of:
+            -  the articles we write 
+            -  I'm also considering a youtube channel where we walk through tutorials of stuff we figure out how to do
+                    Why?  
+                        we want to spread brand awareness and be 
+                        recognized as thought leaders in the activist developer community space
+
+        Specific tasks:
+            I'm thinking: we would need to go set up a bunch of accounts on all the         
+            social media sites we want to promote on:  
+                medium/substack/linkedin/x/facebook/instagram/upscrolled/mastodon etc etc
+                    [ see above for where to store the creds ]
+
+
+        Next we need to actually run this 
+                
+
+    Set up a linked in company page for doikayt mobilization labs
+        Chris will give you the creds
+
+
+Project Management Software:
+
+    Review clickup vs openproject
+        https://www.openproject.org/project-management-software-alternatives/best-clickup-alternative/
+    Recommend which one is best for our needs
+
+    Criteria:
+        - cost (ideally free)
+        - self host option
+        - can integrate with our repo management s/w 
+                (i.e.: formerly github, soon to be forgejo(maybe selfhosted/maybe continue on codeberg)
+                example of integration:    
+                    w/ github if we include ticket number on a PR, merging the PR will close the ticket in the
+                    project mgt s/w
+
+
+Our Claude ROLE framework -> make it more general and not work for just chris
+
+    I have done a lot of work configuring Claude code so that it solves problems, writes code, 
+    drafts prose articles in the way we would want, with minimal tweaking and re-work.
+    
+    I think this framework would be very valuable for  others on team to start using... and 
+    maybe this would be the basis of an interesting article ?
+
+    DETAILS:
+
+# The role system for Claude Code
+
+A role is a standing set of instructions that tells the AI how to approach and solve work in
+a given project. It plays the part of a system prompt: guidance that is in force for the
+whole session and shapes every answer, such as "ask before changing files", "stop after two
+failed debugging attempts", or "write in neutral third person".
+
+Technically it is not the system prompt itself. Claude Code has its own built-in system
+prompt, which the role system does not touch. The role arrives as context that a
+`SessionStart` hook injects at the start of the session, alongside the global `CLAUDE.md`.
+For the AI's behavior the effect is much the same.
+
+## Where it lives
+
+The files are in the `nixos-config` repository, under `devenv/claude/`. At the time of
+writing the repository is private, so the links need access to the owning account.
+
+| What | Link |
+|---|---|
+| The folder | <https://github.com/datalackey/nixos-config/tree/main/devenv/claude> |
+| Role resolution and the hook | <https://github.com/datalackey/nixos-config/blob/main/devenv/claude/claude-config-files/session-start.sh> |
+| Builds the directive table | <https://github.com/datalackey/nixos-config/blob/main/devenv/claude/claude-config-files/generate-preamble.js> |
+| Shared rules (`COMMON`) | <https://github.com/datalackey/nixos-config/blob/main/devenv/claude/claude-config-files/LLM/COMMON/directives.md> |
+| The role files | <https://github.com/datalackey/nixos-config/tree/main/devenv/claude/claude-config-files/LLM/roles> |
+| Design notes | <https://github.com/datalackey/nixos-config/blob/main/devenv/claude/docs/notes-role-system-design.md> |
+| Decisions, including the caching fix (§20) | <https://github.com/datalackey/nixos-config/blob/main/devenv/claude/DECISIONS.md> |
+
+The design notes still say "nothing implemented yet". That is out of date: the mechanism is
+live.
+
+## How it works
+
+1. **Choosing a role.** A project's `CLAUDE.md` declares a role with a line such as
+   `## ACTIVE ROLE:  WIKI-AUTHOR`. At session start, `session-start.sh` resolves the role in
+   this order:
+   1. the `$CLAUDE_ROLE` environment variable
+   2. the nearest `CLAUDE.md` containing an `ACTIVE ROLE:` line, searching from the current
+      folder up to the git root
+   3. the default, `DEV`
+2. **Inheritance.** Each role file in `~/.claude/LLM/roles/` begins with `EXTENDS: <parent>`.
+   `generate-preamble.js` follows the chain up to `COMMON`. For a wiki-writing project the
+   chain is:
+
+   ```text
+   WIKI-AUTHOR  →  WRITER  →  COMMON
+   ```
+
+   `WRITER` is a shared base for `WIKI-AUTHOR` and `BLOG-AUTHOR`, so writing habits live in
+   one file.
+3. **What gets loaded.** The script does not paste the role files into the session. It
+   builds a table with one row per `##` section: the directive name, the file it came from,
+   and a summary of at most 160 characters taken from the section's bolded rule. A wiki
+   session gets 16 rows, where the role files hold more than 300 lines (326 at last count).
+   The table is injected as the session preamble, and the assistant opens its first reply
+   with it.
+4. **One authority.** The global `CLAUDE.md` forbids the assistant from reading the role
+   files or working out the role itself. If the configuration is broken (a missing file, a
+   missing `EXTENDS`, or a cycle), the script exits with code 2 and a
+   `CLAUDE ROLE CONFIG ERROR`. The failure surfaces instead of being worked around.
+
+## Benefits
+
+- **Relevance.** A TypeScript session does not carry wiki-writing rules, and a wiki session
+  does not carry debugging protocols. The design notes argue that extra instructions dilute
+  attention. Their stronger argument is the "lost in the middle" result (Liu et al., 2023),
+  which found that models follow instructions in the middle of a long context less reliably.
+  The notes call the softmax-dilution argument real but only partial.
+- **Growth.** The notes expect the rule corpus to triple. Only the rows for the active chain
+  are ever loaded.
+- **Reuse.** Shared habits sit once, in `COMMON` or `WRITER`, and every role inherits them.
+- **Same behavior in Docker and on the host.** The script is Node, so it runs unchanged in
+  both.
+
+## The caching aspect
+
+Anthropic's prompt cache is keyed on the exact bytes at the start (the prefix) of a request.
+Two requests share a cache entry only if everything before the point where they differ is
+identical. The design uses this in three ways:
+
+- **Root first, leaf last.** The table lists the `COMMON` rows first, then the parent rows,
+  then the leaf. Sessions with different roles start with the same block, giving them the
+  longest possible shared prefix. A `DEV` session and a `WIKI-AUTHOR` session share the
+  `COMMON` rows. If the leaf came first, no two roles would share anything.
+- **Byte-identical output.** The script is deterministic: the same role gives the same table,
+  with no timestamps or random content. Repeated sessions on one role can reuse the cache
+  entry while it has not expired.
+- **Volatile text kept out.** `DECISIONS.md` §20 records a defect fixed on 2026-08-23. The
+  script used to prepend `git status` output for `devenv/` to the injected text. Every
+  distinct working-tree state produced a distinct prefix, so sessions almost never shared a
+  cache entry. That warning now goes through the hook's `systemMessage` field, which appears
+  in the terminal and never enters the model's context.
+
+Within one session the hook fires once, so the injected text stays fixed and ordinary
+turn-to-turn caching applies.
+
+### Limits of the caching claim
+
+Claude Code decides where cache breakpoints go, and the design notes state that this is not
+controllable from the command line. The shared-`COMMON`-prefix saving is therefore a design
+intent that depends on where those breakpoints fall. Actual hit rates have not been measured.
+The notes also quote cache prices (a cache read costs 0.10× the base input rate) for an
+older model, and current rates may differ.
+
+
+
+
+
+
+
+
+
+
+    
+    
