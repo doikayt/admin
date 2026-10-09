@@ -79,8 +79,9 @@ tech is new to them. This is the "teach it forward" habit described in
 #### Attracting new customers and contributors
 
 We communicate our work through published articles, and those articles push credit to
-junior members, which also helps them build their portfolios.  The backgrounders discsued 
-above support this objective since they can be worked into articles pubslished.
+junior members, which also helps them build their portfolios, and at the same time,
+helps establish our organization as a thought leader in areas covered.   
+The backgrounders discussed above support this objective since they can be worked into articles pubslished.
 
 ### How the work coordinates itself
 
@@ -110,19 +111,15 @@ works. Two rules keep the comparison fair:
 Duplicated effort looks wasteful. We accept the cost because it replaces a debate we
 couldn't settle in advance with evidence.
 
-### Our values
+### Our engineering values
 
-- **Really clear communication.** Say it plainly, and write it down.
-- **Invest in automation.** If we do something twice, we script it.
-- **Documentation is a first contribution.** One of the first things a new developer does
-  is send a PR improving our on-boarding docs. They see the rough edges first, and
-  they're the best person to smooth them.
-- **A repeatable, thoroughly documented process,** including help getting up to speed on
-  the underlying tech concepts. Where one of our backgrounders covers the concept, we link
-  to it so no one has to ask.
+- **Automation.** 
+    - If we do something twice, we ask ourselves: any reason not to script it and  make it easier in the future?.
+- **Documentation**
+    -  One of the first things a new developer does is send a PR improving our on-boarding docs. They see the rough edges first, and
+       they're the best person to smooth them. New developers immediately see they are contributing.
+- **Staff Skills Development.** We feel invest substantially in mentoring 
+    -  Many of the above process approaches support this:  welcoming interrupts to help, enabling rapid set-up
+       of  development environments, and consistent and disciplined documentation makes the journey to first 
+       useful PR much faster for those who've newly joined.
 
-
-
->>>
-For more on our long-term vision, see the
-[Commons-Hub document](https://github.com/doikayt/admin/blob/master/governance/commons-hub-pattern.md).
