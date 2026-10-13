@@ -26,6 +26,12 @@ any single funder. Screening criteria live in [`../prompt.md`](../prompt.md).
    - [awesome-developer-grants](https://github.com/alihesari/awesome-developer-grants)
    - [Curioss funding opportunities](https://curioss.org/resources/funding-opportunities/)
    - [OSS.Fund guide](https://www.oss.fund/guides/how-to-fund-open-source-project/)
+   - [nayafia/microgrants](https://github.com/nayafia/microgrants), screened 2026-10-13.
+     About 40 programs, most for students, one region or a non-software domain. Screened
+     into `grants.json`: Emergent Ventures, Pollination Project, Awesome Foundation (all
+     Tier 3, details unconfirmed because two sites return 403 to curl), cache money grants
+     and Trelis AI Grants (both Excluded on scope). NLnet and Prototype Fund were already
+     tracked. Still unscreened: Merge Grant, ACX Grants.
 3. **Screen these named leads** (unverified, from a 2026-10-02 search):
    - GitHub Secure Open Source Fund: $10k per project, rolling, Session 5 open.
    - Open Technology Fund, FOSS Sustainability Fund: closed now, so watch for reopening.

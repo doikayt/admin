@@ -329,5 +329,276 @@
         "change": "Initial entry created as part of researching the starting grant-funder cluster. Landed Tier 3: no confirmed current open call, and historical focus/grant scale skew toward research/policy organizations rather than early-stage tooling projects."
       }
     ]
+  },
+  {
+    "org_name": "Emergent Ventures (Mercatus Center)",
+    "website": "https://www.mercatus.org/emergentventures",
+    "funder_type": "Unclear",
+    "geographic_scope": "Unclear",
+    "accepts_fiscally_sponsored_applicants": "Requires confirmation",
+    "accepts_unincorporated_direct_applicants": "Unclear",
+    "stated_mission": "Fellowship and grant program from the Mercatus Center for entrepreneurs and \"zero to one\" ideas for improving society (per microgrants list; unconfirmed).",
+    "funding_priorities": [
+      "Highly scalable \"zero to one\" ideas for improving society (per list description)"
+    ],
+    "funding_type": [
+      "Unclear"
+    ],
+    "grant_size_range": "Unclear",
+    "typical_grant_period": "Unclear",
+    "application_cycle": "Unclear",
+    "application_deadline": "Unclear",
+    "application_process": "Unclear",
+    "eligibility_requirements": [
+      "Unclear -- site blocked; confirm whether individuals or unincorporated projects can apply.",
+      "Mercatus Center is a libertarian-leaning think tank; check values compatibility with Doikayt profile before investing time."
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "exclusion_reason": "",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Unclear",
+    "mission_alignment": {
+      "sponsor_mission_summary": "Supports entrepreneurs and unconventional ideas; run by a free-market think tank.",
+      "doikayt_overlap": "Prototype-stage open-source tooling could be pitched as an unconventional idea; Doikayt's stated values (anti-imperialism, pro-working-class) may sit awkwardly with the funder's orientation.",
+      "potential_concerns": [
+        "Unverified eligibility",
+        "Possible values mismatch"
+      ],
+      "best_fit_framing": "Untested. If pursued, lead with build-tools/typescript-build-config."
+    },
+    "status": {
+      "date_last_verified": "2026-10-13",
+      "source_urls": [
+        "https://github.com/nayafia/microgrants",
+        "https://www.mercatus.org/emergentventures (HTTP 403 to curl)"
+      ],
+      "current_assessment": "Description comes only from the nayafia/microgrants list; the funder's own site returned HTTP 403 to curl on 2026-10-13, so nothing here is primary-source confirmed. Parked at Tier 3 pending a browser check.",
+      "next_action": "Open the site in a browser; confirm eligibility, award size and current application window.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-10-13",
+        "change": "Initial entry from nayafia/microgrants screening. Tier 3, unverified."
+      }
+    ]
+  },
+  {
+    "org_name": "Pollination Project",
+    "website": "https://thepollinationproject.org/",
+    "funder_type": "Unclear",
+    "geographic_scope": "Unclear",
+    "accepts_fiscally_sponsored_applicants": "Requires confirmation",
+    "accepts_unincorporated_direct_applicants": "Unclear",
+    "stated_mission": "Seed grants for social change leaders, individuals and community groups without paid staff (per microgrants list; unconfirmed).",
+    "funding_priorities": [
+      "Social change initiatives (per list description)"
+    ],
+    "funding_type": [
+      "Unclear"
+    ],
+    "grant_size_range": "Up to $1,000 initial; up to $5,000 for returning grantees (per list; unconfirmed)",
+    "typical_grant_period": "Unclear",
+    "application_cycle": "Rolling (\"daily\" per list; unconfirmed)",
+    "application_deadline": "Rolling",
+    "application_process": "Unclear",
+    "eligibility_requirements": [
+      "Groups without paid staff (per list) -- Doikayt may fit; unconfirmed.",
+      "Social-change framing, not software; software tooling for grassroots orgs would need to be pitched as that."
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "exclusion_reason": "",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Weak",
+    "mission_alignment": {
+      "sponsor_mission_summary": "Small seed grants for grassroots social change.",
+      "doikayt_overlap": "Doikayt's grassroots-empowerment mission overlaps; the software stack is not an obvious fit and the amounts are too small to fund it.",
+      "potential_concerns": [
+        "Unverified",
+        "Amount far below the stack's needs",
+        "Political-activity limits unknown"
+      ],
+      "best_fit_framing": "Untested."
+    },
+    "status": {
+      "date_last_verified": "2026-10-13",
+      "source_urls": [
+        "https://github.com/nayafia/microgrants",
+        "https://thepollinationproject.org/ (HTTP 403 to curl)"
+      ],
+      "current_assessment": "Description comes only from the nayafia/microgrants list; the funder's own site returned HTTP 403 to curl on 2026-10-13, so nothing here is primary-source confirmed.",
+      "next_action": "Browser check of eligibility and political-activity rules; low priority given grant size.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-10-13",
+        "change": "Initial entry from nayafia/microgrants screening. Tier 3, unverified."
+      }
+    ]
+  },
+  {
+    "org_name": "Awesome Foundation",
+    "website": "http://www.awesomefoundation.org/",
+    "funder_type": "Other",
+    "geographic_scope": "International",
+    "accepts_fiscally_sponsored_applicants": "Requires confirmation",
+    "accepts_unincorporated_direct_applicants": "Requires confirmation",
+    "stated_mission": "Global community of autonomous chapters giving $1,000 micro-grants to \"awesome\" projects (per microgrants list and homepage chapter menu).",
+    "funding_priorities": [
+      "Varies by chapter; there are topic chapters (e.g. Conservation and Climate, Disability) as well as city chapters"
+    ],
+    "funding_type": [
+      "Restricted / project-specific"
+    ],
+    "grant_size_range": "Typically $1,000 per grant (per list; unconfirmed)",
+    "typical_grant_period": "Unclear",
+    "application_cycle": "Per chapter, usually monthly (per list; unconfirmed)",
+    "application_deadline": "Rolling",
+    "application_process": "Submit via https://www.awesomefoundation.org/en/submissions/new to a chosen chapter.",
+    "eligibility_requirements": [
+      "Chapter-specific rules; homepage confirms chapters exist worldwide and by topic. Per-chapter eligibility not yet read."
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Tier 3",
+    "exclusion_reason": "",
+    "structural_fit_score": "Unclear",
+    "mission_fit_score": "Weak",
+    "mission_alignment": {
+      "sponsor_mission_summary": "Chapter-run micro-grants for creative community projects.",
+      "doikayt_overlap": "Small enough to cover incidental costs only; a tech or civic-tech chapter could fit.",
+      "potential_concerns": [
+        "$1k does not move the stack",
+        "Chapter-by-chapter rules"
+      ],
+      "best_fit_framing": "Untested."
+    },
+    "status": {
+      "date_last_verified": "2026-10-13",
+      "source_urls": [
+        "https://github.com/nayafia/microgrants",
+        "https://www.awesomefoundation.org/ (homepage fetched 2026-10-13)"
+      ],
+      "current_assessment": "Homepage fetched and chapter structure confirmed; grant size, cadence and eligibility come from the list only.",
+      "next_action": "Look for a tech/civic-tech or Doikayt-local chapter and read its rules. Low priority.",
+      "application_status": "Not started"
+    },
+    "change_log": [
+      {
+        "date": "2026-10-13",
+        "change": "Initial entry from nayafia/microgrants screening. Tier 3."
+      }
+    ]
+  },
+  {
+    "org_name": "cache money grants",
+    "website": "https://cachemoney.xyz/grants/",
+    "funder_type": "Other",
+    "geographic_scope": "International",
+    "accepts_fiscally_sponsored_applicants": true,
+    "accepts_unincorporated_direct_applicants": true,
+    "stated_mission": "Grants paid in crypto to hackers and artists experimenting in web3 (\"no paperwork or ownership\").",
+    "funding_priorities": [
+      "Web3 experiments: smart contracts, generative art, games, wallets, NFTs"
+    ],
+    "funding_type": [
+      "Restricted / project-specific"
+    ],
+    "grant_size_range": "Up to $5K USD, paid in BTC/ETH/SOL; first pool was 5 people at $5K",
+    "typical_grant_period": "Unclear",
+    "application_cycle": "Appears one-off",
+    "application_deadline": "Unclear",
+    "application_process": "Unclear",
+    "eligibility_requirements": [
+      "No company or entity required; open worldwide; pseudonyms allowed (confirmed on grants page).",
+      "Weekly public progress updates required.",
+      "Scope is crypto/web3 only; page footer says last updated 2021-12-08."
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Scope is web3/crypto experiments only, and the program appears dormant (page last updated 2021-12-08). GASify/build-tools/geoCRM are outside scope.",
+    "structural_fit_score": "Strong",
+    "mission_fit_score": "Weak",
+    "mission_alignment": {
+      "sponsor_mission_summary": "Early-stage grants for web3 hackers and artists.",
+      "doikayt_overlap": "None beyond Doikayt's interest in crypto treasury resilience (governance doc), which is not a funded activity.",
+      "potential_concerns": [
+        "Out of scope",
+        "Likely inactive"
+      ],
+      "best_fit_framing": ""
+    },
+    "status": {
+      "date_last_verified": "2026-10-13",
+      "source_urls": [
+        "https://github.com/nayafia/microgrants",
+        "https://cachemoney.xyz/grants/"
+      ],
+      "current_assessment": "Primary source read 2026-10-13. Structurally easy, but out of scope and stale.",
+      "next_action": "None.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-10-13",
+        "change": "Initial entry from nayafia/microgrants screening. Excluded on scope and apparent dormancy."
+      }
+    ]
+  },
+  {
+    "org_name": "Trelis AI Grants",
+    "website": "https://trelis.com/trelis-ai-grants/",
+    "funder_type": "Corporate giving program",
+    "geographic_scope": "International",
+    "accepts_fiscally_sponsored_applicants": "Unclear",
+    "accepts_unincorporated_direct_applicants": true,
+    "stated_mission": "Grants and investments for individuals advancing AI models (training, fine-tuning, inference, deployment tools).",
+    "funding_priorities": [
+      "AI model development and deployment tooling"
+    ],
+    "funding_type": [
+      "Restricted / project-specific"
+    ],
+    "grant_size_range": "$500 per quarter; optional $10,000 investment (investment requires a corporate entity, Delaware C-corp preferred)",
+    "typical_grant_period": "Unclear",
+    "application_cycle": "Rolling, quarterly grants",
+    "application_deadline": "Rolling",
+    "application_process": "Application form, then a 15-minute interview; response within about 30 days.",
+    "eligibility_requirements": [
+      "Individuals of any age and location with an active GitHub/GitLab account.",
+      "Trelis claims no rights to grantee work.",
+      "Initiative must progress development and use of AI models."
+    ],
+    "political_activity_restrictions": "Unclear/Requires confirmation.",
+    "tier": "Excluded",
+    "exclusion_reason": "Funds AI-model work only; Doikayt's stack is not an AI project. $500 is also too small to matter.",
+    "structural_fit_score": "Moderate",
+    "mission_fit_score": "Weak",
+    "mission_alignment": {
+      "sponsor_mission_summary": "Small grants for AI model work.",
+      "doikayt_overlap": "None for the current funding priority.",
+      "potential_concerns": [
+        "Out of scope"
+      ],
+      "best_fit_framing": ""
+    },
+    "status": {
+      "date_last_verified": "2026-10-13",
+      "source_urls": [
+        "https://github.com/nayafia/microgrants",
+        "https://trelis.com/trelis-ai-grants/"
+      ],
+      "current_assessment": "Primary source read 2026-10-13. Out of scope.",
+      "next_action": "None unless Doikayt starts AI tooling work.",
+      "application_status": "N/A"
+    },
+    "change_log": [
+      {
+        "date": "2026-10-13",
+        "change": "Initial entry from nayafia/microgrants screening. Excluded on scope."
+      }
+    ]
   }
 ]
