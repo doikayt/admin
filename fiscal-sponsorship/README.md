@@ -50,7 +50,9 @@ regenerate this list from source. As of this snapshot (2026-08-21):
 
 **Active push now (no committed-funding precondition):**
 
-- Software Freedom Conservancy — outreach not yet started; lead candidate.
+- Software Freedom Conservancy — lead candidate. Inquiry sent 2026-08-21, ticket
+  [sfconservancy.org #31739]; awaiting substantive reply. Notes on pitching secure-user-mgt:
+  [`sfc-secure-user-mgt-notes.md`](sfc-secure-user-mgt-notes.md).
 - Movement Strategy Center — already contacted 2026-08-13 (Contact Us form,
   attn Daniel Parada, Director of Fiscal Sponsorship); generic auto-ack
   received 2026-08-14; substantive reply still pending.
