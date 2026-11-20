@@ -169,7 +169,7 @@ attempts to answer them for a specific mode of production: collaboratively
 developed [open source software](https://en.wikipedia.org/wiki/Open-source_software)
 (OSS). It's the _open_ in OSS — open in who may profit from it, open in who
 may contribute to it, open in who steers its direction — that makes it a
-round peg for corporate law's square hole. The corporate form defaults to
+round peg for corporate framework's square hole. The corporate form defaults to
 a single, exclusive top-down structure built for
 concentrating both decision-making authority and economic benefit, 
 not the diffuse, non-exclusive shape
