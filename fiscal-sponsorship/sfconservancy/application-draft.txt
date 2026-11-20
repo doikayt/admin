@@ -1,0 +1,509 @@
+Conservancy Application Questions:
+
+*** How does your project advance the cause of software freedom? If your
+    project provides a critical free software alternative to a proprietary
+    tool, works to bring new people into the free software movement or
+    helps ensure that an important tool remains free software and vendor
+    neutral, please tell us.
+
+    Our secure-user-mgt framework is designed to support software development
+    teams that want enterprise-grade security discipline without enterprise
+    tooling complexity and expense. It is designed to provide:
+
+    - secure onboarding and offboarding of contributors
+    - tracking of user metadata, with a focus on making it easy to revoke any
+      tracked credential 
+    - succession: no single key-holder's absence can freeze the 
+      organization's ability to continue operations
+    - expiry tracking with scheduled reminders, so that an expiring token 
+      (e.g., npm tokens) triggers a warning _before_ releases fail 
+      due to  publishing lock outs.  
+
+    Open source projects are an ideal first use case. Volunteers often 
+    roll on and off teams, and handling the on/off-boarding  manually 
+    is a time sink. Moreover, leaving a credential of a 
+    no-longer-participating team member can leave the 
+    organization open to loss if the parting is not amicable.
+
+
+*** Why does your project want to join Conservancy?  Specifically, what
+    benefits do you expect to take advantage of immediately and within a
+    few years?
+
+        - Fiscal sponsorship would enable me to seek grants without the
+          expense of organizing as a 501c3
+
+        - I prefer writing code and working with customers and end users
+          to record keeping -- which I never was great at, so 
+          having some outside help to establish a framework is appealing.
+    
+        - 
+        
+        Beyond the above reasons, which are probably standard 
+        motivations for any developer to seek fiscal sponsorship, 
+        I admire Conservancy's 
+  
+  We would like Conservancy to be our first user as well as our fiscal sponsor.
+
+  
+
+  Conservancy's member projects seem to have a great fit with
+  the user profile we had in mind when wes started developing 
+  our framework -- which was initially envisioned as an in-house tool.
+
+  As we got further along we realized that many other small software
+  development teams would have the same issue keeping track 
+  of  expiry dates for critical tokens and secrets, and maintaining
+
+
+  we developed our 
+
+ the kind of project this was written for:
+  we would imagine that they hold 
+
+package-publishing tokens, 
+  domains and maintainer accounts, and that
+  their maintainers change over time. We would offer, at no charge, a pilot
+  with Conservancy itself and with one or two member projects that choose to
+  take part, in return for valuable feedback on what is confusing or missing. If it
+  proves useful, we would support member projects' security operations on an
+  ongoing basis. That means setting up the vault and registry, running the
+  offboarding and handover procedures when a maintainer leaves, and rehearsing
+  the recovery plan once a year. We would be glad for Conservancy's advice on
+  how to structure this so that being both a member project and a supplier to
+  the other members does not create a conflict.
+
+  Immediately we are looking forward to:
+
+  - A legal home that can accept grants and donations on the project's behalf.
+    The project is currently run by one person, and its organization (Doikayt)
+    is unincorporated.
+  - Bookkeeping and fund handling, so that no money sits with an individual.
+  - Advice on licensing, including whether Conservancy would prefer copyleft.
+  - A place among projects that have the problem we are trying to solve.
+
+  Within a few years:
+
+  - Fundraising infrastructure and a way for users to support the project.
+  - Help recruiting co-maintainers and writing down a governance model.
+  - A way to take on paid setup and support work for organizations that can
+    pay, without the project itself becoming a commercial vendor.
+
+*** Conservancy does encourage projects to apply to multiple non-profit
+    homes to find the best fit.  Does your project have an application
+    pending with any other non-profit homes?  What do you see as the pros
+    and cons of the various organizations you've applied to?
+
+
+  We applied to tides.org, but a bit prematurely, since it turned out they 
+  requie a $100,000
+
+
+  Before I learned the  on in our fund raising 
+
+  This project has no application pending elsewhere. The organization behind
+  it, Doikayt Mobilization Labs, has approached several general fiscal
+  sponsors for its wider software work: Tides Center, Alliance for Global
+  Justice, TSNE and Movement Strategy Center. [CONFIRM: status of each.] None
+  has accepted us, and none of them is a free software organization.
+
+  We think Conservancy is the right home for this project. The general
+  sponsors focus on social change work and do not offer free software legal
+  expertise or a community of free software maintainers. The cost on our side
+  is that Conservancy asks for a share of funds raised to support its
+  operations, which we understand and accept.
+
+*** Please give a detailed description of the project.
+
+  secure-user-mgt is a set of automated procedures and policies, with scripts,
+  for a small organization that cannot afford an IT department. It covers
+  three needs:
+
+  - Onboarding and offboarding members. A new member submits their details
+    through a script, which proposes the change on a branch of the registry
+    for an approver to merge. When someone leaves, a script lists everything
+    that person held and prints what to revoke on each platform.
+  - Tracking credentials. A registry, which is a plain git repository of one
+    small file per member, records each token issued to each member with its
+    expiry date, so that nothing is forgotten when someone leaves. A report
+    lists what is held and what is due.
+  - Succession. Two named roles, an OWNER (usually the founder) and a DEPUTY,
+    hold the keys. A written procedure covers handover when one of them
+    leaves, and a second, stronger procedure rebuilds access to the OWNER's
+    account from three of five secret shares if the OWNER cannot be reached.
+    Which procedure to use, and when, is documented.
+
+  The shared secrets live in a Bitwarden organization with separate
+  collections for operations and finance. The scripts read secrets only for
+  the operations collection, and never read the finance collection. Platforms
+  that issue tokens are handled by small plugins, which anyone can write.
+
+  Status: the design is complete and the implementation is under way. The
+  first commit was on 2 November 2026. Scripts exist for onboarding, approval,
+  developer onboarding, offboarding and reporting, and have been tested
+  against a mock vault and run by hand by the OWNER against a real one. The
+  package is not yet published to npm. Sample plugins are planned.
+
+  Much of the code is written with AI assistance, from specifications that a
+  person writes and reviews. We say so plainly because we know Conservancy's
+  views on AI code generators.
+
+*** What FLOSS License(s) does your project use?  Please include the
+    primary license, and list other licenses for code that is included.
+    (e.g., "The project as a whole is GPLv3-or-later, but about a dozen
+    files in the directory src/external/ are under the Apache-2.0
+    license").  Please be sure to include information on documentation
+    licensing as well as software licensing.
+
+  The project as a whole is MIT licensed. There is no code under any other
+  license in the repository, and the project has no runtime dependencies. Its
+  six development dependencies are installed from npm under their own
+  licenses. [CONFIRM: no vendored third-party source.]
+
+  Our detailed guides to secure credentials management  constitute
+  a large part of the project. That documentation is covered by the same
+  MIT license today, and we would gladly change it to CC BY-SA or any
+  documentation license Conservancy prefers. We would also like to ask whether
+  Conservancy accepts plain CC BY for documentation.
+
+  The project currently has a single contributor, who holds the copyright and
+  is willing to adopt whichever license Conservancy recommends, copyleft or
+  permissive, before other contributors join. The notice in the LICENSE file
+  currently names "doikayt", which is not a legal entity, and we will correct
+  it. We chose MIT because the organizations we aim to help adopt tools
+  without a lawyer. We would like Conservancy's advice on whether it fits the
+  project best.
+
+*** Please give us your roadmap and plans for future development of the
+    project, including both code and community plans.
+
+  Code:
+
+  - Publish the package to npm, and ship sample plugins that organizations can
+    copy and adapt, starting with a mail notifier. [CONFIRM: whether a
+    Codeberg token adapter sample is planned.]
+  - Build reminders for tokens near expiry, run on the git host's own
+    scheduler, so that expiry is flagged and not just recorded.
+  - Build a command to rotate a shared token in a safe order, and a check that
+    runs after installation.
+  - Study whether to support teams of more than two people, who outgrow a free
+    Bitwarden organization. Not decided.
+  - Test the scripts against a self-hosted, fully free Bitwarden-compatible
+    server, if that proves necessary. Not yet done.
+
+  Community:
+
+  - Run a pilot with Conservancy and one or two member projects, recording
+    where they get stuck and addressing any issues (including documentation.) 
+  - Recruit a second maintainer and write contributor guidelines so that the
+    project does not rest on one person.
+
+*** Please give us the main link to the projects primary website.
+
+    https://codeberg.org/doikayt/secure-user-mgt 
+
+    (The company web site URL is https://doikayt.org.)
+
+*** Please give us a URL to a code repository we can clone and/or
+    checkout.
+
+    https://codeberg.org/doikayt/secure-user-mgt.git
+
+
+*** Have you ever had funds held by the project, or by any individual on
+    behalf of the project?  How and for what did you spend those funds?
+    Are there funds remaining?  If so, who is holding them now?
+
+  Project costs to date have been paid personally by me with 
+  no other individual involved.
+
+  Expenses have been primarily software licenses and subscriptions
+  (Intellij IDEA, Proton Mail, Claude), Hosting fees, Internet 
+  and mobile access, 
+
+  I have two years worth of savings left, but anticipate grants
+  will come in by Q1 27, and revenues from operations in Q2.
+
+
+*** Do you have any ongoing fundraising programs for your project?  How do
+    they operate, and how much funding is brought in through these mechanisms
+    currently?  Where do you expect most of your donor base to be
+    geographically?
+
+  No ongoing fundraising programs currently. 
+
+  We will apply for grants once we have a fiscal sponsor, 
+
+  Currently no money is brought in. We expect most donors and
+  funders to be in the United States. 
+
+*** Going forward, once inside Conservancy, how do you expect to spend funds
+    that you raise?  What types of activity do you want to ask Conservancy to
+    take on your behalf?  Where geographically do you want those activities
+    to take place?
+
+  Funds would pay for developer time on the roadmap above, hosting and
+  infrastructure, and the pilots with small organizations. We would ask
+  Conservancy to hold funds, handle bookkeeping and contracts, and give legal
+  advice on licensing and on any paid support work. Most activity would be in
+  the United States.
+
+*** Is your project able and willing to participate in fundraising
+    campaigns with Conservancy on an annual or perhaps more frequent
+    basis?
+
+   Absolutely.
+
+*** Does your project owe funds to anyone?
+
+  No. 
+
+*** Who currently holds your projects' trademarks, if any?  When was your
+    projects' name first used, and who used it?
+
+  No trademarks are registered. The name secure-user-mgt is descriptive and
+  was first used by me in November 2026. The
+  organization name Doikayt was first used by him this year -- 2026.
+
+*** Does you project have a logo?  If so, who drew it, when did they draw
+    it, where is it displayed and what is its license?
+
+  The project itself has no logo. This our organizations logo
+  (line split to observe 80 char length):
+
+    > https://codeberg.org/doikayt/
+        typescript-build-config/
+            src/branch/main/assets/image/doikayt-logo.png
+
+  I created it with Claude, an AI assistant from Anthropic, in 
+  around July of 2026. 
+
+  We have not assigned a license to it. Because the copyright status of
+  AI-generated artwork is unsettled, we would not use it in the project
+  without Conservancy's advice.
+
+*** Are you aware of anyone in your project, individual or company,
+    holding a patent in any jurisdiction that are in any way related to
+    your project?
+
+  No.
+
+*** Has your project ever had legal trouble, been involved in legal
+    proceedings or received a letter accusing your project of patent,
+    copyright, trademark or other types of infringement?
+
+  No. 
+
+*** Please give a brief history of the project, focusing on how the
+    community developed and the general health of the community.  Be sure
+    to include information on any forks or other disputes that have
+    occurred in the community.
+
+  The project began on 2 November 2026, from the procedures our organization
+  needed for its own accounts. It grew out of earlier work on standard release
+  tooling for small teams, which lives in separate repositories.
+
+  The community is a single person. The founder has written all the code in
+  this repository. We know of no forks and no disputes. The code has automated
+  tests and is documented in depth, but we are candid that the community is
+  not healthy in the usual sense: the project depends on one maintainer, and
+  has done so for only a few weeks. That is the main reason we want a home
+  that can help us fix it.
+
+*** Please explain how your project is governed.  Who makes the decisions
+    in the project?  How do you resolve disputes, particularly about
+    non-code issues?
+
+  The founder makes all decisions. No disputes have arisen. We know this is
+  not enough for a project that wants to outlast its founder. We intend to
+  adopt a written governance model, with Conservancy's help, covering
+  contributors, decisions, disputes and succession. The project's own subject,
+  handing control over safely when a key person leaves, applies to the project
+  itself.
+
+*** Does your project distribute binary (pre-compiled) software of any type?
+    If so, what form does this take are all binaries reproduciblely buildable
+    from your public FOSS source code using standard equipment that everyone
+    has?  If not, what challenges prevent that from being true?
+
+  Not yet. The package is not published. When we publish it to npm, it will be
+  compiled JavaScript built from the TypeScript source by a public release
+  pipeline running on Codeberg, with standard Node tooling. We have not tested
+  whether the packages will be bit-for-bit reproducible, and we would do that
+  test and fix what it finds.
+
+*** Does your project currently offer, or wish to offer any consulting or
+    training services (such as deployment, administration or other such
+    services of the software for users) to your user base?  If so, how do
+    you structure (or seek to structure) this work?
+
+  Yes, and it is part of why we are applying. We plan to offer a fixed-price
+  setup service for teams that can pay: help setting up the vault and
+  registry, a rehearsal of the recovery procedures, and support for rotating
+  tokens when they expire. For organizations that cannot pay, we give free
+  help. We would like Conservancy's guidance on how to structure this so that
+  the software stays free, the paid work stays separate from the project and
+  member projects are treated fairly.
+
+*** Is anyone in the project currently offering a Software as a Service
+    system based on project?  If so, how is that offering governed,
+    coordinated and is the software that runs the service made fully
+    available to your users?
+
+  No. The software is a set of scripts that each organization runs for itself
+  against its own vault. It is not a hosted service and we have no plan to
+  offer one.
+
+*** If your project runs on Linux-based systems, please list all the
+    distributions that include your project, and what "repository area"
+    the package appears in.  If you aren't packaged for any major
+    distributions, please tell us why you believe your project hasn't been
+    packaged yet.
+
+  None. It is not yet published, and it is a small set of command-line scripts
+  for Node.js. We have not asked any distribution to package it.
+
+*** Does your project have any existing for-profit or non-profit
+    affiliations, funding relationships, or other agreements between the
+    project and/or key leaders of your project and other organizations?
+    Has the project had such affiliations in the past?  Please list of all
+    of them in detail and explain their nature. Even tangential
+    affiliations and relationships, or potential affiliations that you
+    plan to create should be included.
+
+  - Doikayt Mobilization Labs: the unincorporated collective the founder runs,
+    which hosts the project and its sister repositories.
+  - Data Lackey Labs: the founder's former solo consulting practice (backend
+    and data pipeline work for commercial clients), now closed. It has no
+    ongoing clients related to this project.
+  - OccupySaaS: a volunteer collective building an open-source,
+    Auth0-compatible identity server called ZeroAuthy, of which the founder is
+    a member. We have no formal agreement. Some procedures in secure-user-mgt
+    may be offered to its adopters.
+  - Other fiscal sponsors, as above.
+  - Possible future: if the setup service grows, the founder may form a
+    separate entity for paid work. We would ask Conservancy's advice first.
+
+  The project has no funding relationships today.
+
+*** Approximately how many users does your project have, and what items
+    lead you to believe your userbase is of a particular size (e.g., post
+    counts to your user mailing list)?
+
+  Very few. The project began weeks ago and is not published. Our own
+  organization uses it for its accounts. We do not claim any significant size.
+  [CONFIRM.]
+
+*** Please list the names, email addresses, and affiliations (e.g.,
+    employer) of key developers and major contributors.  Include both
+    current and past contributors and developers.  Please include date
+    ranges of when those developers/contributors were active.
+
+    Please make this list as extensive and complete as possible.  You need
+    not include every last person who sent one patch, but please include
+    at least those who regularly sent patches or were/are regular
+    contributors.  If you project has contributors who have been inactive
+    for more than five years, you need only to list such inactive
+    contributors if they made substantial contributions.
+
+  - Chris Bedford, chris@doikayt.org. Founder and sole developer. Active since
+    November 2026. Affiliation: Doikayt Mobilization Labs; formerly Data
+    Lackey Labs.
+
+  No other person has contributed to this repository.
+
+*** Please include any other pertinent information not given above that
+    you feel we should review with your application.
+
+  - Give Up GitHub. This project is hosted on Codeberg, and has been from its
+    first commit. Our sister repositories are mid-migration. This one needs no
+    migration.
+  - Migration notes others can use. When we moved our sister repository
+    typescript-build-config to Codeberg we kept detailed tutorials for other
+    organizations: onboarding and offboarding people, handling access tokens
+    and secrets, and wiring repository events to CI and chat. They are in the
+    CODEBERG_HOW_TO_ARTICLE directory of
+    https://codeberg.org/doikayt/typescript-build-config, and the best
+    starting points are onboarding-a-new-user.md, offboarding-a-user.md and
+    access-tokens.md. We would be glad to offer them for Conservancy's own
+    Give Up GitHub guidance.
+  - Where our CI runs. The repository's CI runs on Codeberg's Forgejo Actions,
+    on a runner on the maintainer's own machine that polls Codeberg over
+    outbound connections only. The release job is off until a repository
+    variable turns it on. A single runner on one person's machine is a single
+    point of failure and holds the secrets of every job it takes, which is the
+    kind of risk this project exists to reduce. We plan to move to a hosted
+    runner. [CONFIRM: date or service, if chosen.]
+  - Why Conservancy, specifically. The project's reason to exist is the moment
+    a maintainer leaves and a project must hand over its accounts safely.
+    Conservancy and its member projects live that problem. We would like to
+    learn from you how it plays out, and to be useful to you.
+  - The license question is open, as described above. We would value
+    Conservancy's guidance.
+  - We are not asking Conservancy to fund development directly. We ask to be
+    the home through which funds are raised and held, and for the chance to be
+    your first pilot user.
+
+
+
+
+
+
+
+------  ATTIC
+
+
+
+
+
+the project usually depends on one person who holds every
+    credential: the git host, the package registry, the domain, the bank. If
+    that person burns out, leaves or disappears, the project risks being locked
+    out of its own accounts. Automated tracking and revocation of credentials
+    reduces the volunteer hours each departure costs.
+
+        
+
+
+
+
+      Our architecture is plugin-based. In the self-onboard phase new contributors
+      self identify: specifying anything from simply their email and other basic
+      contact 
+      information, to a detailed skills profile  (which would help an organization
+
+
+    The key value proposition is security: all credentials are 
+    are stored in a secure vault (we chose Bitwarden
+
+    why.?  it is sort of open source.. help me explain this
+
+
+
+
+
+, and in practice a proprietary service can
+  then decide what happens to it. The project gives these teams free,
+  documented, tested procedures and scripts to share credentials safely, to
+  revoke them when someone leaves, and to survive the loss of the one
+  key-holder.
+
+  It is deliberately plain. The membership registry is a git repository, with
+  no server to run. The scripts need only Node.js, git and the Bitwarden
+  command line, and have no other runtime dependencies. The code is hosted on
+  Codeberg. Token handling for a service such as Codeberg's Forgejo is a small
+  plugin that anyone can write.
+
+  We want to be straightforward about one dependency: the shared vault is
+  Bitwarden. The command line the scripts call, `bw`, is free software
+  (GPL-3.0), and Bitwarden's server is mostly AGPL-3.0, with some enterprise
+  features under a source-available license that is not open source. The
+  scripts do not name Bitwarden's hosted service anywhere: they call `bw`, and
+  `bw` can be pointed at any Bitwarden-compatible server, including a
+  self-hosted one such as Vaultwarden (AGPL-3.0). We have not tested that, and
+  the framework's design assumes the limits of a free Bitwarden organization.
+  If running against Bitwarden's commercial cloud is a deal breaker for
+  Conservancy, we are willing to test and document a fully free setup. We
+  would like Conservancy's view on whether that is needed.
+
+
